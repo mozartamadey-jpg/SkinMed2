@@ -26,43 +26,43 @@ export default function PdrnTherapyClient() {
   }, []);
 
   const indications = [
-    { icon: 'solar:pallete-2-linear', title: 'Р’РѕР·СЂР°СЃС‚РЅС‹Рµ РёР·РјРµРЅРµРЅРёСЏ', desc: 'РњРѕСЂС‰РёРЅС‹, СЃРЅРёР¶РµРЅРёРµ С‚СѓСЂРіРѕСЂР°, РїРѕС‚РµСЂСЏ С‡С‘С‚РєРѕРіРѕ РѕРІР°Р»Р°' },
-    { icon: 'solar:sun-2-linear', title: 'Р¤РѕС‚РѕРїРѕРІСЂРµР¶РґРµРЅРёРµ', desc: 'РџРёРіРјРµРЅС‚Р°С†РёСЏ, СЃСѓС…РѕСЃС‚СЊ, РґСЂСЏР±Р»РѕСЃС‚СЊ РїРѕСЃР»Рµ СЃРѕР»РЅРµС‡РЅРѕРіРѕ РІРѕР·РґРµР№СЃС‚РІРёСЏ' },
-    { icon: 'solar:heart-linear', title: 'Р СѓР±С†С‹ Рё РїРѕСЃС‚Р°РєРЅРµ', desc: 'РђС‚СЂРѕС„РёС‡РµСЃРєРёРµ СЂСѓР±С†С‹, РЅРµСЂРѕРІРЅС‹Р№ СЂРµР»СЊРµС„ РєРѕР¶Рё' },
-    { icon: 'solar:waterdrop-linear', title: 'РћР±РµР·РІРѕР¶РµРЅРЅР°СЏ РєРѕР¶Р°', desc: 'РҐСЂРѕРЅРёС‡РµСЃРєР°СЏ СЃСѓС…РѕСЃС‚СЊ, С‚СѓСЃРєР»РѕСЃС‚СЊ, РјРµР»РєРёРµ РјРѕСЂС‰РёРЅС‹' },
-    { icon: 'solar:eye-linear', title: 'РўС‘РјРЅС‹Рµ РєСЂСѓРіРё', desc: 'РџРµСЂРёРѕСЂР±РёС‚Р°Р»СЊРЅР°СЏ Р·РѕРЅР°: РѕС‚С‘С‡РЅРѕСЃС‚СЊ, В«СѓСЃС‚Р°РІС€РёР№В» РІРёРґ' },
-    { icon: 'solar:medical-kit-linear', title: 'Р РµР°Р±РёР»РёС‚Р°С†РёСЏ', desc: 'Р’РѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёРµ РїРѕСЃР»Рµ Р»Р°Р·РµСЂРЅС‹С… РїСЂРѕС†РµРґСѓСЂ Рё РїРёР»РёРЅРіРѕРІ' },
+    { icon: 'solar:pallete-2-linear', title: 'Возрастные изменения', desc: 'Морщины, снижение тургора, потеря чёткого овала' },
+    { icon: 'solar:sun-2-linear', title: 'Фотоповреждение', desc: 'Пигментация, сухость, дряблость после солнечного воздействия' },
+    { icon: 'solar:heart-linear', title: 'Рубцы и постакне', desc: 'Атрофические рубцы, неровный рельеф кожи' },
+    { icon: 'solar:waterdrop-linear', title: 'Обезвоженная кожа', desc: 'Хроническая сухость, тусклость, мелкие морщины' },
+    { icon: 'solar:eye-linear', title: 'Тёмные круги', desc: 'Периорбитальная зона: отёчность, «уставший» вид' },
+    { icon: 'solar:medical-kit-linear', title: 'Реабилитация', desc: 'Восстановление после лазерных процедур и пилингов' },
   ];
 
   const mechanism = [
-    { title: 'РђРєС‚РёРІР°С†РёСЏ С„РёР±СЂРѕР±Р»Р°СЃС‚РѕРІ', desc: 'PDRN СЃС‚РёРјСѓР»РёСЂСѓРµС‚ СЂРµС†РµРїС‚РѕСЂС‹ A2A РЅР° РїРѕРІРµСЂС…РЅРѕСЃС‚Рё С„РёР±СЂРѕР±Р»Р°СЃС‚РѕРІ, Р·Р°РїСѓСЃРєР°СЏ СѓСЃРёР»РµРЅРЅС‹Р№ СЃРёРЅС‚РµР· РєРѕР»Р»Р°РіРµРЅР° I Рё III С‚РёРїР°, СЌР»Р°СЃС‚РёРЅР° Рё РіРёР°Р»СѓСЂРѕРЅРѕРІРѕР№ РєРёСЃР»РѕС‚С‹.' },
-    { title: 'РџСЂРѕС‚РёРІРѕРІРѕСЃРїР°Р»РёС‚РµР»СЊРЅРѕРµ РґРµР№СЃС‚РІРёРµ', desc: 'Р‘Р»РѕРєРёСЂСѓРµС‚ РїСЂРѕРІРѕСЃРїР°Р»РёС‚РµР»СЊРЅС‹Рµ С†РёС‚РѕРєРёРЅС‹ (TNF-О±, IL-6), СЃРЅРёР¶Р°СЏ С…СЂРѕРЅРёС‡РµСЃРєРѕРµ РІРѕСЃРїР°Р»РµРЅРёРµ вЂ” РіР»Р°РІРЅС‹Р№ РґСЂР°Р№РІРµСЂ РїСЂРµР¶РґРµРІСЂРµРјРµРЅРЅРѕРіРѕ СЃС‚Р°СЂРµРЅРёСЏ РєРѕР¶Рё.' },
-    { title: 'РђРЅРіРёРѕРіРµРЅРµР·', desc: 'РЎС‚РёРјСѓР»РёСЂСѓРµС‚ РѕР±СЂР°Р·РѕРІР°РЅРёРµ РЅРѕРІС‹С… РєР°РїРёР»Р»СЏСЂРѕРІ (VEGF), СѓР»СѓС‡С€Р°СЏ РјРёРєСЂРѕС†РёСЂРєСѓР»СЏС†РёСЋ, РїРёС‚Р°РЅРёРµ С‚РєР°РЅРµР№ Рё РґРѕСЃС‚Р°РІРєСѓ РєРёСЃР»РѕСЂРѕРґР° Рє РєР»РµС‚РєР°Рј РєРѕР¶Рё.' },
-    { title: 'Р РµРїР°СЂР°С†РёСЏ Р”РќРљ', desc: 'РџРѕР»РёРЅСѓРєР»РµРѕС‚РёРґС‹ СЃР»СѓР¶Р°С‚ В«СЃС‚СЂРѕРёС‚РµР»СЊРЅС‹Рј РјР°С‚РµСЂРёР°Р»РѕРјВ» РґР»СЏ РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ РїРѕРІСЂРµР¶РґС‘РЅРЅС‹С… СѓС‡Р°СЃС‚РєРѕРІ РєР»РµС‚РѕС‡РЅРѕР№ Р”РќРљ, Р·Р°РјРµРґР»СЏСЏ Р±РёРѕР»РѕРіРёС‡РµСЃРєРѕРµ СЃС‚Р°СЂРµРЅРёРµ.' },
-    { title: 'РђРЅС‚РёРѕРєСЃРёРґР°РЅС‚РЅР°СЏ Р·Р°С‰РёС‚Р°', desc: 'РќРµР№С‚СЂР°Р»РёР·СѓРµС‚ СЃРІРѕР±РѕРґРЅС‹Рµ СЂР°РґРёРєР°Р»С‹ (ROS), Р·Р°С‰РёС‰Р°СЏ РєР»РµС‚РєРё РѕС‚ РѕРєСЃРёРґР°С‚РёРІРЅРѕРіРѕ СЃС‚СЂРµСЃСЃР° вЂ” РѕСЃРЅРѕРІРЅРѕР№ РїСЂРёС‡РёРЅС‹ РґРµРіСЂР°РґР°С†РёРё РєРѕР»Р»Р°РіРµРЅРѕРІС‹С… РІРѕР»РѕРєРѕРЅ.' },
+    { title: 'Активация фибробластов', desc: 'PDRN стимулирует рецепторы A2A на поверхности фибробластов, запуская усиленный синтез коллагена I и III типа, эластина и гиалуроновой кислоты.' },
+    { title: 'Противовоспалительное действие', desc: 'Блокирует провоспалительные цитокины (TNF-α, IL-6), снижая хроническое воспаление — главный драйвер преждевременного старения кожи.' },
+    { title: 'Ангиогенез', desc: 'Стимулирует образование новых капилляров (VEGF), улучшая микроциркуляцию, питание тканей и доставку кислорода к клеткам кожи.' },
+    { title: 'Репарация ДНК', desc: 'Полинуклеотиды служат «строительным материалом» для восстановления повреждённых участков клеточной ДНК, замедляя биологическое старение.' },
+    { title: 'Антиоксидантная защита', desc: 'Нейтрализует свободные радикалы (ROS), защищая клетки от оксидативного стресса — основной причины деградации коллагеновых волокон.' },
   ];
 
   const steps = [
-    { title: 'РљРѕРЅСЃСѓР»СЊС‚Р°С†РёСЏ', desc: 'Р’СЂР°С‡ РѕС†РµРЅРёРІР°РµС‚ Р±РёРѕР»РѕРіРёС‡РµСЃРєРёР№ РІРѕР·СЂР°СЃС‚ РєРѕР¶Рё, РѕРїСЂРµРґРµР»СЏРµС‚ Р·РѕРЅС‹ РІРѕР·РґРµР№СЃС‚РІРёСЏ Рё РїРѕРґР±РёСЂР°РµС‚ РѕРїС‚РёРјР°Р»СЊРЅСѓСЋ РєРѕРЅС†РµРЅС‚СЂР°С†РёСЋ Рё РѕР±СЉС‘Рј РїСЂРµРїР°СЂР°С‚Р°.' },
-    { title: 'РћС‡РёС‰РµРЅРёРµ', desc: 'РўС‰Р°С‚РµР»СЊРЅС‹Р№ РґРµРјР°РєРёСЏР¶ Рё Р°РЅС‚РёСЃРµРїС‚РёС‡РµСЃРєР°СЏ РѕР±СЂР°Р±РѕС‚РєР° РєРѕР¶Рё. РќР°РЅРµСЃРµРЅРёРµ С‚РѕРїРёС‡РµСЃРєРѕРіРѕ Р°РЅРµСЃС‚РµС‚РёРєР° РЅР° 15вЂ“20 РјРёРЅСѓС‚.' },
-    { title: 'РРЅСЉРµРєС†РёРё PDRN', desc: 'РњРёРєСЂРѕРЅРёРґР»РёРЅРі-С‚РµС…РЅРёРєР° РІРІРµРґРµРЅРёСЏ РїСЂРµРїР°СЂР°С‚Р° РЅР° РѕСЃРЅРѕРІРµ РїРѕР»РёРЅСѓРєР»РµРѕС‚РёРґРѕРІ вЂ” СЂР°РІРЅРѕРјРµСЂРЅРѕРµ СЂР°СЃРїСЂРµРґРµР»РµРЅРёРµ РїРѕ РІСЃРµР№ Р·РѕРЅРµ РѕР±СЂР°Р±РѕС‚РєРё СЃ РїРѕРјРѕС‰СЊСЋ РјРµР·РѕРёРіР»С‹ 30G.' },
-    { title: 'Р—Р°РІРµСЂС€Р°СЋС‰РёР№ СѓС…РѕРґ', desc: 'РќР°РЅРµСЃРµРЅРёРµ СЂРµРіРµРЅРµСЂРёСЂСѓСЋС‰РµР№ РјР°СЃРєРё Рё SPF-Р·Р°С‰РёС‚С‹. Р’СЂР°С‡ СЃРѕСЃС‚Р°РІР»СЏРµС‚ РїР»Р°РЅ РґР°Р»СЊРЅРµР№С€РёС… РїСЂРѕС†РµРґСѓСЂ Рё РґР°С‘С‚ СЂРµРєРѕРјРµРЅРґР°С†РёРё РїРѕ РґРѕРјР°С€РЅРµРјСѓ СѓС…РѕРґСѓ.' },
+    { title: 'Консультация', desc: 'Врач оценивает биологический возраст кожи, определяет зоны воздействия и подбирает оптимальную концентрацию и объём препарата.' },
+    { title: 'Очищение', desc: 'Тщательный демакияж и антисептическая обработка кожи. Нанесение топического анестетика на 15–20 минут.' },
+    { title: 'РРЅСЉРµРєС†РёРё PDRN', desc: 'Микронидлинг-техника введения препарата на основе полинуклеотидов — равномерное распределение по всей зоне обработки с помощью мезоиглы 30G.' },
+    { title: 'Завершающий уход', desc: 'Нанесение регенерирующей маски и SPF-защиты. Врач составляет план дальнейших процедур и даёт рекомендации по домашнему уходу.' },
   ];
 
   const prices = [
-     { name: 'Процедура 1', price: 'РѕС‚ 9 000 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'РѕС‚ 14 000 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'РѕС‚ 18 000 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'РѕС‚ 7 000 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'РѕС‚ 8 000 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'Р‘РµСЃРїР»Р°С‚РЅРѕ' },];
+     { name: 'PDRN-терапия лица', price: 'от 9 000 ₽' },
+     { name: 'PDRN лицо и шея', price: 'от 14 000 ₽' },
+     { name: 'PDRN зона вокруг глаз', price: 'от 18 000 ₽' },
+     { name: 'PDRN курс процедур', price: 'от 7 000 ₽' },
+     { name: 'PDRN восстановление кожи', price: 'от 8 000 ₽' },
+     { name: 'Консультация косметолога', price: 'Бесплатно' },];
 
   const faq = [
-    { q: 'Р§С‚Рѕ С‚Р°РєРѕРµ PDRN Рё РєР°Рє СЌС‚Рѕ СЂР°Р±РѕС‚Р°РµС‚?', a: 'PDRN (РїРѕР»РёРґРµР·РѕРєСЃРёСЂРёР±РѕРЅСѓРєР»РµРѕС‚РёРґ) вЂ” С„СЂР°РіРјРµРЅС‚С‹ Р”РќРљ, РїРѕР»СѓС‡РµРЅРЅС‹Рµ РёР· РјРѕР»РѕРє Р»РѕСЃРѕСЃСЏ РјРµС‚РѕРґРѕРј РІС‹СЃРѕРєРѕР№ РѕС‡РёСЃС‚РєРё. РћРЅРё Р°РєС‚РёРІРёСЂСѓСЋС‚ Р°РґРµРЅРѕР·РёРЅРѕРІС‹Рµ СЂРµС†РµРїС‚РѕСЂС‹ A2A РІ РєР»РµС‚РєР°С… РєРѕР¶Рё, Р·Р°РїСѓСЃРєР°СЏ РµСЃС‚РµСЃС‚РІРµРЅРЅС‹Рµ РїСЂРѕС†РµСЃСЃС‹ РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ Рё РѕРјРѕР»РѕР¶РµРЅРёСЏ.' },
-    { q: 'Р§РµРј PDRN РѕС‚Р»РёС‡Р°РµС‚СЃСЏ РѕС‚ Р±РёРѕСЂРµРІРёС‚Р°Р»РёР·Р°С†РёРё?', a: 'Р‘РёРѕСЂРµРІРёС‚Р°Р»РёР·Р°С†РёСЏ СѓРІР»Р°Р¶РЅСЏРµС‚ РєРѕР¶Сѓ РіРёР°Р»СѓСЂРѕРЅРѕРІРѕР№ РєРёСЃР»РѕС‚РѕР№. PDRN СЂР°Р±РѕС‚Р°РµС‚ РіР»СѓР±Р¶Рµ вЂ” РЅР° СѓСЂРѕРІРЅРµ РєР»РµС‚РѕС‡РЅРѕР№ Р”РќРљ, СЃС‚РёРјСѓР»РёСЂСѓСЏ СЂРµРіРµРЅРµСЂР°С†РёСЋ С‚РєР°РЅРµР№, СЃРёРЅС‚РµР· СЃРѕР±СЃС‚РІРµРЅРЅРѕРіРѕ РєРѕР»Р»Р°РіРµРЅР° Рё СѓР»СѓС‡С€РµРЅРёРµ РјРёРєСЂРѕС†РёСЂРєСѓР»СЏС†РёРё. РџСЂРѕС†РµРґСѓСЂС‹ РїСЂРµРєСЂР°СЃРЅРѕ СЃРѕС‡РµС‚Р°СЋС‚СЃСЏ.' },
-    { q: 'РЎРєРѕР»СЊРєРѕ РїСЂРѕС†РµРґСѓСЂ РЅРµРѕР±С…РѕРґРёРјРѕ?', a: 'Р‘Р°Р·РѕРІС‹Р№ РєСѓСЂСЃ вЂ” 3вЂ“4 РїСЂРѕС†РµРґСѓСЂС‹ СЃ РёРЅС‚РµСЂРІР°Р»РѕРј 2вЂ“3 РЅРµРґРµР»Рё. Р”Р»СЏ РїРѕРґРґРµСЂР¶Р°РЅРёСЏ СЂРµР·СѓР»СЊС‚Р°С‚Р° СЂРµРєРѕРјРµРЅРґСѓРµС‚СЃСЏ 1 СЃРµР°РЅСЃ РєР°Р¶РґС‹Рµ 3вЂ“4 РјРµСЃСЏС†Р°. Р РµР·СѓР»СЊС‚Р°С‚ РЅР°СЂР°СЃС‚Р°РµС‚ РІ С‚РµС‡РµРЅРёРµ 4вЂ“6 РЅРµРґРµР»СЊ РїРѕСЃР»Рµ РєР°Р¶РґРѕР№ РїСЂРѕС†РµРґСѓСЂС‹.' },
-    { q: 'Р‘РµР·РѕРїР°СЃРЅР° Р»Рё PDRN-С‚РµСЂР°РїРёСЏ?', a: 'РђР±СЃРѕР»СЋС‚РЅРѕ. РџСЂРµРїР°СЂР°С‚С‹ РїСЂРѕС…РѕРґСЏС‚ РјРЅРѕРіРѕСЃС‚СѓРїРµРЅС‡Р°С‚СѓСЋ РѕС‡РёСЃС‚РєСѓ Рё СЃС‚РµСЂРёР»РёР·Р°С†РёСЋ. Р—Р° Р±РѕР»РµРµ С‡РµРј 30 Р»РµС‚ РїСЂРёРјРµРЅРµРЅРёСЏ РІ РјРµРґРёС†РёРЅРµ РЅРµ Р·Р°С„РёРєСЃРёСЂРѕРІР°РЅРѕ РЅРё РѕРґРЅРѕРіРѕ СЃР»СѓС‡Р°СЏ Р°Р»Р»РµСЂРіРёС‡РµСЃРєРѕР№ СЂРµР°РєС†РёРё РёР»Рё РёРјРјСѓРЅРЅРѕРіРѕ РѕС‚РІРµС‚Р° РЅР° PDRN.' },
-    { q: 'РљР°РєРѕР№ РїРµСЂРёРѕРґ РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ?', a: 'РњРёРЅРёРјР°Р»СЊРЅС‹Р№ вЂ” Р»С‘РіРєРѕРµ РїРѕРєСЂР°СЃРЅРµРЅРёРµ Рё С‚РѕС‡РµС‡РЅС‹Рµ СЃР»РµРґС‹ РѕС‚ РёРЅСЉРµРєС†РёР№ РїСЂРѕС…РѕРґСЏС‚ Р·Р° 1вЂ“2 РґРЅСЏ. РњР°РєРёСЏР¶ РјРѕР¶РЅРѕ РЅР°РЅРѕСЃРёС‚СЊ РЅР° СЃР»РµРґСѓСЋС‰РёР№ РґРµРЅСЊ. Р РµРєРѕРјРµРЅРґСѓРµС‚СЃСЏ РёР·Р±РµРіР°С‚СЊ Р±Р°РЅРё, СЃР°СѓРЅС‹ Рё СЃРѕР»РЅС†Р° РІ С‚РµС‡РµРЅРёРµ 3 РґРЅРµР№.' },
+    { q: 'Что такое PDRN и как это работает?', a: 'PDRN (полидезоксирибонуклеотид) — фрагменты ДНК, полученные из молок лосося методом высокой очистки. Они активируют аденозиновые рецепторы A2A в клетках кожи, запуская естественные процессы восстановления и омоложения.' },
+    { q: 'Чем PDRN отличается от биоревитализации?', a: 'Биоревитализация увлажняет кожу гиалуроновой кислотой. PDRN работает глубже — на уровне клеточной ДНК, стимулируя регенерацию тканей, синтез собственного коллагена и улучшение микроциркуляции. Процедуры прекрасно сочетаются.' },
+    { q: 'Сколько процедур необходимо?', a: 'Базовый курс — 3–4 процедуры с интервалом 2–3 недели. Для поддержания результата рекомендуется 1 сеанс каждые 3–4 месяца. Результат нарастает в течение 4–6 недель после каждой процедуры.' },
+    { q: 'Безопасна ли PDRN-терапия?', a: 'Абсолютно. Препараты проходят многоступенчатую очистку и стерилизацию. За более чем 30 лет применения в медицине не зафиксировано ни одного случая аллергической реакции или иммунного ответа на PDRN.' },
+    { q: 'Какой период восстановления?', a: 'Минимальный — лёгкое покраснение и точечные следы от инъекций проходят за 1–2 дня. Макияж можно наносить на следующий день. Рекомендуется избегать бани, сауны и солнца в течение 3 дней.' },
   ];
 
   const [openFaq, setOpenFaq] = React.useState<number | null>(null);
@@ -85,11 +85,11 @@ export default function PdrnTherapyClient() {
 
           <section className="mb-6 md:mb-10 reveal-up opacity-0">
             <div className="flex flex-wrap items-center gap-2 text-xs md:text-sm text-slate-500">
-              <a href="/" className="hover:text-[#60c2ff] transition-colors duration-300">Р“Р»Р°РІРЅР°СЏ</a>
+              <a href="/" className="hover:text-[#60c2ff] transition-colors duration-300">Главная</a>
               <Icon icon="mdi:chevron-right" className="text-slate-400" />
-              <a href="/services/injection" className="hover:text-[#60c2ff] transition-colors duration-300">РРЅСЉРµРєС†РёРѕРЅРЅР°СЏ РєРѕСЃРјРµС‚РѕР»РѕРіРёСЏ</a>
+              <a href="/services/injection" className="hover:text-[#60c2ff] transition-colors duration-300">Инъекционная косметология</a>
               <Icon icon="mdi:chevron-right" className="text-slate-400" />
-              <span className="text-slate-700 font-medium">PDRN-С‚РµСЂР°РїРёСЏ</span>
+              <span className="text-slate-700 font-medium">PDRN-терапия</span>
             </div>
           </section>
 
@@ -97,27 +97,27 @@ export default function PdrnTherapyClient() {
           <section className="mb-20 md:mb-32 reveal-up opacity-0">
             <div className="relative rounded-[2rem] md:rounded-[3rem] overflow-hidden bg-[#050B14] min-h-[550px] md:min-h-[700px] flex items-center group shadow-[0_2rem_5rem_-1rem_rgba(0,0,0,0.3)]">
               <div className="absolute inset-0 z-0">
-                <img src="/images/services/pdrn-therapy/hero.png" alt="PDRN-С‚РµСЂР°РїРёСЏ РїРѕР»РёРЅСѓРєР»РµРѕС‚РёРґР°РјРё РІ РЎРєРёРЅРњРµРґ" className="w-full h-full object-cover opacity-[0.35] mix-blend-overlay scale-105" />
+                <img src="/images/services/pdrn-therapy/hero.png" alt="PDRN-терапия полинуклеотидами в СкинМед" className="w-full h-full object-cover opacity-[0.35] mix-blend-overlay scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#050B14] via-[#050B14]/80 to-[#050B14]/60 md:bg-gradient-to-r md:from-[#050B14] md:via-[#050B14]/70 md:to-transparent"></div>
                 <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[60vw] h-[60vw] bg-[#60c2ff]/10 rounded-full blur-[100px] pointer-events-none z-10"></div>
               </div>
               <div className="relative z-20 px-8 py-12 sm:px-12 md:px-16 w-full max-w-4xl">
                 <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-[#60c2ff]/10 backdrop-blur-md border border-[#60c2ff]/20 text-white text-sm font-medium tracking-wide mb-6">
                   <span className="w-2 h-2 rounded-full bg-[#fbbf24] animate-pulse"></span>
-                  Р РµРіРµРЅРµСЂР°С†РёСЏ РЅР° СѓСЂРѕРІРЅРµ Р”РќРљ
+                  Регенерация на уровне ДНК
                 </div>
                 <h1 className="text-4xl md:text-6xl lg:text-[6rem] font-light tracking-[-0.04em] leading-[1.0] text-white mb-6 uppercase drop-shadow-2xl">
                   PDRN <br />
-                  <span className="font-serif italic text-[#60c2ff]/80">С‚РµСЂР°РїРёСЏ</span>
+                  <span className="font-serif italic text-[#60c2ff]/80">терапия</span>
                 </h1>
                 <p className="text-lg md:text-xl font-light text-slate-300 mb-8 max-w-2xl leading-relaxed">
-                  РРЅРЅРѕРІР°С†РёРѕРЅРЅР°СЏ РїСЂРѕС†РµРґСѓСЂР° РЅР° РѕСЃРЅРѕРІРµ РїРѕР»РёРЅСѓРєР»РµРѕС‚РёРґРѕРІ вЂ” С„СЂР°РіРјРµРЅС‚РѕРІ Р”РќРљ Р»РѕСЃРѕСЃСЏ. Р’РѕСЃСЃС‚Р°РЅР°РІР»РёРІР°РµС‚ РєРѕР¶Сѓ РЅР° РєР»РµС‚РѕС‡РЅРѕРј СѓСЂРѕРІРЅРµ, СЃС‚РёРјСѓР»РёСЂСѓСЏ СЂРµРіРµРЅРµСЂР°С†РёСЋ, РЅРµРѕРєРѕР»Р»Р°РіРµРЅРѕРіРµРЅРµР· Рё Р°РЅРіРёРѕРіРµРЅРµР·.
+                  Инновационная процедура на основе полинуклеотидов — фрагментов ДНК лосося. Восстанавливает кожу на клеточном уровне, стимулируя регенерацию, неоколлагеногенез и ангиогенез.
                 </p>
                 <div className="flex flex-wrap gap-6 items-center">
                   <div className="relative inline-flex group/btn">
                     <div className="absolute inset-0 bg-[#60c2ff] rounded-full blur-[20px] opacity-40 group-hover/btn:opacity-70 transition-opacity duration-700"></div>
                     <button onClick={() => window.dispatchEvent(new Event('open-booking-modal'))} className="relative z-10 px-8 flex items-center justify-center py-5 bg-[#60c2ff] text-white rounded-full font-medium transition-transform duration-500 hover:scale-105 shadow-xl gap-2 min-w-[240px]">
-                      Р—Р°РїРёСЃР°С‚СЊСЃСЏ РЅР° РїСЂРѕС†РµРґСѓСЂСѓ
+                      Записаться на процедуру
                       <Icon icon="solar:arrow-right-linear" className="text-xl" />
                     </button>
                   </div>
@@ -130,24 +130,24 @@ export default function PdrnTherapyClient() {
           <section className="mb-32 lg:mb-48 max-w-6xl mx-auto reveal-up opacity-0">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               <div>
-                <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Рћ РїСЂРѕС†РµРґСѓСЂРµ</span>
+                <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— О процедуре</span>
                 <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                  Р§С‚Рѕ С‚Р°РєРѕРµ <span className="font-serif italic text-slate-400">PDRN</span>
+                  Что такое <span className="font-serif italic text-slate-400">PDRN</span>
                 </h2>
                 <p className="text-base sm:text-[17px] text-slate-600 font-light leading-relaxed mb-6">
-                  <span className="font-medium text-[#60c2ff]">PDRN</span> (РїРѕР»РёРґРµР·РѕРєСЃРёСЂРёР±РѕРЅСѓРєР»РµРѕС‚РёРґ) вЂ” СЌС‚Рѕ РѕС‡РёС‰РµРЅРЅС‹Рµ С„СЂР°РіРјРµРЅС‚С‹ Р”РќРљ, РїРѕР»СѓС‡РµРЅРЅС‹Рµ РёР· РјРѕР»РѕРє Р»РѕСЃРѕСЃСЏ. РЈРЅРёРєР°Р»СЊРЅР°СЏ СЃС‚СЂСѓРєС‚СѓСЂР° СЌС‚РёС… РјРѕР»РµРєСѓР» РЅР° 95% СЃРѕРІРїР°РґР°РµС‚ СЃ С‡РµР»РѕРІРµС‡РµСЃРєРѕР№ Р”РќРљ, С‡С‚Рѕ РѕР±РµСЃРїРµС‡РёРІР°РµС‚ РїРѕР»РЅСѓСЋ Р±РёРѕСЃРѕРІРјРµСЃС‚РёРјРѕСЃС‚СЊ.
+                  <span className="font-medium text-[#60c2ff]">PDRN</span> (полидезоксирибонуклеотид) — это очищенные фрагменты ДНК, полученные из молок лосося. Уникальная структура этих молекул на 95% совпадает с человеческой ДНК, что обеспечивает полную биосовместимость.
                 </p>
                 <p className="text-base sm:text-[17px] text-slate-600 font-light leading-relaxed">
-                  Р’ РѕС‚Р»РёС‡РёРµ РѕС‚ С„РёР»Р»РµСЂРѕРІ Рё СѓРІР»Р°Р¶РЅСЏСЋС‰РёС… РёРЅСЉРµРєС†РёР№, PDRN СЂР°Р±РѕС‚Р°РµС‚ РЅР° РіР»СѓР±РёРЅРЅРѕРј РєР»РµС‚РѕС‡РЅРѕРј СѓСЂРѕРІРЅРµ вЂ” Р°РєС‚РёРІРёСЂСѓРµС‚ Р°РґРµРЅРѕР·РёРЅРѕРІС‹Рµ СЂРµС†РµРїС‚РѕСЂС‹, Р·Р°РїСѓСЃРєР°СЋС‰РёРµ РєР°СЃРєР°Рґ СЂРµРіРµРЅРµСЂР°С‚РёРІРЅС‹С… РїСЂРѕС†РµСЃСЃРѕРІ. Р­С‚Рѕ РЅРµ РјР°СЃРєРёСЂРѕРІРєР° РїСЂРѕР±Р»РµРј, Р° РёСЃС‚РёРЅРЅРѕРµ РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёРµ РјРѕР»РѕРґРѕСЃС‚Рё РєРѕР¶Рё.
+                  В отличие от филлеров и увлажняющих инъекций, PDRN работает на глубинном клеточном уровне — активирует аденозиновые рецепторы, запускающие каскад регенеративных процессов. Это не маскировка проблем, а истинное восстановление молодости кожи.
                 </p>
               </div>
               <div className="bg-white/60 backdrop-blur-xl border border-white/80 rounded-[2.5rem] p-8 md:p-10 shadow-[0_1rem_2.5rem_-0.5rem_rgba(0,0,0,0.03)]">
                 <div className="flex flex-col gap-6">
                   {[
-                    { num: '95%', label: 'РЎРѕРІРјРµСЃС‚РёРјРѕСЃС‚СЊ СЃ Р”РќРљ С‡РµР»РѕРІРµРєР°' },
-                    { num: '30+', label: 'Р›РµС‚ РєР»РёРЅРёС‡РµСЃРєРѕРіРѕ РїСЂРёРјРµРЅРµРЅРёСЏ' },
-                    { num: '3вЂ“4', label: 'РџСЂРѕС†РµРґСѓСЂС‹ вЂ” Р±Р°Р·РѕРІС‹Р№ РєСѓСЂСЃ' },
-                    { num: '0', label: 'РЎР»СѓС‡Р°РµРІ Р°Р»Р»РµСЂРіРёС‡РµСЃРєРёС… СЂРµР°РєС†РёР№' },
+                    { num: '95%', label: 'Совместимость с ДНК человека' },
+                    { num: '30+', label: 'Лет клинического применения' },
+                    { num: '3–4', label: 'Процедуры — базовый курс' },
+                    { num: '0', label: 'Случаев аллергических реакций' },
                   ].map((stat, i) => (
                     <div key={i} className="flex items-center gap-4 py-3 border-b border-slate-100 last:border-0">
                       <span className="text-2xl md:text-3xl font-light text-[#60c2ff] min-w-[100px]">{stat.num}</span>
@@ -162,9 +162,9 @@ export default function PdrnTherapyClient() {
           {/* Indications */}
           <section className="mb-32 lg:mb-48 relative z-10">
             <div className="text-center mb-16 reveal-up opacity-0">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РџРѕРєР°Р·Р°РЅРёСЏ</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Показания</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                РљРѕРјСѓ РїРѕРґРѕР№РґС‘С‚ <span className="font-serif italic text-slate-400">PDRN</span>
+                Кому подойдёт <span className="font-serif italic text-slate-400">PDRN</span>
               </h2>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 stagger-container">
@@ -184,9 +184,9 @@ export default function PdrnTherapyClient() {
           {/* Mechanism */}
           <section className="mb-32 lg:mb-48 relative z-10 max-w-6xl mx-auto">
             <div className="mb-16 reveal-up opacity-0 border-b border-slate-200/50 pb-8">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РњРµС…Р°РЅРёР·Рј РґРµР№СЃС‚РІРёСЏ</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Механизм действия</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] max-w-4xl">
-                РљР°Рє СЂР°Р±РѕС‚Р°РµС‚ <br /> <span className="font-serif italic text-slate-400">PDRN</span>
+                Как работает <br /> <span className="font-serif italic text-slate-400">PDRN</span>
               </h2>
             </div>
             <div className="flex flex-col stagger-container">
@@ -197,9 +197,9 @@ export default function PdrnTherapyClient() {
           {/* Steps */}
           <section className="mb-32 lg:mb-48 relative z-10 max-w-6xl mx-auto">
             <div className="mb-16 reveal-up opacity-0 border-b border-slate-200/50 pb-8">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Р­С‚Р°РїС‹</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Этапы</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] max-w-4xl">
-                РљР°Рє РїСЂРѕС…РѕРґРёС‚ <br /> <span className="font-serif italic text-slate-400">РїСЂРѕС†РµРґСѓСЂР°</span>
+                Как проходит <br /> <span className="font-serif italic text-slate-400">процедура</span>
               </h2>
             </div>
             <div className="flex flex-col stagger-container">
@@ -212,7 +212,7 @@ export default function PdrnTherapyClient() {
             <div className="w-full bg-white/60 backdrop-blur-xl border border-white/80 rounded-[3rem] p-10 md:p-16 shadow-[0_2rem_4rem_-1rem_rgba(0,0,0,0.03)] reveal-up opacity-0">
               <div className="mb-12 border-b border-slate-100 pb-6">
                 <h2 className="text-[2.5rem] md:text-4xl font-light text-slate-900 tracking-tight">
-                  РЎС‚РѕРёРјРѕСЃС‚СЊ <span className="font-serif italic text-slate-400">СѓСЃР»СѓРі</span>
+                  Стоимость <span className="font-serif italic text-slate-400">услуг</span>
                 </h2>
               </div>
               <div className="flex flex-col divide-y divide-slate-100">
@@ -229,9 +229,9 @@ export default function PdrnTherapyClient() {
           {/* FAQ */}
           <section className="mb-32 lg:mb-48 max-w-4xl mx-auto w-full relative z-10">
             <div className="text-center mb-16 reveal-up opacity-0">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Р’РѕРїСЂРѕСЃС‹</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Вопросы</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                Р§Р°СЃС‚С‹Рµ <span className="font-serif italic text-slate-400">РІРѕРїСЂРѕСЃС‹</span>
+                Частые <span className="font-serif italic text-slate-400">вопросы</span>
               </h2>
             </div>
             <div className="flex flex-col gap-4 stagger-container">
@@ -258,17 +258,17 @@ export default function PdrnTherapyClient() {
               <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12 max-w-6xl mx-auto">
                 <div className="flex-1 text-center lg:text-left">
                   <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-white tracking-[-0.04em] leading-[1.0] mb-6">
-                    РћР±РЅРѕРІРёС‚Рµ РєРѕР¶Сѓ <br />
-                    <span className="font-serif italic text-slate-400">РЅР° СѓСЂРѕРІРЅРµ Р”РќРљ</span>
+                    Обновите кожу <br />
+                    <span className="font-serif italic text-slate-400">на уровне ДНК</span>
                   </h2>
                   <p className="text-slate-400 font-light text-lg mb-12 max-w-lg mx-auto lg:mx-0">
-                    Р—Р°РїРёС€РёС‚РµСЃСЊ РЅР° Р±РµСЃРїР»Р°С‚РЅСѓСЋ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЋ Рё РѕС‚РєСЂРѕР№С‚Рµ РґР»СЏ СЃРµР±СЏ СЃРёР»Сѓ РїРѕР»РёРЅСѓРєР»РµРѕС‚РёРґРЅРѕР№ С‚РµСЂР°РїРёРё вЂ” РїРµСЂРµРґРѕРІРѕР№ РјРµС‚РѕРґ РєР»РµС‚РѕС‡РЅРѕРіРѕ РѕРјРѕР»РѕР¶РµРЅРёСЏ.
+                    Запишитесь на бесплатную консультацию и откройте для себя силу полинуклеотидной терапии — передовой метод клеточного омоложения.
                   </p>
                   <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-8">
                     <div className="relative inline-flex group">
                       <div className="absolute inset-0 bg-[#60c2ff] rounded-full blur-[25px] opacity-40 group-hover:opacity-70 transition-opacity duration-700"></div>
                       <button onClick={() => window.dispatchEvent(new Event('open-booking-modal'))} className="relative z-10 px-10 py-5 bg-[#60c2ff] text-white rounded-full font-medium shadow-[0_1rem_2rem_rgba(96,194,255,0.2)] transition-transform duration-500 hover:scale-105 focus:outline-none flex items-center gap-3">
-                        Р‘РµСЃРїР»Р°С‚РЅР°СЏ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЏ
+                        Бесплатная консультация
                         <Icon icon="solar:arrow-right-linear" className="text-xl" />
                       </button>
                     </div>

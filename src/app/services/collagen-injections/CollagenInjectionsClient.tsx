@@ -26,42 +26,42 @@ export default function CollagenInjectionsClient() {
   }, []);
 
   const indications = [
-    { icon: 'solar:pallete-2-linear', title: 'РўСѓСЃРєР»С‹Р№ С†РІРµС‚ Р»РёС†Р°', desc: 'Р—РµРјР»РёСЃС‚С‹Р№ РѕС‚С‚РµРЅРѕРє, РїРѕС‚РµСЂСЏ РµСЃС‚РµСЃС‚РІРµРЅРЅРѕРіРѕ СЃРёСЏРЅРёСЏ РєРѕР¶Рё' },
-    { icon: 'solar:eye-linear', title: 'РџРѕС‚РµСЂСЏ СѓРїСЂСѓРіРѕСЃС‚Рё', desc: 'РЎРЅРёР¶РµРЅРёРµ С‚СѓСЂРіРѕСЂР°, В«СѓСЃС‚Р°Р»С‹Р№В» РІРёРґ РєРѕР¶Рё' },
-    { icon: 'solar:waterdrop-linear', title: 'РћР±РµР·РІРѕР¶РµРЅРЅРѕСЃС‚СЊ', desc: 'РЎСѓС…РѕСЃС‚СЊ, СЃС‚СЏРЅСѓС‚РѕСЃС‚СЊ, РјРµР»РєРёРµ РјРѕСЂС‰РёРЅС‹-СЃРµС‚РѕС‡РєРё' },
-    { icon: 'solar:sun-2-linear', title: 'Р¤РѕС‚РѕСЃС‚Р°СЂРµРЅРёРµ', desc: 'РџРѕСЃР»РµРґСЃС‚РІРёСЏ РёР·Р±С‹С‚РѕС‡РЅРѕР№ РёРЅСЃРѕР»СЏС†РёРё, РїРёРіРјРµРЅС‚Р°С†РёСЏ' },
-    { icon: 'solar:star-linear', title: 'РџСЂРѕС„РёР»Р°РєС‚РёРєР° СЃС‚Р°СЂРµРЅРёСЏ', desc: 'РџРѕРґРґРµСЂР¶Р°РЅРёРµ РјРѕР»РѕРґРѕСЃС‚Рё РєРѕР¶Рё РїРѕСЃР»Рµ 30 Р»РµС‚' },
-    { icon: 'solar:heart-linear', title: 'РџРѕСЃС‚Р°РєРЅРµ Рё СЂСѓР±С†С‹', desc: 'Р’С‹СЂР°РІРЅРёРІР°РЅРёРµ СЂРµР»СЊРµС„Р° Рё СѓР»СѓС‡С€РµРЅРёРµ С‚РµРєСЃС‚СѓСЂС‹ РєРѕР¶Рё' },
+    { icon: 'solar:pallete-2-linear', title: 'Тусклый цвет лица', desc: 'Землистый оттенок, потеря естественного сияния кожи' },
+    { icon: 'solar:eye-linear', title: 'Потеря упругости', desc: 'Снижение тургора, «усталый» вид кожи' },
+    { icon: 'solar:waterdrop-linear', title: 'Обезвоженность', desc: 'Сухость, стянутость, мелкие морщины-сеточки' },
+    { icon: 'solar:sun-2-linear', title: 'Фотостарение', desc: 'Последствия избыточной инсоляции, пигментация' },
+    { icon: 'solar:star-linear', title: 'Профилактика старения', desc: 'Поддержание молодости кожи после 30 лет' },
+    { icon: 'solar:heart-linear', title: 'Постакне и рубцы', desc: 'Выравнивание рельефа и улучшение текстуры кожи' },
   ];
 
   const advantages = [
-    { title: 'РќР°С‚СѓСЂР°Р»СЊРЅС‹Р№ СЂРµР·СѓР»СЊС‚Р°С‚', desc: 'РљРѕР»Р»Р°РіРµРЅРѕС‚РµСЂР°РїРёСЏ Р·Р°РїСѓСЃРєР°РµС‚ РµСЃС‚РµСЃС‚РІРµРЅРЅС‹Рµ РїСЂРѕС†РµСЃСЃС‹ РѕР±РЅРѕРІР»РµРЅРёСЏ вЂ” РєРѕР¶Р° СЃР°РјР° РІРѕСЃСЃС‚Р°РЅР°РІР»РёРІР°РµС‚ СЃРІРѕСЋ СЃС‚СЂСѓРєС‚СѓСЂСѓ Р±РµР· СЌС„С„РµРєС‚Р° В«РјР°СЃРєРёВ».' },
-    { title: 'Р“Р»СѓР±РѕРєРѕРµ РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёРµ', desc: 'РџСЂРµРїР°СЂР°С‚ СЂР°Р±РѕС‚Р°РµС‚ РЅР° СѓСЂРѕРІРЅРµ РґРµСЂРјС‹, СЃС‚РёРјСѓР»РёСЂСѓСЏ С„РёР±СЂРѕР±Р»Р°СЃС‚С‹ вЂ” РєР»РµС‚РєРё, РѕС‚РІРµС‚СЃС‚РІРµРЅРЅС‹Рµ Р·Р° РІС‹СЂР°Р±РѕС‚РєСѓ РєРѕР»Р»Р°РіРµРЅР°, СЌР»Р°СЃС‚РёРЅР° Рё РіРёР°Р»СѓСЂРѕРЅРѕРІРѕР№ РєРёСЃР»РѕС‚С‹.' },
-    { title: 'РќР°СЂР°СЃС‚Р°СЋС‰РёР№ СЌС„С„РµРєС‚', desc: 'Р РµР·СѓР»СЊС‚Р°С‚ СѓР»СѓС‡С€Р°РµС‚СЃСЏ СЃ РєР°Р¶РґС‹Рј РґРЅС‘Рј: РїРёРє РѕР±РЅРѕРІР»РµРЅРёСЏ РЅР°СЃС‚СѓРїР°РµС‚ С‡РµСЂРµР· 4вЂ“6 РЅРµРґРµР»СЊ РїРѕСЃР»Рµ РїСЂРѕС†РµРґСѓСЂС‹ Рё РїСЂРѕРґРѕР»Р¶Р°РµС‚ РЅР°СЂР°СЃС‚Р°С‚СЊ.' },
-    { title: 'РЈРЅРёРІРµСЂСЃР°Р»СЊРЅРѕСЃС‚СЊ', desc: 'РџРѕРґС…РѕРґРёС‚ РґР»СЏ Р»РёС†Р°, С€РµРё, РґРµРєРѕР»СЊС‚Рµ, РєРёСЃС‚РµР№ СЂСѓРє. РњРѕР¶РЅРѕ РєРѕРјР±РёРЅРёСЂРѕРІР°С‚СЊ СЃ Р±РёРѕСЂРµРІРёС‚Р°Р»РёР·Р°С†РёРµР№ Рё РјРµР·РѕС‚РµСЂР°РїРёРµР№.' },
-    { title: 'РњРёРЅРёРјР°Р»СЊРЅР°СЏ СЂРµР°Р±РёР»РёС‚Р°С†РёСЏ', desc: 'Р›С‘РіРєРѕРµ РїРѕРєСЂР°СЃРЅРµРЅРёРµ РїСЂРѕС…РѕРґРёС‚ Р·Р° 1вЂ“2 С‡Р°СЃР°. РќРёРєР°РєРёС… РѕРіСЂР°РЅРёС‡РµРЅРёР№ РІ РїРѕРІСЃРµРґРЅРµРІРЅРѕР№ Р¶РёР·РЅРё РїРѕСЃР»Рµ РїСЂРѕС†РµРґСѓСЂС‹.' },
+    { title: 'Натуральный результат', desc: 'Коллагенотерапия запускает естественные процессы обновления — кожа сама восстанавливает свою структуру без эффекта «маски».' },
+    { title: 'Глубокое восстановление', desc: 'Препарат работает на уровне дермы, стимулируя фибробласты — клетки, ответственные за выработку коллагена, эластина и гиалуроновой кислоты.' },
+    { title: 'Нарастающий эффект', desc: 'Результат улучшается с каждым днём: пик обновления наступает через 4–6 недель после процедуры и продолжает нарастать.' },
+    { title: 'Универсальность', desc: 'Подходит для лица, шеи, декольте, кистей рук. Можно комбинировать с биоревитализацией и мезотерапией.' },
+    { title: 'Минимальная реабилитация', desc: 'Лёгкое покраснение проходит за 1–2 часа. Никаких ограничений в повседневной жизни после процедуры.' },
   ];
 
   const steps = [
-    { title: 'Р”РёР°РіРЅРѕСЃС‚РёРєР° РєРѕР¶Рё', desc: 'РљРѕСЃРјРµС‚РѕР»РѕРі РѕС†РµРЅРёРІР°РµС‚ СЃРѕСЃС‚РѕСЏРЅРёРµ РєРѕР¶Рё, РѕРїСЂРµРґРµР»СЏРµС‚ СЃС‚РµРїРµРЅСЊ РґРµС„РёС†РёС‚Р° РєРѕР»Р»Р°РіРµРЅР° Рё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РїСЂРѕС‚РѕРєРѕР» РІРІРµРґРµРЅРёСЏ.' },
-    { title: 'РџРѕРґРіРѕС‚РѕРІРєР°', desc: 'РўС‰Р°С‚РµР»СЊРЅРѕРµ РѕС‡РёС‰РµРЅРёРµ РєРѕР¶Рё, РЅР°РЅРµСЃРµРЅРёРµ Р°РїРїР»РёРєР°С†РёРѕРЅРЅРѕРіРѕ Р°РЅРµСЃС‚РµС‚РёРєР° РґР»СЏ РјР°РєСЃРёРјР°Р»СЊРЅРѕРіРѕ РєРѕРјС„РѕСЂС‚Р° РІРѕ РІСЂРµРјСЏ РёРЅСЉРµРєС†РёР№.' },
-    { title: 'Р’РІРµРґРµРЅРёРµ РїСЂРµРїР°СЂР°С‚Р°', desc: 'РњРёРєСЂРѕРёРЅСЉРµРєС†РёРё РєРѕР»Р»Р°РіРµРЅРѕРІРѕРіРѕ РїСЂРµРїР°СЂР°С‚Р° С‚РѕРЅС‡Р°Р№С€РµР№ РёРіР»РѕР№ РїРѕ СЃРїРµС†РёР°Р»СЊРЅС‹Рј Р»РёРЅРёСЏРј РЅР°С‚СЏР¶РµРЅРёСЏ РєРѕР¶Рё РІ С‚РµС…РЅРёРєРµ Р±РёРѕСЃС‚РёРјСѓР»СЏС†РёРё.' },
-    { title: 'Р—Р°РІРµСЂС€РµРЅРёРµ', desc: 'РќР°РЅРµСЃРµРЅРёРµ СѓСЃРїРѕРєР°РёРІР°СЋС‰РµР№ РјР°СЃРєРё Рё СЃРѕР»РЅС†РµР·Р°С‰РёС‚РЅРѕРіРѕ СЃСЂРµРґСЃС‚РІР°. Р РµРєРѕРјРµРЅРґР°С†РёРё РїРѕ РґРѕРјР°С€РЅРµРјСѓ СѓС…РѕРґСѓ.' },
+    { title: 'Диагностика кожи', desc: 'Косметолог оценивает состояние кожи, определяет степень дефицита коллагена и составляет индивидуальный протокол введения.' },
+    { title: 'Подготовка', desc: 'Тщательное очищение кожи, нанесение аппликационного анестетика для максимального комфорта во время инъекций.' },
+    { title: 'Введение препарата', desc: 'Микроинъекции коллагенового препарата тончайшей иглой по специальным линиям натяжения кожи в технике биостимуляции.' },
+    { title: 'Завершение', desc: 'Нанесение успокаивающей маски и солнцезащитного средства. Рекомендации по домашнему уходу.' },
   ];
 
   const prices = [
-     { name: 'Процедура 1', price: 'РѕС‚ 8 000 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'РѕС‚ 12 000 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'РѕС‚ 16 000 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'РѕС‚ 7 000 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'Р‘РµСЃРїР»Р°С‚РЅРѕ' },];
+     { name: 'Коллагенотерапия лица', price: 'от 8 000 ₽' },
+     { name: 'Коллагенотерапия лицо и шея', price: 'от 12 000 ₽' },
+     { name: 'Курс коллагенотерапии', price: 'от 16 000 ₽' },
+     { name: 'Локальная зона', price: 'от 7 000 ₽' },
+     { name: 'Консультация косметолога', price: 'Бесплатно' },];
 
   const faq = [
-    { q: 'Р§РµРј РєРѕР»Р»Р°РіРµРЅРѕС‚РµСЂР°РїРёСЏ РѕС‚Р»РёС‡Р°РµС‚СЃСЏ РѕС‚ Р±РёРѕСЂРµРІРёС‚Р°Р»РёР·Р°С†РёРё?', a: 'Р‘РёРѕСЂРµРІРёС‚Р°Р»РёР·Р°С†РёСЏ СѓРІР»Р°Р¶РЅСЏРµС‚ РєРѕР¶Сѓ РіРёР°Р»СѓСЂРѕРЅРѕРІРѕР№ РєРёСЃР»РѕС‚РѕР№, Р° РєРѕР»Р»Р°РіРµРЅРѕС‚РµСЂР°РїРёСЏ СЃС‚РёРјСѓР»РёСЂСѓРµС‚ РІС‹СЂР°Р±РѕС‚РєСѓ СЃРѕР±СЃС‚РІРµРЅРЅРѕРіРѕ РєРѕР»Р»Р°РіРµРЅР°. РџСЂРѕС†РµРґСѓСЂС‹ РѕС‚Р»РёС‡РЅРѕ РґРѕРїРѕР»РЅСЏСЋС‚ РґСЂСѓРі РґСЂСѓРіР° РґР»СЏ РєРѕРјРїР»РµРєСЃРЅРѕРіРѕ РѕРјРѕР»РѕР¶РµРЅРёСЏ.' },
-    { q: 'РЎ РєР°РєРѕРіРѕ РІРѕР·СЂР°СЃС‚Р° СЂРµРєРѕРјРµРЅРґРѕРІР°РЅС‹ РёРЅСЉРµРєС†РёРё РєРѕР»Р»Р°РіРµРЅР°?', a: 'РћРїС‚РёРјР°Р»СЊРЅРѕ РЅР°С‡РёРЅР°С‚СЊ СЃ 30вЂ“35 Р»РµС‚, РєРѕРіРґР° РµСЃС‚РµСЃС‚РІРµРЅРЅС‹Р№ СЃРёРЅС‚РµР· РєРѕР»Р»Р°РіРµРЅР° РЅР°С‡РёРЅР°РµС‚ СЃРЅРёР¶Р°С‚СЊСЃСЏ. Р’ РєР°С‡РµСЃС‚РІРµ РїСЂРѕС„РёР»Р°РєС‚РёРєРё вЂ” СЃ 25 Р»РµС‚ РїСЂРё СЂР°РЅРЅРёС… РїСЂРёР·РЅР°РєР°С… СЃС‚Р°СЂРµРЅРёСЏ.' },
-    { q: 'РЎРєРѕР»СЊРєРѕ РїСЂРѕС†РµРґСѓСЂ РЅСѓР¶РЅРѕ РґР»СЏ РІРёРґРёРјРѕРіРѕ СЌС„С„РµРєС‚Р°?', a: 'Р РµР·СѓР»СЊС‚Р°С‚ Р·Р°РјРµС‚РµРЅ РїРѕСЃР»Рµ РїРµСЂРІРѕР№ РїСЂРѕС†РµРґСѓСЂС‹. Р”Р»СЏ СЃС‚РѕР№РєРѕРіРѕ СЌС„С„РµРєС‚Р° СЂРµРєРѕРјРµРЅРґСѓРµС‚СЃСЏ РєСѓСЂСЃ РёР· 3вЂ“4 РїСЂРѕС†РµРґСѓСЂ СЃ РёРЅС‚РµСЂРІР°Р»РѕРј 3вЂ“4 РЅРµРґРµР»Рё.' },
-    { q: 'РљР°РєРёРµ РїСЂРµРїР°СЂР°С‚С‹ Р’С‹ РёСЃРїРѕР»СЊР·СѓРµС‚Рµ?', a: 'РњС‹ СЂР°Р±РѕС‚Р°РµРј СЃ СЃРµСЂС‚РёС„РёС†РёСЂРѕРІР°РЅРЅС‹РјРё РїСЂРµРїР°СЂР°С‚Р°РјРё РЅР° РѕСЃРЅРѕРІРµ РЅР°С‚РёРІРЅРѕРіРѕ РєРѕР»Р»Р°РіРµРЅР° РїРѕСЃР»РµРґРЅРµРіРѕ РїРѕРєРѕР»РµРЅРёСЏ. РљРѕРЅРєСЂРµС‚РЅС‹Р№ РїСЂРµРїР°СЂР°С‚ РїРѕРґР±РёСЂР°РµС‚СЃСЏ РІСЂР°С‡РѕРј РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё СЃ СѓС‡С‘С‚РѕРј РёРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹С… РѕСЃРѕР±РµРЅРЅРѕСЃС‚РµР№ РєРѕР¶Рё.' },
-    { q: 'Р•СЃС‚СЊ Р»Рё РїСЂРѕС‚РёРІРѕРїРѕРєР°Р·Р°РЅРёСЏ?', a: 'РћСЃРЅРѕРІРЅС‹Рµ РїСЂРѕС‚РёРІРѕРїРѕРєР°Р·Р°РЅРёСЏ: Р±РµСЂРµРјРµРЅРЅРѕСЃС‚СЊ Рё Р»Р°РєС‚Р°С†РёСЏ, РѕСЃС‚СЂС‹Рµ РІРѕСЃРїР°Р»РёС‚РµР»СЊРЅС‹Рµ РїСЂРѕС†РµСЃСЃС‹ РІ Р·РѕРЅРµ РѕР±СЂР°Р±РѕС‚РєРё, Р°СѓС‚РѕРёРјРјСѓРЅРЅС‹Рµ Р·Р°Р±РѕР»РµРІР°РЅРёСЏ, РёРЅРґРёРІРёРґСѓР°Р»СЊРЅР°СЏ РЅРµРїРµСЂРµРЅРѕСЃРёРјРѕСЃС‚СЊ РєРѕРјРїРѕРЅРµРЅС‚РѕРІ. РџРѕР»РЅС‹Р№ СЃРїРёСЃРѕРє РѕР±СЃСѓР¶РґР°РµС‚СЃСЏ РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё.' },
+    { q: 'Чем коллагенотерапия отличается от биоревитализации?', a: 'Биоревитализация увлажняет кожу гиалуроновой кислотой, а коллагенотерапия стимулирует выработку собственного коллагена. Процедуры отлично дополняют друг друга для комплексного омоложения.' },
+    { q: 'С какого возраста рекомендованы инъекции коллагена?', a: 'Оптимально начинать с 30–35 лет, когда естественный синтез коллагена начинает снижаться. В качестве профилактики — с 25 лет при ранних признаках старения.' },
+    { q: 'Сколько процедур нужно для видимого эффекта?', a: 'Результат заметен после первой процедуры. Для стойкого эффекта рекомендуется курс из 3–4 процедур с интервалом 3–4 недели.' },
+    { q: 'Какие препараты Вы используете?', a: 'Мы работаем с сертифицированными препаратами на основе нативного коллагена последнего поколения. Конкретный препарат подбирается врачом на консультации с учётом индивидуальных особенностей кожи.' },
+    { q: 'Есть ли противопоказания?', a: 'Основные противопоказания: беременность и лактация, острые воспалительные процессы в зоне обработки, аутоиммунные заболевания, индивидуальная непереносимость компонентов. Полный список обсуждается на консультации.' },
   ];
 
   const [openFaq, setOpenFaq] = React.useState<number | null>(null);
@@ -84,38 +84,38 @@ export default function CollagenInjectionsClient() {
 
           <section className="mb-6 md:mb-10 reveal-up opacity-0">
             <div className="flex flex-wrap items-center gap-2 text-xs md:text-sm text-slate-500">
-              <a href="/" className="hover:text-[#60c2ff] transition-colors duration-300">Р“Р»Р°РІРЅР°СЏ</a>
+              <a href="/" className="hover:text-[#60c2ff] transition-colors duration-300">Главная</a>
               <Icon icon="mdi:chevron-right" className="text-slate-400" />
-              <a href="/services/injection" className="hover:text-[#60c2ff] transition-colors duration-300">РРЅСЉРµРєС†РёРѕРЅРЅР°СЏ РєРѕСЃРјРµС‚РѕР»РѕРіРёСЏ</a>
+              <a href="/services/injection" className="hover:text-[#60c2ff] transition-colors duration-300">Инъекционная косметология</a>
               <Icon icon="mdi:chevron-right" className="text-slate-400" />
-              <span className="text-slate-700 font-medium">РРЅСЉРµРєС†РёРё РєРѕР»Р»Р°РіРµРЅР°</span>
+              <span className="text-slate-700 font-medium">Инъекции коллагена</span>
             </div>
           </section>
 
           <section className="mb-20 md:mb-32 reveal-up opacity-0">
             <div className="relative rounded-[2rem] md:rounded-[3rem] overflow-hidden bg-[#050B14] min-h-[550px] md:min-h-[700px] flex items-center group shadow-[0_2rem_5rem_-1rem_rgba(0,0,0,0.3)]">
               <div className="absolute inset-0 z-0">
-                <img src="/images/services/collagen-injections/hero.png" alt="РРЅСЉРµРєС†РёРё РєРѕР»Р»Р°РіРµРЅР° РІ РєР»РёРЅРёРєРµ РЎРєРёРЅРњРµРґ" className="w-full h-full object-cover opacity-[0.35] mix-blend-overlay scale-105" />
+                <img src="/images/services/collagen-injections/hero.png" alt="Инъекции коллагена в клинике СкинМед" className="w-full h-full object-cover opacity-[0.35] mix-blend-overlay scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#050B14] via-[#050B14]/80 to-[#050B14]/60 md:bg-gradient-to-r md:from-[#050B14] md:via-[#050B14]/70 md:to-transparent"></div>
                 <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[60vw] h-[60vw] bg-[#60c2ff]/10 rounded-full blur-[100px] pointer-events-none z-10"></div>
               </div>
               <div className="relative z-20 px-8 py-12 sm:px-12 md:px-16 w-full max-w-4xl">
                 <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-[#60c2ff]/10 backdrop-blur-md border border-[#60c2ff]/20 text-white text-sm font-medium tracking-wide mb-6">
                   <span className="w-2 h-2 rounded-full bg-[#fbbf24] animate-pulse"></span>
-                  Р‘РёРѕСЃС‚РёРјСѓР»СЏС†РёСЏ РєРѕР»Р»Р°РіРµРЅР°
+                  Биостимуляция коллагена
                 </div>
                 <h1 className="text-4xl md:text-6xl lg:text-[6rem] font-light tracking-[-0.04em] leading-[1.0] text-white mb-6 uppercase drop-shadow-2xl">
                   РРЅСЉРµРєС†РёРё <br />
-                  <span className="font-serif italic text-[#60c2ff]/80">РєРѕР»Р»Р°РіРµРЅР°</span>
+                  <span className="font-serif italic text-[#60c2ff]/80">коллагена</span>
                 </h1>
                 <p className="text-lg md:text-xl font-light text-slate-300 mb-8 max-w-2xl leading-relaxed">
-                  Р—Р°РїСѓСЃС‚РёС‚Рµ РµСЃС‚РµСЃС‚РІРµРЅРЅРѕРµ РѕР±РЅРѕРІР»РµРЅРёРµ РєРѕР¶Рё РёР·РЅСѓС‚СЂРё. РљРѕР»Р»Р°РіРµРЅРѕС‚РµСЂР°РїРёСЏ СЃС‚РёРјСѓР»РёСЂСѓРµС‚ С„РёР±СЂРѕР±Р»Р°СЃС‚С‹ вЂ” РІРѕР·РІСЂР°С‰Р°СЏ СѓРїСЂСѓРіРѕСЃС‚СЊ, СЃРёСЏРЅРёРµ Рё РјРѕР»РѕРґРѕСЃС‚СЊ Р±РµР· С…РёСЂСѓСЂРіРёС‡РµСЃРєРѕРіРѕ РІРјРµС€Р°С‚РµР»СЊСЃС‚РІР°.
+                  Запустите естественное обновление кожи изнутри. Коллагенотерапия стимулирует фибробласты — возвращая упругость, сияние и молодость без хирургического вмешательства.
                 </p>
                 <div className="flex flex-wrap gap-6 items-center">
                   <div className="relative inline-flex group/btn">
                     <div className="absolute inset-0 bg-[#60c2ff] rounded-full blur-[20px] opacity-40 group-hover/btn:opacity-70 transition-opacity duration-700"></div>
                     <button onClick={() => window.dispatchEvent(new Event('open-booking-modal'))} className="relative z-10 px-8 flex items-center justify-center py-5 bg-[#60c2ff] text-white rounded-full font-medium transition-transform duration-500 hover:scale-105 shadow-xl gap-2 min-w-[240px]">
-                      Р—Р°РїРёСЃР°С‚СЊСЃСЏ РЅР° РїСЂРѕС†РµРґСѓСЂСѓ
+                      Записаться на процедуру
                       <Icon icon="solar:arrow-right-linear" className="text-xl" />
                     </button>
                   </div>
@@ -128,24 +128,24 @@ export default function CollagenInjectionsClient() {
           <section className="mb-32 lg:mb-48 max-w-6xl mx-auto reveal-up opacity-0">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               <div>
-                <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Рћ РїСЂРѕС†РµРґСѓСЂРµ</span>
+                <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— О процедуре</span>
                 <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                  РЎРёР»Р° <span className="font-serif italic text-slate-400">РєРѕР»Р»Р°РіРµРЅР°</span>
+                  Сила <span className="font-serif italic text-slate-400">коллагена</span>
                 </h2>
                 <p className="text-base sm:text-[17px] text-slate-600 font-light leading-relaxed mb-6">
-                  РљРѕР»Р»Р°РіРµРЅ вЂ” РѕСЃРЅРѕРІРЅРѕР№ СЃС‚СЂСѓРєС‚СѓСЂРЅС‹Р№ Р±РµР»РѕРє РєРѕР¶Рё, СЃРѕСЃС‚Р°РІР»СЏСЋС‰РёР№ РґРѕ 80% РґРµСЂРјС‹. РџРѕСЃР»Рµ 25 Р»РµС‚ РµРіРѕ СЃРёРЅС‚РµР· РЅР°С‡РёРЅР°РµС‚ СЃРЅРёР¶Р°С‚СЊСЃСЏ РЅР° 1вЂ“1,5% РµР¶РµРіРѕРґРЅРѕ. Рљ 50 РіРѕРґР°Рј РєРѕР¶Р° С‚РµСЂСЏРµС‚ РґРѕ РїРѕР»РѕРІРёРЅС‹ СЃРІРѕРёС… РєРѕР»Р»Р°РіРµРЅРѕРІС‹С… РІРѕР»РѕРєРѕРЅ.
+                  Коллаген — основной структурный белок кожи, составляющий до 80% дермы. После 25 лет его синтез начинает снижаться на 1–1,5% ежегодно. К 50 годам кожа теряет до половины своих коллагеновых волокон.
                 </p>
                 <p className="text-base sm:text-[17px] text-slate-600 font-light leading-relaxed">
-                  РљРѕР»Р»Р°РіРµРЅРѕС‚РµСЂР°РїРёСЏ вЂ” СЌС‚Рѕ РёРЅСЉРµРєС†РёРѕРЅРЅРѕРµ РІРІРµРґРµРЅРёРµ РїСЂРµРїР°СЂР°С‚РѕРІ РЅР°С‚РёРІРЅРѕРіРѕ РєРѕР»Р»Р°РіРµРЅР°, РєРѕС‚РѕСЂС‹Рµ РЅРµ РїСЂРѕСЃС‚Рѕ Р·Р°РїРѕР»РЅСЏСЋС‚ РґРµС„РёС†РёС‚, Р° <span className="font-medium text-[#60c2ff]">СЃС‚РёРјСѓР»РёСЂСѓСЋС‚ С„РёР±СЂРѕР±Р»Р°СЃС‚С‹</span> РІС‹СЂР°Р±Р°С‚С‹РІР°С‚СЊ СЃРѕР±СЃС‚РІРµРЅРЅС‹Р№ РєРѕР»Р»Р°РіРµРЅ. Р РµР·СѓР»СЊС‚Р°С‚ вЂ” РјРѕР»РѕРґР°СЏ, СѓРїСЂСѓРіР°СЏ, СЃРёСЏСЋС‰Р°СЏ РєРѕР¶Р°.
+                  Коллагенотерапия — это инъекционное введение препаратов нативного коллагена, которые не просто заполняют дефицит, а <span className="font-medium text-[#60c2ff]">стимулируют фибробласты</span> вырабатывать собственный коллаген. Результат — молодая, упругая, сияющая кожа.
                 </p>
               </div>
               <div className="bg-white/60 backdrop-blur-xl border border-white/80 rounded-[2.5rem] p-8 md:p-10 shadow-[0_1rem_2.5rem_-0.5rem_rgba(0,0,0,0.03)]">
                 <div className="flex flex-col gap-6">
                   {[
-                    { num: '80%', label: 'Р”РµСЂРјС‹ СЃРѕСЃС‚РѕРёС‚ РёР· РєРѕР»Р»Р°РіРµРЅР°' },
-                    { num: '1,5%', label: 'РўРµСЂСЏРµС‚СЃСЏ РєРѕР»Р»Р°РіРµРЅР° РµР¶РµРіРѕРґРЅРѕ РїРѕСЃР»Рµ 25' },
-                    { num: '3вЂ“4', label: 'РџСЂРѕС†РµРґСѓСЂС‹ вЂ” РїРѕР»РЅС‹Р№ РєСѓСЂСЃ РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ' },
-                    { num: '6+', label: 'РњРµСЃСЏС†РµРІ вЂ” СЃРѕС…СЂР°РЅРµРЅРёРµ СЂРµР·СѓР»СЊС‚Р°С‚Р°' },
+                    { num: '80%', label: 'Дермы состоит из коллагена' },
+                    { num: '1,5%', label: 'Теряется коллагена ежегодно после 25' },
+                    { num: '3–4', label: 'Процедуры — полный курс восстановления' },
+                    { num: '6+', label: 'Месяцев — сохранение результата' },
                   ].map((stat, i) => (
                     <div key={i} className="flex items-center gap-4 py-3 border-b border-slate-100 last:border-0">
                       <span className="text-2xl md:text-3xl font-light text-[#60c2ff] min-w-[100px]">{stat.num}</span>
@@ -160,9 +160,9 @@ export default function CollagenInjectionsClient() {
           {/* Indications */}
           <section className="mb-32 lg:mb-48 relative z-10">
             <div className="text-center mb-16 reveal-up opacity-0">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РџРѕРєР°Р·Р°РЅРёСЏ</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Показания</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                РљРѕРјСѓ РїРѕРґРѕР№РґС‘С‚ <span className="font-serif italic text-slate-400">РїСЂРѕС†РµРґСѓСЂР°</span>
+                Кому подойдёт <span className="font-serif italic text-slate-400">процедура</span>
               </h2>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 stagger-container">
@@ -182,9 +182,9 @@ export default function CollagenInjectionsClient() {
           {/* Advantages */}
           <section className="mb-32 lg:mb-48 relative z-10 max-w-6xl mx-auto">
             <div className="mb-16 reveal-up opacity-0 border-b border-slate-200/50 pb-8">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РџСЂРµРёРјСѓС‰РµСЃС‚РІР°</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Преимущества</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] max-w-4xl">
-                Р­С„С„РµРєС‚ <br /> <span className="font-serif italic text-slate-400">РєРѕР»Р»Р°РіРµРЅРѕС‚РµСЂР°РїРёРё</span>
+                Эффект <br /> <span className="font-serif italic text-slate-400">коллагенотерапии</span>
               </h2>
             </div>
             <div className="flex flex-col stagger-container">
@@ -195,9 +195,9 @@ export default function CollagenInjectionsClient() {
           {/* Steps */}
           <section className="mb-32 lg:mb-48 relative z-10 max-w-6xl mx-auto">
             <div className="mb-16 reveal-up opacity-0 border-b border-slate-200/50 pb-8">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Р­С‚Р°РїС‹</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Этапы</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] max-w-4xl">
-                РљР°Рє РїСЂРѕС…РѕРґРёС‚ <br /> <span className="font-serif italic text-slate-400">РїСЂРѕС†РµРґСѓСЂР°</span>
+                Как проходит <br /> <span className="font-serif italic text-slate-400">процедура</span>
               </h2>
             </div>
             <div className="flex flex-col stagger-container">
@@ -210,7 +210,7 @@ export default function CollagenInjectionsClient() {
             <div className="w-full bg-white/60 backdrop-blur-xl border border-white/80 rounded-[3rem] p-10 md:p-16 shadow-[0_2rem_4rem_-1rem_rgba(0,0,0,0.03)] reveal-up opacity-0">
               <div className="mb-12 border-b border-slate-100 pb-6">
                 <h2 className="text-[2.5rem] md:text-4xl font-light text-slate-900 tracking-tight">
-                  РЎС‚РѕРёРјРѕСЃС‚СЊ <span className="font-serif italic text-slate-400">СѓСЃР»СѓРі</span>
+                  Стоимость <span className="font-serif italic text-slate-400">услуг</span>
                 </h2>
               </div>
               <div className="flex flex-col divide-y divide-slate-100">
@@ -227,9 +227,9 @@ export default function CollagenInjectionsClient() {
           {/* FAQ */}
           <section className="mb-32 lg:mb-48 max-w-4xl mx-auto w-full relative z-10">
             <div className="text-center mb-16 reveal-up opacity-0">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Р’РѕРїСЂРѕСЃС‹</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Вопросы</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                Р§Р°СЃС‚С‹Рµ <span className="font-serif italic text-slate-400">РІРѕРїСЂРѕСЃС‹</span>
+                Частые <span className="font-serif italic text-slate-400">вопросы</span>
               </h2>
             </div>
             <div className="flex flex-col gap-4 stagger-container">
@@ -256,17 +256,17 @@ export default function CollagenInjectionsClient() {
               <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12 max-w-6xl mx-auto">
                 <div className="flex-1 text-center lg:text-left">
                   <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-white tracking-[-0.04em] leading-[1.0] mb-6">
-                    Р’РµСЂРЅРёС‚Рµ РєРѕР¶Рµ <br />
-                    <span className="font-serif italic text-slate-400">РјРѕР»РѕРґРѕСЃС‚СЊ</span>
+                    Верните коже <br />
+                    <span className="font-serif italic text-slate-400">молодость</span>
                   </h2>
                   <p className="text-slate-400 font-light text-lg mb-12 max-w-lg mx-auto lg:mx-0">
-                    Р—Р°РїРёС€РёС‚РµСЃСЊ РЅР° Р±РµСЃРїР»Р°С‚РЅСѓСЋ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЋ Рё СѓР·РЅР°Р№С‚Рµ, РєР°РєРѕР№ РїСЂРѕС‚РѕРєРѕР» РєРѕР»Р»Р°РіРµРЅРѕС‚РµСЂР°РїРёРё РїРѕРґРѕР№РґС‘С‚ РёРјРµРЅРЅРѕ Р’Р°С€РµР№ РєРѕР¶Рµ.
+                    Запишитесь на бесплатную консультацию и узнайте, какой протокол коллагенотерапии подойдёт именно Вашей коже.
                   </p>
                   <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-8">
                     <div className="relative inline-flex group">
                       <div className="absolute inset-0 bg-[#60c2ff] rounded-full blur-[25px] opacity-40 group-hover:opacity-70 transition-opacity duration-700"></div>
                       <button onClick={() => window.dispatchEvent(new Event('open-booking-modal'))} className="relative z-10 px-10 py-5 bg-[#60c2ff] text-white rounded-full font-medium shadow-[0_1rem_2rem_rgba(96,194,255,0.2)] transition-transform duration-500 hover:scale-105 focus:outline-none flex items-center gap-3">
-                        Р‘РµСЃРїР»Р°С‚РЅР°СЏ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЏ
+                        Бесплатная консультация
                         <Icon icon="solar:arrow-right-linear" className="text-xl" />
                       </button>
                     </div>

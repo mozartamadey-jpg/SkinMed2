@@ -36,49 +36,49 @@ export default function MoleRemovalClient() {
   }, []);
 
   const indications = [
-    { title: "Р РѕРґРёРЅРєРё РЅР° Р»РёС†Рµ", desc: "Р‘РµСЂРµР¶РЅРѕРµ СѓРґР°Р»РµРЅРёРµ РІ СЌСЃС‚РµС‚РёС‡РµСЃРєРё Р·РЅР°С‡РёРјС‹С… Р·РѕРЅР°С… Р±РµР· СЂСѓР±С†РѕРІ Рё СЃР»РµРґРѕРІ.", icon: "solar:eye-linear" },
-    { title: "Р’РёСЃСЏС‡РёРµ СЂРѕРґРёРЅРєРё", desc: "РћР±СЂР°Р·РѕРІР°РЅРёСЏ, РєРѕС‚РѕСЂС‹Рµ С†РµРїР»СЏСЋС‚СЃСЏ Р·Р° РѕРґРµР¶РґСѓ Рё РїРѕСЃС‚РѕСЏРЅРЅРѕ С‚СЂР°РІРјРёСЂСѓСЋС‚СЃСЏ.", icon: "solar:scissors-linear" },
-    { title: "РќРµРІСѓСЃС‹ РЅР° С‚РµР»Рµ", desc: "РЎРїРёРЅР°, С€РµСЏ, РіСЂСѓРґСЊ, Р¶РёРІРѕС‚ вЂ” Р»СЋР±Р°СЏ Р»РѕРєР°Р»РёР·Р°С†РёСЏ. РњСѓР¶С‡РёРЅР°Рј Рё Р¶РµРЅС‰РёРЅР°Рј.", icon: "solar:star-linear" },
-    { title: "Р”РµР»РёРєР°С‚РЅС‹Рµ Р·РѕРЅС‹", desc: "РРЅС‚РёРјРЅС‹Рµ Рё С‚СЂСѓРґРЅРѕРґРѕСЃС‚СѓРїРЅС‹Рµ РѕР±Р»Р°СЃС‚Рё вЂ” РјР°РєСЃРёРјР°Р»СЊРЅР°СЏ Р°РєРєСѓСЂР°С‚РЅРѕСЃС‚СЊ Рё РєРѕРЅС„РёРґРµРЅС†РёР°Р»СЊРЅРѕСЃС‚СЊ.", icon: "solar:shield-check-linear" },
-    { title: "Р Р°СЃС‚СѓС‰РёРµ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ", desc: "РЎСЂРѕС‡РЅРѕРµ СѓРґР°Р»РµРЅРёРµ РїСЂРё РёР·РјРµРЅРµРЅРёРё СЂР°Р·РјРµСЂР°, С„РѕСЂРјС‹, С†РІРµС‚Р° РёР»Рё РїРѕСЏРІР»РµРЅРёРё РґРёСЃРєРѕРјС„РѕСЂС‚Р°.", icon: "solar:danger-triangle-linear" },
-    { title: "РњРЅРѕР¶РµСЃС‚РІРµРЅРЅС‹Рµ СЂРѕРґРёРЅРєРё", desc: "Р”Рѕ 15 РЅРѕРІРѕРѕР±СЂР°Р·РѕРІР°РЅРёР№ Р·Р° РѕРґРёРЅ СЃРµР°РЅСЃ РїРѕРґ РѕРґРЅРѕР№ Р°РЅРµСЃС‚РµР·РёРµР№.", icon: "solar:copy-linear" },
+    { title: "Родинки на лице", desc: "Бережное удаление в эстетически значимых зонах без рубцов и следов.", icon: "solar:eye-linear" },
+    { title: "Висячие родинки", desc: "Образования, которые цепляются за одежду и постоянно травмируются.", icon: "solar:scissors-linear" },
+    { title: "Невусы на теле", desc: "Спина, шея, грудь, живот — любая локализация. Мужчинам и женщинам.", icon: "solar:star-linear" },
+    { title: "Деликатные зоны", desc: "Интимные и труднодоступные области — максимальная аккуратность и конфиденциальность.", icon: "solar:shield-check-linear" },
+    { title: "Растущие образования", desc: "Срочное удаление при изменении размера, формы, цвета или появлении дискомфорта.", icon: "solar:danger-triangle-linear" },
+    { title: "Множественные родинки", desc: "До 15 новообразований за один сеанс под одной анестезией.", icon: "solar:copy-linear" },
   ];
 
   const advantages = [
-    { title: "Р‘РµР· Р±РѕР»Рё", desc: "РџСЂРѕС†РµРґСѓСЂР° РїСЂРѕС…РѕРґРёС‚ РїРѕРґ РјРµСЃС‚РЅРѕР№ Р°РЅРµСЃС‚РµР·РёРµР№ вЂ” РІС‹ РЅРµ РїРѕС‡СѓРІСЃС‚РІСѓРµС‚Рµ РЅРёС‡РµРіРѕ, РєСЂРѕРјРµ Р»С‘РіРєРѕРіРѕ РїСЂРёРєРѕСЃРЅРѕРІРµРЅРёСЏ." },
-    { title: "Р‘РµР· РєСЂРѕРІРё Рё С€РІРѕРІ", desc: "Р›Р°Р·РµСЂ CO2 Bison РјРіРЅРѕРІРµРЅРЅРѕ Р·Р°РїР°РёРІР°РµС‚ СЃРѕСЃСѓРґС‹. РќРёРєР°РєРѕР№ РєСЂРѕРІРё, РЅРёРєР°РєРёС… РЅР°Р»РѕР¶РµРЅРЅС‹С… С€РІРѕРІ." },
-    { title: "Р®РІРµР»РёСЂРЅР°СЏ С‚РѕС‡РЅРѕСЃС‚СЊ", desc: "Р›Р°Р·РµСЂ РїРѕСЃР»РѕР№РЅРѕ РёСЃРїР°СЂСЏРµС‚ С‚РѕР»СЊРєРѕ РєР»РµС‚РєРё РЅРѕРІРѕРѕР±СЂР°Р·РѕРІР°РЅРёСЏ, РЅРµ Р·Р°С‚СЂР°РіРёРІР°СЏ Р·РґРѕСЂРѕРІСѓСЋ РєРѕР¶Сѓ РІРѕРєСЂСѓРі." },
-    { title: "Р‘С‹СЃС‚СЂРѕРµ Р·Р°Р¶РёРІР»РµРЅРёРµ", desc: "Р Р°РЅРєР° Р·Р°Р¶РёРІР°РµС‚ Р·Р° 7вЂ“10 РґРЅРµР№. РќР° Р»РёС†Рµ Рё РѕС‚РєСЂС‹С‚С‹С… Р·РѕРЅР°С… РѕР±С‹С‡РЅРѕ РЅРµ РѕСЃС‚Р°С‘С‚СЃСЏ СЃР»РµРґРѕРІ." },
-    { title: "Р’СЂР°С‡РµР±РЅС‹Р№ РєРѕРЅС‚СЂРѕР»СЊ", desc: "РљР°Р¶РґС‹Р№ СЃР»СѓС‡Р°Р№ РѕСЃРјР°С‚СЂРёРІР°РµС‚ РІСЂР°С‡-РґРµСЂРјР°С‚РѕР»РѕРі Рё РѕРЅРєРѕР»РѕРі. Р“РёСЃС‚РѕР»РѕРіРёСЏ вЂ” РїСЂРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё." },
+    { title: "Без боли", desc: "Процедура проходит под местной анестезией — вы не почувствуете ничего, кроме лёгкого прикосновения." },
+    { title: "Без крови и швов", desc: "Лазер CO2 Bison мгновенно запаивает сосуды. Никакой крови, никаких наложенных швов." },
+    { title: "Ювелирная точность", desc: "Лазер послойно испаряет только клетки новообразования, не затрагивая здоровую кожу вокруг." },
+    { title: "Быстрое заживление", desc: "Ранка заживает за 7–10 дней. На лице и открытых зонах обычно не остаётся следов." },
+    { title: "Врачебный контроль", desc: "Каждый случай осматривает врач-дерматолог и онколог. Гистология — при необходимости." },
   ];
 
   const steps = [
-    { title: "РљРѕРЅСЃСѓР»СЊС‚Р°С†РёСЏ", desc: "РћР±СЏР·Р°С‚РµР»СЊРЅС‹Р№ РѕСЃРјРѕС‚СЂ РґРµСЂРјР°С‚РѕР»РѕРіРѕРј-РѕРЅРєРѕР»РѕРіРѕРј. Р”РµСЂРјР°С‚РѕСЃРєРѕРїРёСЏ вЂ” РёСЃСЃР»РµРґРѕРІР°РЅРёРµ РїР»СЋСЃ РЅРѕРІРѕРѕР±СЂР°Р·РѕРІР°РЅРёСЏ РїРѕРґ СѓРІРµР»РёС‡РµРЅРёРµРј РґР»СЏ С‚РѕС‡РЅРѕР№ РґРёР°РіРЅРѕСЃС‚РёРєРё." },
-    { title: "РђРЅРµСЃС‚РµР·РёСЏ", desc: "РњРµСЃС‚РЅРѕРµ РѕР±РµР·Р±РѕР»РёРІР°РЅРёРµ вЂ” РѕРґРёРЅ СѓРєРѕР» РґРѕСЃС‚Р°С‚РѕС‡РµРЅ РґР»СЏ СѓРґР°Р»РµРЅРёСЏ РґРѕ 15 РѕР±СЂР°Р·РѕРІР°РЅРёР№. РљРѕРјС„РѕСЂС‚ РіР°СЂР°РЅС‚РёСЂРѕРІР°РЅ." },
-    { title: "РЈРґР°Р»РµРЅРёРµ Р»Р°Р·РµСЂРѕРј", desc: "РџСЂРѕС†РµРґСѓСЂР° Р·Р°РЅРёРјР°РµС‚ 15вЂ“30 РјРёРЅСѓС‚. Р›Р°Р·РµСЂ CO2 Bison РїРѕСЃР»РѕР№РЅРѕ РёСЃРїР°СЂСЏРµС‚ С‚РєР°РЅРё РЅРѕРІРѕРѕР±СЂР°Р·РѕРІР°РЅРёСЏ СЃ РјР°РєСЃРёРјР°Р»СЊРЅРѕР№ С‚РѕС‡РЅРѕСЃС‚СЊСЋ." },
-    { title: "Р РµРєРѕРјРµРЅРґР°С†РёРё", desc: "РљСЂР°С‚РєРёР№ РѕСЃРјРѕС‚СЂ, РѕР±СЂР°Р±РѕС‚РєР° Р°РЅС‚РёСЃРµРїС‚РёРєРѕРј Рё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ СЂРµРєРѕРјРµРЅРґР°С†РёРё РїРѕ СѓС…РѕРґСѓ Р·Р° РєРѕР¶РµР№." },
+    { title: "Консультация", desc: "Обязательный осмотр дерматологом-онкологом. Дерматоскопия — исследование плюс новообразования под увеличением для точной диагностики." },
+    { title: "Анестезия", desc: "Местное обезболивание — один укол достаточен для удаления до 15 образований. Комфорт гарантирован." },
+    { title: "Удаление лазером", desc: "Процедура занимает 15–30 минут. Лазер CO2 Bison послойно испаряет ткани новообразования с максимальной точностью." },
+    { title: "Рекомендации", desc: "Краткий осмотр, обработка антисептиком и персональные рекомендации по уходу за кожей." },
   ];
 
   const aftercare = [
-    { text: "РќРµ СЃРґРёСЂР°Р№С‚Рµ РєРѕСЂРѕС‡РєСѓ вЂ” РѕРЅР° РѕС‚РїР°РґС‘С‚ СЃР°РјР° Р·Р° 7вЂ“14 РґРЅРµР№", icon: "solar:hand-stars-linear" },
-    { text: "РР·Р±РµРіР°Р№С‚Рµ СЃРѕР»РЅС†Р° 4вЂ“6 РЅРµРґРµР»СЊ, РёСЃРїРѕР»СЊР·СѓР№С‚Рµ SPF 50+", icon: "solar:sun-2-linear" },
-    { text: "РќРµ РјРѕС‡РёС‚Рµ Р·РѕРЅСѓ СѓРґР°Р»РµРЅРёСЏ РїРµСЂРІС‹Рµ СЃСѓС‚РєРё", icon: "solar:waterdrop-linear" },
-    { text: "РСЃРєР»СЋС‡РёС‚Рµ Р±Р°РЅСЋ Рё Р±Р°СЃСЃРµР№РЅ РЅР° 7вЂ“10 РґРЅРµР№", icon: "solar:temperature-linear" },
-    { text: "РќРµ РЅР°РЅРѕСЃРёС‚Рµ РєРѕСЃРјРµС‚РёРєСѓ РґРѕ РїРѕР»РЅРѕРіРѕ РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ", icon: "solar:pallete-2-linear" },
-    { text: "РћР±СЂР°Р±Р°С‚С‹РІР°Р№С‚Рµ Р°РЅС‚РёСЃРµРїС‚РёРєРѕРј РїРѕ РЅР°Р·РЅР°С‡РµРЅРёСЋ РІСЂР°С‡Р°", icon: "solar:medical-kit-linear" },
+    { text: "Не сдирайте корочку — она отпадёт сама за 7–14 дней", icon: "solar:hand-stars-linear" },
+    { text: "Избегайте солнца 4–6 недель, используйте SPF 50+", icon: "solar:sun-2-linear" },
+    { text: "Не мочите зону удаления первые сутки", icon: "solar:waterdrop-linear" },
+    { text: "Исключите баню и бассейн на 7–10 дней", icon: "solar:temperature-linear" },
+    { text: "Не наносите косметику до полного восстановления", icon: "solar:pallete-2-linear" },
+    { text: "Обрабатывайте антисептиком по назначению врача", icon: "solar:medical-kit-linear" },
   ];
 
   const faq = [
-    { q: "РЈРґР°Р»СЏС‚СЊ СЂРѕРґРёРЅРєРё вЂ” СЌС‚Рѕ Р±РѕР»СЊРЅРѕ?", a: "РќРµС‚. РџСЂРѕС†РµРґСѓСЂР° РїСЂРѕС…РѕРґРёС‚ РїРѕРґ РјРµСЃС‚РЅРѕР№ Р°РЅРµСЃС‚РµР·РёРµР№. Р’С‹ РЅРµ РїРѕС‡СѓРІСЃС‚РІСѓРµС‚Рµ Р±РѕР»Рё вЂ” РјР°РєСЃРёРјСѓРј Р»С‘РіРєРёР№ РґРёСЃРєРѕРјС„РѕСЂС‚ РІ РјРѕРјРµРЅС‚ СѓРєРѕР»Р°. Р‘РѕР»СЊС€РёРЅСЃС‚РІРѕ РїР°С†РёРµРЅС‚РѕРІ СѓРґРёРІР»СЏСЋС‚СЃСЏ: В«РЇ Р·СЂСЏ Р±РѕСЏР»СЃСЏ вЂ” РІСЃС‘ РїСЂРѕС€Р»Рѕ Р»РµРіРєРѕ Рё Р±С‹СЃС‚СЂРѕВ»." },
-    { q: "РќСѓР¶РЅС‹ Р»Рё РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅС‹Рµ Р°РЅР°Р»РёР·С‹?", a: "РћР±С‹С‡РЅРѕ вЂ” РЅРµС‚. Р’СЂР°С‡ РїСЂРѕРІРѕРґРёС‚ РѕСЃРјРѕС‚СЂ Рё РґРµСЂРјР°С‚РѕСЃРєРѕРїРёСЋ РїСЂСЏРјРѕ РЅР° РїСЂРёС‘РјРµ, Рё РїСЂРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РЅР°РїСЂР°РІР»СЏРµС‚ С‚РєР°РЅСЊ РЅР° РіРёСЃС‚РѕР»РѕРіРёСЋ СѓР¶Рµ РїРѕСЃР»Рµ СѓРґР°Р»РµРЅРёСЏ." },
-    { q: "РЎРєРѕР»СЊРєРѕ СЃС‚РѕРёС‚ СѓРґР°Р»РµРЅРёРµ?", a: <>Р¦РµРЅР° Р·Р°РІРёСЃРёС‚ РѕС‚ РєРѕР»РёС‡РµСЃС‚РІР°, СЂР°Р·РјРµСЂР° Рё СЂР°СЃРїРѕР»РѕР¶РµРЅРёСЏ:<br />вЂў РќРµР±РѕР»СЊС€РёРµ СЂРѕРґРёРЅРєРё Рё РїР°РїРёР»Р»РѕРјС‹: <span className="font-medium text-[#60c2ff]">РѕС‚ 450 в‚Ѕ</span><br />вЂў Р РѕРґРёРЅРєРё СЃСЂРµРґРЅРµРіРѕ СЂР°Р·РјРµСЂР°: <span className="font-medium text-[#60c2ff]">РѕС‚ 500 в‚Ѕ</span><br />РўРѕС‡РЅСѓСЋ СЃС‚РѕРёРјРѕСЃС‚СЊ РІСЂР°С‡ СЂР°СЃСЃС‡РёС‚Р°РµС‚ РЅР° РєРѕРЅСЃСѓР»СЊС‚Р°С†РёРё.</> },
-    { q: "РљРѕРіРґР° Р»СѓС‡С€Рµ СѓРґР°Р»СЏС‚СЊ?", a: "РќРµ РѕС‚РєР»Р°РґС‹РІР°Р№С‚Рµ, РµСЃР»Рё СЂРѕРґРёРЅРєР° РЅР°С‡Р°Р»Р° РјРµРЅСЏС‚СЊСЃСЏ, Р±РѕР»РµС‚СЊ РёР»Рё С‚СЂР°РІРјРёСЂРѕРІР°С‚СЊСЃСЏ. РћРїС‚РёРјР°Р»СЊРЅРѕ вЂ” РґРѕ Р°РєС‚РёРІРЅРѕРіРѕ Р·Р°РіР°СЂР°, С‡С‚РѕР±С‹ СѓСЃРєРѕСЂРёС‚СЊ Р·Р°Р¶РёРІР»РµРЅРёРµ." },
+    { q: "Удалять родинки — это больно?", a: "Нет. Процедура проходит под местной анестезией. Вы не почувствуете боли — максимум лёгкий дискомфорт в момент укола. Большинство пациентов удивляются: «Я зря боялся — всё прошло легко и быстро»." },
+    { q: "Нужны ли предварительные анализы?", a: "Обычно — нет. Врач проводит осмотр и дерматоскопию прямо на приёме, и при необходимости направляет ткань на гистологию уже после удаления." },
+    { q: "Сколько стоит удаление?", a: <>Цена зависит от количества, размера и расположения:<br />• Небольшие родинки и папилломы: <span className="font-medium text-[#60c2ff]">от 450 ₽</span><br />• Родинки среднего размера: <span className="font-medium text-[#60c2ff]">от 500 ₽</span><br />Точную стоимость врач рассчитает на консультации.</> },
+    { q: "Когда лучше удалять?", a: "Не откладывайте, если родинка начала меняться, болеть или травмироваться. Оптимально — до активного загара, чтобы ускорить заживление." },
   ];
 
     const doctors = [
-     { name: "Специалист SkinMed", role: "Р“Р»Р°РІРЅС‹Р№ РІСЂР°С‡, РєРѕСЃРјРµС‚РѕР»РѕРі, РґРµСЂРјР°С‚РѕРІРµРЅРµСЂРѕР»РѕРі", exp: "РћРїС‹С‚ 15 Р»РµС‚", img: "/images/doctors/kachyurina.jpg" },
-     { name: "Специалист SkinMed", role: "Р’СЂР°С‡-РєРѕСЃРјРµС‚РѕР»РѕРі, РґРµСЂРјР°С‚РѕР»РѕРі", exp: "РћРїС‹С‚ 10 Р»РµС‚", img: "/images/doctors/muhametzanova.jpg" },
-     { name: "Специалист SkinMed", role: "Р’СЂР°С‡-РґРµСЂРјР°С‚РѕР»РѕРі, С‚СЂРёС…РѕР»РѕРі, РєРѕСЃРјРµС‚РѕР»РѕРі", exp: "РћРїС‹С‚ 12 Р»РµС‚", img: "/images/doctors/vorobyova.jpg" },
+     { name: "Специалист SkinMed", role: "Главный врач, косметолог, дерматовенеролог", exp: "Опыт 15 лет", img: "/images/doctors/kachyurina.jpg" },
+     { name: "Специалист SkinMed", role: "Врач-косметолог, дерматолог", exp: "Опыт 10 лет", img: "/images/doctors/muhametzanova.jpg" },
+     { name: "Специалист SkinMed", role: "Врач-дерматолог, трихолог, косметолог", exp: "Опыт 12 лет", img: "/images/doctors/vorobyova.jpg" },
   ];
 
   return (
@@ -101,11 +101,11 @@ export default function MoleRemovalClient() {
           {/* Breadcrumbs */}
           <section className="mb-6 md:mb-10 reveal-up opacity-0">
             <div className="flex flex-wrap items-center gap-2 text-xs md:text-sm text-slate-500">
-              <a href="/" className="hover:text-[#60c2ff] transition-colors duration-300">Р“Р»Р°РІРЅР°СЏ</a>
+              <a href="/" className="hover:text-[#60c2ff] transition-colors duration-300">Главная</a>
               <Icon icon="mdi:chevron-right" className="text-slate-400" />
-              <a href="/services/lazernaya-kosmetologiya" className="hover:text-[#60c2ff] transition-colors duration-300">Р›Р°Р·РµСЂРЅР°СЏ РєРѕСЃРјРµС‚РѕР»РѕРіРёСЏ</a>
+              <a href="/services/lazernaya-kosmetologiya" className="hover:text-[#60c2ff] transition-colors duration-300">Лазерная косметология</a>
               <Icon icon="mdi:chevron-right" className="text-slate-400" />
-              <span className="text-slate-700 font-medium">РЈРґР°Р»РµРЅРёРµ СЂРѕРґРёРЅРѕРє</span>
+              <span className="text-slate-700 font-medium">Удаление родинок</span>
             </div>
           </section>
 
@@ -115,7 +115,7 @@ export default function MoleRemovalClient() {
               <div className="absolute inset-0 z-0">
                 <img 
                   src="/images/mole-removal-hero.png"
-                  alt="РЈРґР°Р»РµРЅРёРµ СЂРѕРґРёРЅРѕРє Р»Р°Р·РµСЂРѕРј"
+                  alt="Удаление родинок лазером"
                   className="w-full h-full object-cover object-right md:object-center opacity-[0.35] md:opacity-60 mix-blend-overlay scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#050B14] via-[#050B14]/80 to-[#050B14]/60 md:bg-gradient-to-r md:from-[#050B14] md:via-[#050B14]/70 md:to-transparent"></div>
@@ -125,20 +125,20 @@ export default function MoleRemovalClient() {
               <div className="relative z-20 px-8 py-12 sm:px-12 md:px-16 w-full max-w-4xl">
                 <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-[#60c2ff]/10 backdrop-blur-md border border-[#60c2ff]/20 text-white text-sm font-medium tracking-wide mb-6">
                   <span className="w-2 h-2 rounded-full bg-[#fbbf24] animate-pulse"></span>
-                  РљРѕРЅСЃСѓР»СЊС‚Р°С†РёСЏ РѕРЅРєРѕР»РѕРіР° вЂ” РІ РїРѕРґР°СЂРѕРє
+                  Консультация онколога — в подарок
                 </div>
                 
                 <h1 className="text-4xl md:text-6xl lg:text-[6rem] font-light tracking-[-0.04em] leading-[1.0] text-white mb-6 uppercase drop-shadow-2xl">
-                  РЈРґР°Р»РµРЅРёРµ <br />
-                  <span className="font-serif italic text-[#60c2ff]/80">СЂРѕРґРёРЅРѕРє</span> Р»Р°Р·РµСЂРѕРј
+                  Удаление <br />
+                  <span className="font-serif italic text-[#60c2ff]/80">родинок</span> лазером
                 </h1>
                 
                 <p className="text-lg md:text-xl font-light text-slate-300 mb-8 max-w-2xl leading-relaxed">
-                  Р‘РµР·РѕРїР°СЃРЅРѕ, Р±РµСЃРєСЂРѕРІРЅРѕ Рё Р±РµР·Р±РѕР»РµР·РЅРµРЅРЅРѕ. РџРѕРґ РєРѕРЅС‚СЂРѕР»РµРј РІСЂР°С‡Р°-РґРµСЂРјР°С‚РѕР»РѕРіР° Рё РѕРЅРєРѕР»РѕРіР° СЃ РїСЂРёРјРµРЅРµРЅРёРµРј Р»Р°Р·РµСЂР° <span className="font-medium text-[#60c2ff]">CO2 Bison</span> РїРѕСЃР»РµРґРЅРµРіРѕ РїРѕРєРѕР»РµРЅРёСЏ.
+                  Безопасно, бескровно и безболезненно. Под контролем врача-дерматолога и онколога с применением лазера <span className="font-medium text-[#60c2ff]">CO2 Bison</span> последнего поколения.
                 </p>
 
                 <div className="flex flex-wrap gap-4 mb-10">
-                  {["Р‘РµР· Р±РѕР»Рё Рё РєСЂРѕРІРё", "Р‘РµР· С€РІРѕРІ", "Р‘РµР· РіРѕСЃРїРёС‚Р°Р»РёР·Р°С†РёРё"].map((tag, i) => (
+                  {["Без боли и крови", "Без швов", "Без госпитализации"].map((tag, i) => (
                     <div key={i} className="flex items-center gap-2 px-4 py-2 bg-white/5 backdrop-blur-md rounded-full border border-white/10 text-white/80 text-sm font-light">
                       <Icon icon="solar:check-circle-bold" className="text-[#60c2ff]" />
                       {tag}
@@ -153,7 +153,7 @@ export default function MoleRemovalClient() {
                       onClick={() => typeof window !== 'undefined' && window.dispatchEvent(new Event('open-booking-modal'))}
                       className="relative z-10 px-8 flex items-center justify-center py-5 bg-[#60c2ff] text-white rounded-full font-medium transition-transform duration-500 hover:scale-105 shadow-xl gap-2 min-w-[240px]"
                     >
-                      Р—Р°РїРёСЃР°С‚СЊСЃСЏ РЅР° СѓРґР°Р»РµРЅРёРµ
+                      Записаться на удаление
                       <Icon icon="solar:arrow-right-linear" className="text-xl" />
                     </button>
                   </div>
@@ -165,23 +165,23 @@ export default function MoleRemovalClient() {
           {/* Pain Points / Empathy */}
           <section className="mb-32 lg:mb-48 max-w-4xl mx-auto reveal-up opacity-0">
             <div className="text-center mb-10">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Рћ РїСЂРѕР±Р»РµРјРµ</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— О проблеме</span>
               <h2 className="text-[2.5rem] sm:text-4xl lg:text-5xl font-light text-slate-900 tracking-[-0.04em] leading-[1.1]">
-                РҐРѕС‚РёС‚Рµ СѓРґР°Р»РёС‚СЊ, <span className="font-serif italic text-slate-400">РЅРѕ РѕС‚РєР»Р°РґС‹РІР°РµС‚Рµ?</span>
+                Хотите удалить, <span className="font-serif italic text-slate-400">но откладываете?</span>
               </h2>
             </div>
             <div className="bg-white/60 backdrop-blur-xl border border-white/80 rounded-[3rem] p-8 md:p-12 shadow-sm">
               <p className="text-lg md:text-xl text-slate-700 font-light leading-relaxed mb-6">
-                Р РѕРґРёРЅРєРё Рё РЅРµРІСѓСЃС‹ вЂ” РјС‹ Рє РЅРёРј РїСЂРёРІС‹РєР°РµРј, РїРѕРєР° РѕРЅРё РЅРµ РЅР°С‡РёРЅР°СЋС‚ РјРµС€Р°С‚СЊ. Р—РЅР°РєРѕРјРѕ?
+                Родинки и невусы — мы к ним привыкаем, пока они не начинают мешать. Знакомо?
               </p>
               <div className="grid sm:grid-cols-2 gap-4">
                 {[
-                  "Р—Р°РґРµРІР°СЋС‚СЃСЏ РїСЂРё СЃС‚СЂРёР¶РєРµ Сѓ РїР°СЂРёРєРјР°С…РµСЂР°",
-                  "Р¦РµРїР»СЏСЋС‚СЃСЏ Р·Р° РѕРґРµР¶РґСѓ Рё Р±РµР»СЊС‘",
-                  "Р’РѕСЃРїР°Р»СЏСЋС‚СЃСЏ РїРѕСЃР»Рµ СЃР°СѓРЅС‹ РёР»Рё Р·Р°РіР°СЂР°",
-                  "РќР°С‡РёРЅР°СЋС‚ С‡РµСЃР°С‚СЊСЃСЏ, Р±РѕР»РµС‚СЊ РёР»Рё СЂР°СЃС‚Рё",
-                  "РњРµС€Р°СЋС‚ РїСЃРёС…РѕР»РѕРіРёС‡РµСЃРєРё РЅР° Р»РёС†Рµ Рё С€РµРµ",
-                  "В«Рђ РІРґСЂСѓРі Р±РѕР»СЊРЅРѕ? Рђ РІРґСЂСѓРі РЅРµР»СЊР·СЏ?В»"
+                  "Задеваются при стрижке у парикмахера",
+                  "Цепляются за одежду и бельё",
+                  "Воспаляются после сауны или загара",
+                  "Начинают чесаться, болеть или расти",
+                  "Мешают психологически на лице и шее",
+                  "«А вдруг больно? А вдруг нельзя?»"
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-3 p-3">
                     <Icon icon="solar:check-read-linear" className="text-[#60c2ff] text-xl mt-0.5 shrink-0" />
@@ -190,7 +190,7 @@ export default function MoleRemovalClient() {
                 ))}
               </div>
               <p className="text-base md:text-lg text-slate-500 font-light mt-6 border-l-2 border-[#60c2ff]/30 pl-4 italic">
-                Р’С‹ РЅРµ РѕРґРёРЅРѕРєРё: РїРѕС‡С‚Рё РєР°Р¶РґС‹Р№ РїР°С†РёРµРЅС‚ РїСЂРёС…РѕРґРёС‚ СЃ С‚Р°РєРёРјРё РІРѕРїСЂРѕСЃР°РјРё. Р’ РЅР°С€РµР№ РєР»РёРЅРёРєРµ СѓРґР°Р»РµРЅРёРµ РїСЂРѕРІРѕРґСЏС‚ РІСЂР°С‡Рё-СЌРєСЃРїРµСЂС‚С‹ вЂ” Р±РµР·Р±РѕР»РµР·РЅРµРЅРЅРѕ, Р±РµСЃРєСЂРѕРІРЅРѕ Рё СЃ РјР°РєСЃРёРјР°Р»СЊРЅС‹Рј РІРЅРёРјР°РЅРёРµРј Рє РІР°С€РµРјСѓ РєРѕРјС„РѕСЂС‚Сѓ.
+                Вы не одиноки: почти каждый пациент приходит с такими вопросами. В нашей клинике удаление проводят врачи-эксперты — безболезненно, бескровно и с максимальным вниманием к вашему комфорту.
               </p>
             </div>
           </section>
@@ -198,9 +198,9 @@ export default function MoleRemovalClient() {
           {/* Indications */}
           <section className="mb-32 lg:mb-48 relative z-10">
             <div className="text-center mb-16 reveal-up opacity-0">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РџРѕРєР°Р·Р°РЅРёСЏ</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Показания</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                РљРѕРјСѓ РїРѕРґРѕР№РґС‘С‚ <span className="font-serif italic text-slate-400">РїСЂРѕС†РµРґСѓСЂР°</span>
+                Кому подойдёт <span className="font-serif italic text-slate-400">процедура</span>
               </h2>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 stagger-container">
@@ -222,11 +222,11 @@ export default function MoleRemovalClient() {
           {/* Cases / Before-After */}
           <section className="mb-32 lg:mb-48 relative z-10 reveal-up opacity-0 max-w-6xl mx-auto">
             <div className="mb-16 text-center">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Р РµР·СѓР»СЊС‚Р°С‚С‹</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Результаты</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                Р Р°Р±РѕС‚С‹ РЅР°С€РёС… <span className="font-serif italic text-slate-400">СЃРїРµС†РёР°Р»РёСЃС‚РѕРІ</span>
+                Работы наших <span className="font-serif italic text-slate-400">специалистов</span>
               </h2>
-              <p className="text-lg text-slate-500 font-light">РЈРґР°Р»РµРЅРёРµ РЅРµРІСѓСЃР° РЅР°Рґ РіР»Р°Р·РѕРј вЂ” РІСЂР°С‡ РґРµСЂРјР°С‚РѕР»РѕРі Р‘Р°РіР°СѓС‚РґРёРЅРѕРІ Рђ.Р¤.</p>
+              <p className="text-lg text-slate-500 font-light">Удаление невуса над глазом — врач дерматолог Багаутдинов А.Ф.</p>
             </div>
             
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
@@ -237,11 +237,11 @@ export default function MoleRemovalClient() {
                 "https://optim.tildacdn.com/tild3732-3765-4030-a135-656535623065/-/cover/351x351/center/center/-/format/webp/-2.jpg.webp"
               ].map((img, i) => (
                 <div key={i} className="relative rounded-[2rem] overflow-hidden shadow-md group aspect-square">
-                  <img src={img} alt={`Р РµР·СѓР»СЊС‚Р°С‚ ${i + 1}`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1s]" />
+                  <img src={img} alt={`Результат ${i + 1}`} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1s]" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                   <div className="absolute top-4 left-4">
                     <span className="bg-white/80 backdrop-blur text-xs px-3 py-1 rounded-full font-medium text-slate-700">
-                      {i < 2 ? 'Р”Рѕ' : 'РџРѕСЃР»Рµ'}
+                      {i < 2 ? 'До' : 'После'}
                     </span>
                   </div>
                 </div>
@@ -252,9 +252,9 @@ export default function MoleRemovalClient() {
           {/* Advantages */}
           <section className="mb-32 lg:mb-48 relative z-10 max-w-6xl mx-auto">
             <div className="mb-16 reveal-up opacity-0 border-b border-slate-200/50 pb-8">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РџСЂРµРёРјСѓС‰РµСЃС‚РІР°</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Преимущества</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] max-w-4xl">
-                РџРѕС‡РµРјСѓ Р»Р°Р·РµСЂРЅРѕРµ <br /> <span className="font-serif italic text-slate-400">СѓРґР°Р»РµРЅРёРµ</span>
+                Почему лазерное <br /> <span className="font-serif italic text-slate-400">удаление</span>
               </h2>
             </div>
 
@@ -266,9 +266,9 @@ export default function MoleRemovalClient() {
           {/* Process Steps */}
           <section className="mb-32 lg:mb-48 relative z-10 max-w-5xl mx-auto reveal-up opacity-0">
             <div className="text-center mb-16">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Р­С‚Р°РїС‹</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Этапы</span>
               <h2 className="text-[2.5rem] sm:text-4xl lg:text-5xl font-light text-slate-900 tracking-[-0.04em] leading-[1.0]">
-                РљР°Рє РїСЂРѕС…РѕРґРёС‚ <span className="font-serif italic text-slate-400">СѓРґР°Р»РµРЅРёРµ</span>
+                Как проходит <span className="font-serif italic text-slate-400">удаление</span>
               </h2>
             </div>
             <div className="grid sm:grid-cols-2 gap-6">
@@ -279,11 +279,11 @@ export default function MoleRemovalClient() {
           {/* Aftercare */}
           <section className="mb-32 lg:mb-48 max-w-5xl mx-auto reveal-up opacity-0">
             <div className="text-center mb-12">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РџРѕСЃР»Рµ РїСЂРѕС†РµРґСѓСЂС‹</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— После процедуры</span>
               <h2 className="text-[2.5rem] sm:text-4xl lg:text-5xl font-light text-slate-900 tracking-[-0.04em] leading-[1.0]">
-                Р РµРєРѕРјРµРЅРґР°С†РёРё РїРѕ <span className="font-serif italic text-slate-400">СѓС…РѕРґСѓ</span>
+                Рекомендации по <span className="font-serif italic text-slate-400">уходу</span>
               </h2>
-              <p className="text-lg text-slate-500 font-light mt-4 max-w-2xl mx-auto">РЎРѕР±Р»СЋРґР°Р№С‚Рµ РїСЂРѕСЃС‚С‹Рµ РїСЂР°РІРёР»Р° вЂ” Рё РєРѕР¶Р° РІРѕСЃСЃС‚Р°РЅРѕРІРёС‚СЃСЏ Р±С‹СЃС‚СЂРѕ, Р° СЂРµР·СѓР»СЊС‚Р°С‚ Р±СѓРґРµС‚ Р°РєРєСѓСЂР°С‚РЅС‹Рј Рё Р±РµР· РѕСЃР»РѕР¶РЅРµРЅРёР№.</p>
+              <p className="text-lg text-slate-500 font-light mt-4 max-w-2xl mx-auto">Соблюдайте простые правила — и кожа восстановится быстро, а результат будет аккуратным и без осложнений.</p>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {aftercare.map((item, i) => (
@@ -300,9 +300,9 @@ export default function MoleRemovalClient() {
           {/* Doctors */}
           <section className="mb-32 lg:mb-48 relative z-10 max-w-6xl mx-auto reveal-up opacity-0">
             <div className="text-center mb-16">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РќР°С€Рё РІСЂР°С‡Рё</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Наши врачи</span>
               <h2 className="text-[2.5rem] sm:text-4xl lg:text-5xl font-light text-slate-900 tracking-[-0.04em] leading-[1.0]">
-                Р­РєСЃРїРµСЂС‚С‹ РїРѕ <span className="font-serif italic text-slate-400">СѓРґР°Р»РµРЅРёСЋ</span>
+                Эксперты по <span className="font-serif italic text-slate-400">удалению</span>
               </h2>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -327,9 +327,9 @@ export default function MoleRemovalClient() {
           {/* FAQ Section */}
           <section className="mb-32 lg:mb-48 max-w-4xl mx-auto w-full reveal-up opacity-0">
             <div className="text-center mb-16">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Р’РѕРїСЂРѕСЃС‹ Рё РѕС‚РІРµС‚С‹</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Вопросы и ответы</span>
               <h2 className="text-[2.5rem] sm:text-4xl lg:text-5xl font-light text-slate-900 tracking-[-0.04em] leading-[1.0]">
-                Р§Р°СЃС‚С‹Рµ <span className="font-serif italic text-slate-400">РІРѕРїСЂРѕСЃС‹</span>
+                Частые <span className="font-serif italic text-slate-400">вопросы</span>
               </h2>
             </div>
             
@@ -358,17 +358,17 @@ export default function MoleRemovalClient() {
           {/* Contraindications */}
           <section className="mb-32 lg:mb-48 relative z-10 max-w-5xl mx-auto reveal-up opacity-0">
             <div className="text-center mb-12">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РћРіСЂР°РЅРёС‡РµРЅРёСЏ</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Ограничения</span>
               <h2 className="text-[2.5rem] sm:text-4xl lg:text-5xl font-light text-slate-900 tracking-[-0.04em] leading-[1.0]">
-                РџСЂРѕС‚РёРІРѕ<span className="font-serif italic text-slate-400">РїРѕРєР°Р·Р°РЅРёСЏ</span>
+                Противо<span className="font-serif italic text-slate-400">показания</span>
               </h2>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
-                { title: "Р’РѕСЃРїР°Р»РµРЅРёСЏ РІ Р·РѕРЅРµ СѓРґР°Р»РµРЅРёСЏ", icon: "solar:fire-bold-duotone" },
-                { title: "Р“РµСЂРїРµСЃ, РїСЃРѕСЂРёР°Р·, СЌРєР·РµРјР°", icon: "solar:shield-warning-bold-duotone" },
-                { title: "Р‘РµСЂРµРјРµРЅРЅРѕСЃС‚СЊ Рё Р»Р°РєС‚Р°С†РёСЏ", icon: "solar:heart-bold-duotone" },
-                { title: "РћРЅРєРѕР»РѕРіРёС‡РµСЃРєРёРµ Р·Р°Р±РѕР»РµРІР°РЅРёСЏ", icon: "solar:danger-triangle-bold-duotone" },
+                { title: "Воспаления в зоне удаления", icon: "solar:fire-bold-duotone" },
+                { title: "Герпес, псориаз, экзема", icon: "solar:shield-warning-bold-duotone" },
+                { title: "Беременность и лактация", icon: "solar:heart-bold-duotone" },
+                { title: "Онкологические заболевания", icon: "solar:danger-triangle-bold-duotone" },
               ].map((item, i) => (
                 <div key={i} className="flex flex-col items-center text-center gap-4 bg-white/60 backdrop-blur-md rounded-2xl p-6 border border-white/80 shadow-sm">
                   <div className="w-12 h-12 rounded-xl bg-red-50 flex items-center justify-center">
@@ -390,11 +390,11 @@ export default function MoleRemovalClient() {
               <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12 max-w-6xl mx-auto">
                 <div className="flex-1 text-center lg:text-left">
                   <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-white tracking-[-0.04em] leading-[1.0] mb-6">
-                    РЈРґР°Р»РёС‚Рµ СЂРѕРґРёРЅРєРё <br />
-                    <span className="font-serif italic text-slate-400">Р±РµР·РѕРїР°СЃРЅРѕ</span>
+                    Удалите родинки <br />
+                    <span className="font-serif italic text-slate-400">безопасно</span>
                   </h2>
                   <p className="text-slate-400 font-light text-lg mb-12 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-                    Р—Р°РїРёС€РёС‚РµСЃСЊ РЅР° РїСЂРёС‘Рј Рё РїРѕР»СѓС‡РёС‚Рµ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЋ РІСЂР°С‡Р°-РґРµСЂРјР°С‚РѕР»РѕРіР° Рё РѕРЅРєРѕР»РѕРіР° РІ РїРѕРґР°СЂРѕРє. Р›Р°Р·РµСЂ <span className="font-medium text-white">CO2 Bison</span> вЂ” СЃРѕРІСЂРµРјРµРЅРЅРѕРµ, Р±РµР·РѕРїР°СЃРЅРѕРµ РѕР±РѕСЂСѓРґРѕРІР°РЅРёРµ.
+                    Запишитесь на приём и получите консультацию врача-дерматолога и онколога в подарок. Лазер <span className="font-medium text-white">CO2 Bison</span> — современное, безопасное оборудование.
                   </p>
                   
                   <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-8">
@@ -404,7 +404,7 @@ export default function MoleRemovalClient() {
                         onClick={() => typeof window !== 'undefined' && window.dispatchEvent(new Event('open-booking-modal'))}
                         className="relative z-10 w-full sm:w-auto px-10 py-5 bg-[#60c2ff] text-white rounded-full font-medium shadow-[0_1rem_2rem_rgba(96,194,255,0.2)] transition-transform duration-500 hover:scale-105 focus:outline-none flex items-center justify-center gap-3"
                       >
-                        Р—Р°РїРёСЃР°С‚СЊСЃСЏ РЅР° СѓРґР°Р»РµРЅРёРµ
+                        Записаться на удаление
                         <Icon icon="solar:arrow-right-linear" className="text-xl" />
                       </button>
                     </div>

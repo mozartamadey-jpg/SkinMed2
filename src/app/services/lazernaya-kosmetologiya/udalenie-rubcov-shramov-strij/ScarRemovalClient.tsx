@@ -37,61 +37,61 @@ export default function ScarRemovalClient() {
   }, []);
 
   // в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
-  //  DATA вЂ” rewritten premium content
+  // DATA: rewritten premium content
   // в•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђв•ђ
 
   const cases = [
-    { before: "https://static.tildacdn.com/tild3033-6565-4362-b066-373365386134/-5.jpg", after: "https://optim.tildacdn.com/tild6333-6363-4131-a337-636138393730/-/cover/351x351/center/center/-/format/webp/-7.jpg.webp", descBefore: "Р–РµРЅС‰РёРЅР°, 33 РіРѕРґР°. Р СѓР±С†С‹ РїРѕСЃС‚Р°РєРЅРµ РЅР° Р»РёС†Рµ", descAfter: "Р—РґРѕСЂРѕРІС‹Р№ С†РІРµС‚ РєРѕР¶Рё Рё СЂРѕРІРЅС‹Р№ СЂРµР»СЊРµС„ РїРѕСЃР»Рµ 1 РїСЂРѕС†РµРґСѓСЂС‹" },
-    { before: "https://optim.tildacdn.com/tild3063-3238-4961-b430-633064303934/-/cover/351x351/center/center/-/format/webp/-4.jpg.webp", after: "https://optim.tildacdn.com/tild3766-3164-4164-a363-313131376262/-/cover/351x351/center/center/-/format/webp/-3.jpg.webp", descBefore: "Р–РµРЅС‰РёРЅР°, 36 Р»РµС‚. Р“Р»СѓР±РѕРєРёРµ СЂСѓР±С†С‹ РЅР° Р»РёС†Рµ", descAfter: "РЈР»СѓС‡С€РµРЅРёРµ С‚РµРєСЃС‚СѓСЂС‹ Рё С‚РѕРЅР° РїРѕСЃР»Рµ 4 РїСЂРѕС†РµРґСѓСЂ" },
-    { before: "https://optim.tildacdn.com/tild3737-6664-4135-b562-386531353233/-/cover/351x351/center/center/-/format/webp/-2.jpg.webp", after: "https://optim.tildacdn.com/tild3664-6266-4165-b436-336234626263/-/cover/351x351/center/center/-/format/webp/-1.jpg.webp", descBefore: "Р”РµРІСѓС€РєР°, 28 Р»РµС‚. Р СѓР±С†С‹ РїРѕСЃС‚Р°РєРЅРµ", descAfter: "Р“Р»Р°РґРєР°СЏ РєРѕР¶Р° Рё СЂРѕРІРЅС‹Р№ СЂРµР»СЊРµС„ РїРѕСЃР»Рµ 2 РїСЂРѕС†РµРґСѓСЂ" },
+    { before: "https://static.tildacdn.com/tild3033-6565-4362-b066-373365386134/-5.jpg", after: "https://optim.tildacdn.com/tild6333-6363-4131-a337-636138393730/-/cover/351x351/center/center/-/format/webp/-7.jpg.webp", descBefore: "Женщина, 33 года. Рубцы постакне на лице", descAfter: "Здоровый цвет кожи и ровный рельеф после 1 процедуры" },
+    { before: "https://optim.tildacdn.com/tild3063-3238-4961-b430-633064303934/-/cover/351x351/center/center/-/format/webp/-4.jpg.webp", after: "https://optim.tildacdn.com/tild3766-3164-4164-a363-313131376262/-/cover/351x351/center/center/-/format/webp/-3.jpg.webp", descBefore: "Женщина, 36 лет. Глубокие рубцы на лице", descAfter: "Улучшение текстуры и тона после 4 процедур" },
+    { before: "https://optim.tildacdn.com/tild3737-6664-4135-b562-386531353233/-/cover/351x351/center/center/-/format/webp/-2.jpg.webp", after: "https://optim.tildacdn.com/tild3664-6266-4165-b436-336234626263/-/cover/351x351/center/center/-/format/webp/-1.jpg.webp", descBefore: "Девушка, 28 лет. Рубцы постакне", descAfter: "Гладкая кожа и ровный рельеф после 2 процедур" },
   ];
 
   const advantages = [
-    { title: "Р РµР·СѓР»СЊС‚Р°С‚ Р·Р° 1 СЃРµР°РЅСЃ", desc: "Р’РёРґРёРјРѕРµ СѓР»СѓС‡С€РµРЅРёРµ СЂРµР»СЊРµС„Р° РєРѕР¶Рё Рё СѓРјРµРЅСЊС€РµРЅРёРµ РіР»СѓР±РёРЅС‹ СЂСѓР±С†РѕРІРѕР№ С‚РєР°РЅРё СѓР¶Рµ РїРѕСЃР»Рµ РїРµСЂРІРѕР№ РїСЂРѕС†РµРґСѓСЂС‹." },
-    { title: "Р‘РµР· Р±РѕР»Рё", desc: "РџРёРєРѕСЃРµРєСѓРЅРґРЅС‹Р№ В«С…РѕР»РѕРґРЅС‹Р№В» Р»Р°Р·РµСЂ PicoCare РЅРµ РїРµСЂРµРіСЂРµРІР°РµС‚ С‚РєР°РЅРё вЂ” РїСЂРѕС†РµРґСѓСЂР° РїСЂРѕС…РѕРґРёС‚ РєРѕРјС„РѕСЂС‚РЅРѕ, Р±РµР· Р°РЅРµСЃС‚РµР·РёРё." },
-    { title: "РњРёРЅРёРјСѓРј РїСЂРѕС†РµРґСѓСЂ", desc: "Р­РЅРµСЂРіРёСЏ РёРјРїСѓР»СЊСЃР° PicoCare РІ 3 СЂР°Р·Р° РІС‹С€Рµ Р°РЅР°Р»РѕРіРѕРІ, С‡С‚Рѕ СЃРѕРєСЂР°С‰Р°РµС‚ РєСѓСЂСЃ Р»РµС‡РµРЅРёСЏ РґРѕ 1вЂ“3 РїСЂРѕС†РµРґСѓСЂ." },
-    { title: "РљРѕРјРїР»РµРєСЃРЅС‹Р№ РїРѕРґС…РѕРґ", desc: "РЎРѕС‡РµС‚Р°РЅРёРµ РґРІСѓС… Р»Р°Р·РµСЂРѕРІ вЂ” PicoCare Рё CO2 Bison вЂ” РїРѕР·РІРѕР»СЏРµС‚ СЂР°Р±РѕС‚Р°С‚СЊ СЃ Р»СЋР±С‹РјРё С‚РёРїР°РјРё СЂСѓР±С†РѕРІ, РІРєР»СЋС‡Р°СЏ РіРёРїРµСЂС‚СЂРѕС„РёС‡РµСЃРєРёРµ." },
-    { title: "РќР°СѓС‡РЅР°СЏ РѕСЃРЅРѕРІР°", desc: "Р›РµС‡РµРЅРёРµ РїСЂРѕРІРѕРґРёС‚СЃСЏ РїРѕ РїСЂРѕС‚РѕРєРѕР»Р°Рј СЃ РґРѕРєР°Р·Р°РЅРЅРѕР№ СЌС„С„РµРєС‚РёРІРЅРѕСЃС‚СЊСЋ. Р’СЃРµ РїСЂРѕС†РµРґСѓСЂС‹ РІС‹РїРѕР»РЅСЏРµС‚ РІСЂР°С‡-РґРµСЂРјР°С‚РѕР»РѕРі СЃ РїСЂРѕС„РёР»СЊРЅС‹Рј РѕРїС‹С‚РѕРј РѕС‚ 3 Р»РµС‚." },
+    { title: "Результат за 1 сеанс", desc: "Видимое улучшение рельефа кожи и уменьшение глубины рубцовой ткани уже после первой процедуры." },
+    { title: "Без боли", desc: "Пикосекундный «холодный» лазер PicoCare не перегревает ткани — процедура проходит комфортно, без анестезии." },
+    { title: "Минимум процедур", desc: "Энергия импульса PicoCare в 3 раза выше аналогов, что сокращает курс лечения до 1–3 процедур." },
+    { title: "Комплексный подход", desc: "Сочетание двух лазеров — PicoCare и CO2 Bison — позволяет работать с любыми типами рубцов, включая гипертрофические." },
+    { title: "Научная основа", desc: "Лечение проводится по протоколам с доказанной эффективностью. Все процедуры выполняет врач-дерматолог с профильным опытом от 3 лет." },
   ];
 
   const contraindications = [
-    { title: "РћРЅРєРѕР»РѕРіРёС‡РµСЃРєРёРµ Р·Р°Р±РѕР»РµРІР°РЅРёСЏ", icon: "solar:shield-cross-linear" },
-    { title: "РРјРјСѓРЅРѕСЃСѓРїСЂРµСЃСЃРёРІРЅС‹Рµ СЃРѕСЃС‚РѕСЏРЅРёСЏ", icon: "solar:virus-linear" },
-    { title: "РќРѕРІРѕРѕР±СЂР°Р·РѕРІР°РЅРёСЏ", icon: "solar:danger-triangle-linear" },
-    { title: "РћСЃС‚СЂС‹Рµ РёРЅС„РµРєС†РёРё", icon: "solar:thermometer-linear" },
-    { title: "Р‘РµСЂРµРјРµРЅРЅРѕСЃС‚СЊ Рё Р»Р°РєС‚Р°С†РёСЏ", icon: "solar:heart-pulse-linear" },
-    { title: "РќР°Р»РёС‡РёРµ РёРјРїР»Р°РЅС‚РѕРІ РІ Р·РѕРЅРµ", icon: "solar:bone-linear" },
+    { title: "Онкологические заболевания", icon: "solar:shield-cross-linear" },
+    { title: "Иммуносупрессивные состояния", icon: "solar:virus-linear" },
+    { title: "Новообразования", icon: "solar:danger-triangle-linear" },
+    { title: "Острые инфекции", icon: "solar:thermometer-linear" },
+    { title: "Беременность и лактация", icon: "solar:heart-pulse-linear" },
+    { title: "Наличие имплантов в зоне", icon: "solar:bone-linear" },
   ];
 
   const steps = [
-    { title: "РљРѕРЅСЃСѓР»СЊС‚Р°С†РёСЏ", desc: "Р’СЂР°С‡ Р°РЅР°Р»РёР·РёСЂСѓРµС‚ СЃРѕСЃС‚РѕСЏРЅРёРµ РєРѕР¶Рё, РѕРїСЂРµРґРµР»СЏРµС‚ РїСЂРёС‡РёРЅСѓ РїРѕСЏРІР»РµРЅРёСЏ СЂСѓР±С†РѕРІ Рё СЃРѕСЃС‚Р°РІР»СЏРµС‚ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РїР»Р°РЅ Р»РµС‡РµРЅРёСЏ. Р’С‹ РїРѕР»СѓС‡РёС‚Рµ РѕС‚РІРµС‚С‹ РЅР° РІСЃРµ РІРѕРїСЂРѕСЃС‹ Рё С‡С‘С‚РєРѕРµ РїРѕРЅРёРјР°РЅРёРµ РѕР¶РёРґР°РµРјРѕРіРѕ СЂРµР·СѓР»СЊС‚Р°С‚Р°." },
-    { title: "РџСЂРѕС†РµРґСѓСЂР°", desc: "РўС‰Р°С‚РµР»СЊРЅРѕРµ РѕС‡РёС‰РµРЅРёРµ РєРѕР¶Рё, С„РѕС‚РѕС„РёРєСЃР°С†РёСЏ РёСЃС…РѕРґРЅРѕРіРѕ СЃРѕСЃС‚РѕСЏРЅРёСЏ. Р’СЂР°С‡ РїРѕРґР±РёСЂР°РµС‚ Р»Р°Р·РµСЂ Рё РёРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Рµ РїР°СЂР°РјРµС‚СЂС‹. Р”Р»РёС‚РµР»СЊРЅРѕСЃС‚СЊ СЃРµР°РЅСЃР° вЂ” 15вЂ“30 РјРёРЅСѓС‚. РџРѕСЃР»Рµ РїСЂРѕС†РµРґСѓСЂС‹ РЅР°РЅРѕСЃРёС‚СЃСЏ РІРѕСЃСЃС‚Р°РЅР°РІР»РёРІР°СЋС‰РёР№ РєСЂРµРј." },
-    { title: "Р—Р°Р±РѕС‚Р° РїРѕСЃР»Рµ", desc: "РџРµСЂСЃРѕРЅР°Р»СЊРЅС‹Рµ СЂРµРєРѕРјРµРЅРґР°С†РёРё РїРѕ СѓС…РѕРґСѓ. РќР° СЃР»РµРґСѓСЋС‰РёР№ РґРµРЅСЊ СЃР»СѓР¶Р±Р° Р·Р°Р±РѕС‚С‹ СѓР·РЅР°РµС‚ Рѕ РІР°С€РµРј СЃР°РјРѕС‡СѓРІСЃС‚РІРёРё. Р§РµСЂРµР· РјРµСЃСЏС† вЂ” РєРѕРЅС‚СЂРѕР»СЊРЅС‹Р№ РѕСЃРјРѕС‚СЂ РґР»СЏ РѕС†РµРЅРєРё СЂРµР·СѓР»СЊС‚Р°С‚Р°." },
+    { title: "Консультация", desc: "Врач анализирует состояние кожи, определяет причину появления рубцов и составляет индивидуальный план лечения. Вы получите ответы на все вопросы и чёткое понимание ожидаемого результата." },
+    { title: "Процедура", desc: "Тщательное очищение кожи, фотофиксация исходного состояния. Врач подбирает лазер и индивидуальные параметры. Длительность сеанса — 15–30 минут. После процедуры наносится восстанавливающий крем." },
+    { title: "Забота после", desc: "Персональные рекомендации по уходу. На следующий день служба заботы узнает о вашем самочувствии. Через месяц — контрольный осмотр для оценки результата." },
   ];
 
   const pricesPicoCare = [
-    { name: "PicoCare S", price: "5.000в‚Ѕ" },
-    { name: "PicoCare M", price: "6.000в‚Ѕ" },
-    { name: "PicoCare L", price: "8.000в‚Ѕ" },
-    { name: "PicoCare XL", price: "9.000в‚Ѕ" },
-    { name: "PicoCare Full", price: "15.000в‚Ѕ" },
+    { name: "PicoCare S", price: "5.000₽" },
+    { name: "PicoCare M", price: "6.000₽" },
+    { name: "PicoCare L", price: "8.000₽" },
+    { name: "PicoCare XL", price: "9.000₽" },
+    { name: "PicoCare Full", price: "15.000₽" },
   ];
 
   const pricesZones = [
-    { name: "РњР°Р»Р°СЏ Р·РѕРЅР°", price: "6.000в‚Ѕ" },
-    { name: "РЎСЂРµРґРЅСЏСЏ Р·РѕРЅР°", price: "8.000в‚Ѕ" },
-    { name: "Р‘РѕР»СЊС€Р°СЏ Р·РѕРЅР°", price: "9.000в‚Ѕ" },
-    { name: "Р—РѕРЅР° L", price: "12.000в‚Ѕ" },
-    { name: "Р—РѕРЅР° XL", price: "15.000в‚Ѕ" },
-    { name: "РљСѓСЂСЃ Р·РѕРЅР° M", price: "25.000в‚Ѕ" },
-    { name: "РљСѓСЂСЃ Р·РѕРЅР° L", price: "30.000в‚Ѕ" },
+    { name: "Малая зона", price: "6.000₽" },
+    { name: "Средняя зона", price: "8.000₽" },
+    { name: "Большая зона", price: "9.000₽" },
+    { name: "Зона L", price: "12.000₽" },
+    { name: "Зона XL", price: "15.000₽" },
+    { name: "Курс зона M", price: "25.000₽" },
+    { name: "Курс зона L", price: "30.000₽" },
   ];
 
   const pricesCO2 = [
-    { name: "CO2 S", price: "2.000в‚Ѕ" },
-    { name: "CO2 M", price: "4.000в‚Ѕ" },
-    { name: "CO2 L", price: "4.900в‚Ѕ" },
-    { name: "CO2 XL", price: "9.900в‚Ѕ" },
+    { name: "CO2 S", price: "2.000₽" },
+    { name: "CO2 M", price: "4.000₽" },
+    { name: "CO2 L", price: "4.900₽" },
+    { name: "CO2 XL", price: "9.900₽" },
   ];
 
   return (
@@ -115,11 +115,11 @@ export default function ScarRemovalClient() {
           {/* в•ђв•ђв•ђв•ђв•ђв•ђв•ђ Breadcrumbs в•ђв•ђв•ђв•ђв•ђв•ђв•ђ */}
           <section className="mb-6 md:mb-10 reveal-up opacity-0">
             <div className="flex flex-wrap items-center gap-2 text-xs md:text-sm text-slate-500">
-              <a href="/" className="hover:text-[#60c2ff] transition-colors duration-300">Р“Р»Р°РІРЅР°СЏ</a>
+              <a href="/" className="hover:text-[#60c2ff] transition-colors duration-300">Главная</a>
               <Icon icon="mdi:chevron-right" className="text-slate-400" />
-              <a href="/services/lazernaya-kosmetologiya" className="hover:text-[#60c2ff] transition-colors duration-300">Р›Р°Р·РµСЂРЅР°СЏ РєРѕСЃРјРµС‚РѕР»РѕРіРёСЏ</a>
+              <a href="/services/lazernaya-kosmetologiya" className="hover:text-[#60c2ff] transition-colors duration-300">Лазерная косметология</a>
               <Icon icon="mdi:chevron-right" className="text-slate-400" />
-              <span className="text-slate-700 font-medium">РЈРґР°Р»РµРЅРёРµ СЂСѓР±С†РѕРІ Рё С€СЂР°РјРѕРІ</span>
+              <span className="text-slate-700 font-medium">Удаление рубцов и шрамов</span>
             </div>
           </section>
 
@@ -129,7 +129,7 @@ export default function ScarRemovalClient() {
               <div className="absolute inset-0 z-0">
                 <img 
                   src="/images/scar_removal_hero.png"
-                  alt="Р›Р°Р·РµСЂРЅР°СЏ С€Р»РёС„РѕРІРєР° СЂСѓР±С†РѕРІ PicoCare"
+                  alt="Лазерная шлифовка рубцов PicoCare"
                   className="w-full h-full object-cover object-right md:object-center opacity-50 md:opacity-70 mix-blend-overlay scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#050B14] via-[#050B14]/80 to-[#050B14]/60 md:bg-gradient-to-r md:from-[#050B14] md:via-[#050B14]/70 md:to-transparent"></div>
@@ -143,12 +143,12 @@ export default function ScarRemovalClient() {
                 </div>
                 
                 <h1 className="text-4xl md:text-6xl lg:text-[6rem] font-light tracking-[-0.04em] leading-[1.0] text-white mb-6 uppercase drop-shadow-2xl">
-                  РЁР»РёС„РѕРІРєР° <br />
-                  <span className="font-serif italic text-[#60c2ff]/80">СЂСѓР±С†РѕРІ</span> Рё С€СЂР°РјРѕРІ
+                  Шлифовка <br />
+                  <span className="font-serif italic text-[#60c2ff]/80">рубцов</span> и шрамов
                 </h1>
                 
                 <p className="text-lg md:text-xl font-light text-slate-300 mb-8 max-w-2xl leading-relaxed border-l-2 border-[#60c2ff]/40 pl-4 md:pl-6">
-                  Р’РѕР·РІСЂР°С‰Р°РµРј РіР»Р°РґРєРѕСЃС‚СЊ РєРѕР¶Рё РїРёРєРѕСЃРµРєСѓРЅРґРЅС‹Рј В«С…РѕР»РѕРґРЅС‹РјВ» Р»Р°Р·РµСЂРѕРј. Р’РёРґРёРјС‹Р№ СЂРµР·СѓР»СЊС‚Р°С‚ СЃ РїРµСЂРІРѕРіРѕ СЃРµР°РЅСЃР° вЂ” Р±РµР· Р±РѕР»Рё Рё РґР»РёС‚РµР»СЊРЅРѕР№ СЂРµР°Р±РёР»РёС‚Р°С†РёРё.
+                  Возвращаем гладкость кожи пикосекундным «холодным» лазером. Видимый результат с первого сеанса — без боли и длительной реабилитации.
                 </p>
 
                 <div className="flex flex-wrap gap-6 items-center">
@@ -158,28 +158,28 @@ export default function ScarRemovalClient() {
                       onClick={() => typeof window !== 'undefined' && window.dispatchEvent(new Event('open-booking-modal'))}
                       className="relative z-10 px-8 flex items-center justify-center py-5 bg-[#60c2ff] text-white rounded-full font-medium transition-transform duration-500 hover:scale-105 shadow-xl gap-2 min-w-[240px]"
                     >
-                      Р—Р°РїРёСЃР°С‚СЊСЃСЏ РЅР° РїСЂРѕС†РµРґСѓСЂСѓ
+                      Записаться на процедуру
                       <Icon icon="solar:arrow-right-linear" className="text-xl" />
                     </button>
                   </div>
                   <div className="flex items-center gap-3 px-6 py-4 bg-white/5 backdrop-blur-md rounded-full border border-white/10 text-white font-light">
                     <Icon icon="solar:verified-check-bold-duotone" className="text-2xl text-[#60c2ff]" />
-                    <span>Р­С„С„РµРєС‚ Р·Р° 1 РїСЂРѕС†РµРґСѓСЂСѓ</span>
+                    <span>Эффект за 1 процедуру</span>
                   </div>
                 </div>
               </div>
             </div>
           </section>
 
-          {/* в•ђв•ђв•ђв•ђв•ђв•ђв•ђ CASES вЂ” Before / After в•ђв•ђв•ђв•ђв•ђв•ђв•ђ */}
+          {/* CASES: Before / After */}
           <section className="mb-32 lg:mb-48 relative z-10 reveal-up opacity-0">
             <div className="mb-16 text-center">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Р РµР·СѓР»СЊС‚Р°С‚С‹</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Результаты</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                Р¤РѕС‚Рѕ <span className="font-serif italic text-slate-400">РґРѕ Рё РїРѕСЃР»Рµ</span>
+                Фото <span className="font-serif italic text-slate-400">до и после</span>
               </h2>
               <p className="text-lg sm:text-xl text-slate-500 font-light max-w-3xl mx-auto leading-relaxed">
-                Р§РµСЃС‚РЅС‹Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹ РЅР°С€РёС… РїР°С†РёРµРЅС‚РѕРІ. РљР°Р¶РґС‹Р№ СЃР»СѓС‡Р°Р№ СѓРЅРёРєР°Р»РµРЅ вЂ” РІСЂР°С‡ РїРѕРґР±РёСЂР°РµС‚ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РїСЂРѕС‚РѕРєРѕР» Р»РµС‡РµРЅРёСЏ.
+                Честные результаты наших пациентов. Каждый случай уникален — врач подбирает индивидуальный протокол лечения.
               </p>
             </div>
 
@@ -188,12 +188,12 @@ export default function ScarRemovalClient() {
                 <div key={i} className="grid md:grid-cols-2 gap-6 items-stretch">
                   <div className="relative rounded-[2.5rem] overflow-hidden shadow-[0_2rem_4rem_-1rem_rgba(0,0,0,0.15)] group aspect-square md:aspect-auto">
                     <img src={c.before} alt={c.descBefore} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1s]" />
-                    <div className="absolute bottom-4 left-4 bg-white/80 backdrop-blur text-xs px-3 py-1.5 rounded-full font-medium text-slate-800">Р”Рѕ</div>
+                    <div className="absolute bottom-4 left-4 bg-white/80 backdrop-blur text-xs px-3 py-1.5 rounded-full font-medium text-slate-800">До</div>
                     <div className="absolute top-4 left-4 bg-[#050B14]/70 backdrop-blur text-[11px] px-3 py-1.5 rounded-full text-white/80 max-w-[85%]">{c.descBefore}</div>
                   </div>
                   <div className="relative rounded-[2.5rem] overflow-hidden shadow-[0_2rem_4rem_-1rem_rgba(0,0,0,0.15)] group aspect-square md:aspect-auto">
                     <img src={c.after} alt={c.descAfter} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1s]" />
-                    <div className="absolute bottom-4 right-4 bg-[#60c2ff]/90 backdrop-blur text-xs px-3 py-1.5 rounded-full font-medium text-white">РџРѕСЃР»Рµ</div>
+                    <div className="absolute bottom-4 right-4 bg-[#60c2ff]/90 backdrop-blur text-xs px-3 py-1.5 rounded-full font-medium text-white">После</div>
                     <div className="absolute top-4 right-4 bg-[#050B14]/70 backdrop-blur text-[11px] px-3 py-1.5 rounded-full text-white/80 max-w-[85%] text-right">{c.descAfter}</div>
                   </div>
                 </div>
@@ -204,9 +204,9 @@ export default function ScarRemovalClient() {
           {/* в•ђв•ђв•ђв•ђв•ђв•ђв•ђ ADVANTAGES в•ђв•ђв•ђв•ђв•ђв•ђв•ђ */}
           <section className="mb-32 lg:mb-48 relative z-10 max-w-6xl mx-auto">
             <div className="mb-16 reveal-up opacity-0 border-b border-slate-200/50 pb-8">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РџСЂРµРёРјСѓС‰РµСЃС‚РІР°</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Преимущества</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] max-w-4xl">
-                РџРѕС‡РµРјСѓ <br /> <span className="font-serif italic text-slate-400">РІС‹Р±РёСЂР°СЋС‚ РЅР°СЃ</span>
+                Почему <br /> <span className="font-serif italic text-slate-400">выбирают нас</span>
               </h2>
             </div>
 
@@ -215,26 +215,26 @@ export default function ScarRemovalClient() {
             </div>
           </section>
 
-          {/* в•ђв•ђв•ђв•ђв•ђв•ђв•ђ WHO IT'S FOR в•ђв•ђв•ђв•ђв•ђв•ђв•ђ */}
+          {/* в•ђв•ђв•ђв•ђв•ђв•ђв•ђ WHO IT'S FOR ═══════ */}
           <section className="mb-32 lg:mb-48 relative z-10 reveal-up opacity-0">
             <div className="text-center mb-16">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РџРѕРєР°Р·Р°РЅРёСЏ</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Показания</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                РљРѕРјСѓ <span className="font-serif italic text-slate-400">РїРѕРґС…РѕРґРёС‚</span>
+                Кому <span className="font-serif italic text-slate-400">подходит</span>
               </h2>
               <p className="text-lg sm:text-xl text-slate-500 font-light max-w-3xl mx-auto leading-relaxed">
-                РњСѓР¶С‡РёРЅР°Рј Рё Р¶РµРЅС‰РёРЅР°Рј СЃС‚Р°СЂС€Рµ 18 Р»РµС‚, РєРѕС‚РѕСЂС‹Рµ С…РѕС‚СЏС‚ РІРµСЂРЅСѓС‚СЊ РєРѕР¶Рµ РіР»Р°РґРєРѕСЃС‚СЊ Рё РёР·Р±Р°РІРёС‚СЊСЃСЏ РѕС‚ РІРёРґРёРјС‹С… РґРµС„РµРєС‚РѕРІ.
+                Мужчинам и женщинам старше 18 лет, которые хотят вернуть коже гладкость и избавиться от видимых дефектов.
               </p>
             </div>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 stagger-container max-w-5xl mx-auto">
               {[
-                { title: "Р СѓР±С†С‹ РїРѕСЃС‚Р°РєРЅРµ", desc: "РЎР»РµРґС‹ РїРѕСЃР»Рµ СѓРіСЂРµРІРѕР№ Р±РѕР»РµР·РЅРё", icon: "solar:face-scan-circle-linear" },
-                { title: "РџРѕСЃР»РµРѕРїРµСЂР°С†РёРѕРЅРЅС‹Рµ С€СЂР°РјС‹", desc: "Р›СЋР±РѕР№ РґР°РІРЅРѕСЃС‚Рё Рё РіР»СѓР±РёРЅС‹", icon: "solar:adhesive-plaster-linear" },
-                { title: "Р Р°СЃС‚СЏР¶РєРё (СЃС‚СЂРёРё)", desc: "РќР° С‚РµР»Рµ, Р¶РёРІРѕС‚Рµ, Р±С‘РґСЂР°С…", icon: "solar:body-linear" },
-                { title: "РђС‚СЂРѕС„РёС‡РµСЃРєРёРµ СЂСѓР±С†С‹", desc: "РЈРіР»СѓР±Р»С‘РЅРЅС‹Рµ РґРµС„РµРєС‚С‹ РєРѕР¶Рё", icon: "solar:minimalistic-magnifer-linear" },
-                { title: "Р“РёРїРµСЂС‚СЂРѕС„РёС‡РµСЃРєРёРµ СЂСѓР±С†С‹", desc: "Р’С‹РїСѓРєР»С‹Рµ, РїР»РѕС‚РЅС‹Рµ СЂСѓР±С†С‹", icon: "solar:layers-linear" },
-                { title: "РўСЂР°РІРјР°С‚РёС‡РµСЃРєРёРµ С€СЂР°РјС‹", desc: "РџРѕСЃР»РµРґСЃС‚РІРёСЏ С‚СЂР°РІРј Рё РѕР¶РѕРіРѕРІ", icon: "solar:shield-warning-linear" },
+                { title: "Рубцы постакне", desc: "Следы после угревой болезни", icon: "solar:face-scan-circle-linear" },
+                { title: "Послеоперационные шрамы", desc: "Любой давности и глубины", icon: "solar:adhesive-plaster-linear" },
+                { title: "Растяжки (стрии)", desc: "На теле, животе, бёдрах", icon: "solar:body-linear" },
+                { title: "Атрофические рубцы", desc: "Углублённые дефекты кожи", icon: "solar:minimalistic-magnifer-linear" },
+                { title: "Гипертрофические рубцы", desc: "Выпуклые, плотные рубцы", icon: "solar:layers-linear" },
+                { title: "Травматические шрамы", desc: "Последствия травм и ожогов", icon: "solar:shield-warning-linear" },
               ].map((item, index) => (
                 <div
                   key={index}
@@ -251,12 +251,12 @@ export default function ScarRemovalClient() {
             </div>
           </section>
 
-          {/* в•ђв•ђв•ђв•ђв•ђв•ђв•ђ CONTRAINDICATIONS в•ђв•ђв•ђв•ђв•ђв•ђв•ђ */}
+          {/* ═══════ CONTRAINDICATIONS ═══════ */}
           <section className="mb-32 lg:mb-48 relative z-10 max-w-5xl mx-auto reveal-up opacity-0">
             <div className="text-center mb-12">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РћРіСЂР°РЅРёС‡РµРЅРёСЏ</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Ограничения</span>
               <h2 className="text-[2.5rem] sm:text-4xl lg:text-5xl font-light text-slate-900 tracking-[-0.04em] leading-[1.0]">
-                РџСЂРѕС‚РёРІРѕ<span className="font-serif italic text-slate-400">РїРѕРєР°Р·Р°РЅРёСЏ</span>
+                Противо<span className="font-serif italic text-slate-400">показания</span>
               </h2>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -271,12 +271,12 @@ export default function ScarRemovalClient() {
             </div>
           </section>
 
-          {/* в•ђв•ђв•ђв•ђв•ђв•ђв•ђ STEPS в•ђв•ђв•ђв•ђв•ђв•ђв•ђ */}
+          {/* ═══════ STEPS ═══════ */}
           <section className="mb-32 lg:mb-48 max-w-6xl mx-auto w-full">
             <div className="mb-12 border-b border-slate-200/50 pb-6 reveal-up opacity-0">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РџСЂРѕС†РµСЃСЃ</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Процесс</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0]">
-                Р­С‚Р°РїС‹ <span className="font-serif italic text-slate-400">РїСЂРѕС†РµРґСѓСЂС‹</span>
+                Этапы <span className="font-serif italic text-slate-400">процедуры</span>
               </h2>
             </div>
             <div className="stagger-container flex flex-col">
@@ -284,14 +284,14 @@ export default function ScarRemovalClient() {
             </div>
           </section>
 
-          {/* в•ђв•ђв•ђв•ђв•ђв•ђв•ђ PRICING в•ђв•ђв•ђв•ђв•ђв•ђв•ђ */}
+          {/* ═══════ PRICING ═══════ */}
           <section className="mb-32 lg:mb-48 max-w-6xl mx-auto w-full flex flex-col gap-10 reveal-up opacity-0">
             
             {/* PicoCare prices */}
             <div className="w-full bg-white/60 backdrop-blur-xl border border-white/80 rounded-[3rem] p-8 md:p-14 shadow-[0_2rem_4rem_-1rem_rgba(0,0,0,0.03)]">
               <div className="mb-10 border-b border-slate-100 pb-6">
                 <h2 className="text-[2.5rem] md:text-4xl font-light text-slate-900 tracking-tight">
-                  РЁР»РёС„РѕРІРєР° СЂСѓР±С†РѕРІ <span className="font-serif italic text-slate-400">PicoCare</span>
+                  Шлифовка рубцов <span className="font-serif italic text-slate-400">PicoCare</span>
                 </h2>
               </div>
               <div className="flex flex-col divide-y divide-slate-100">
@@ -308,7 +308,7 @@ export default function ScarRemovalClient() {
             <div className="w-full bg-white/60 backdrop-blur-xl border border-white/80 rounded-[3rem] p-8 md:p-14 shadow-[0_2rem_4rem_-1rem_rgba(0,0,0,0.03)]">
               <div className="mb-10 border-b border-slate-100 pb-6">
                 <h2 className="text-[2.5rem] md:text-4xl font-light text-slate-900 tracking-tight">
-                  РЁР»РёС„РѕРІРєР° <span className="font-serif italic text-slate-400">РїРѕ Р·РѕРЅР°Рј</span>
+                  Шлифовка <span className="font-serif italic text-slate-400">по зонам</span>
                 </h2>
               </div>
               <div className="flex flex-col divide-y divide-slate-100">
@@ -339,7 +339,7 @@ export default function ScarRemovalClient() {
             </div>
           </section>
 
-          {/* в•ђв•ђв•ђв•ђв•ђв•ђв•ђ CTA в•ђв•ђв•ђв•ђв•ђв•ђв•ђ */}
+          {/* ═══════ CTA ═══════ */}
           <section className="relative z-10 reveal-up opacity-0">
             <div className="relative overflow-hidden rounded-[3rem] bg-[#050B14] p-10 md:p-16 lg:p-24 border border-white/10 shadow-[0_3rem_6rem_-1rem_rgba(0,0,0,0.4)]">
               <div className="absolute top-0 right-0 w-[50vw] h-[50vw] bg-[#60c2ff]/10 rounded-full blur-[120px] pointer-events-none" />
@@ -349,11 +349,11 @@ export default function ScarRemovalClient() {
               <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12 max-w-6xl mx-auto">
                 <div className="flex-1 text-center lg:text-left">
                   <h2 className="text-4xl sm:text-5xl lg:text-[5rem] font-light text-white tracking-[-0.04em] leading-[1.0] mb-6">
-                    Р’РµСЂРЅРёС‚Рµ РєРѕР¶Рµ <br />
-                    <span className="font-serif italic text-slate-400">РіР»Р°РґРєРѕСЃС‚СЊ</span>
+                    Верните коже <br />
+                    <span className="font-serif italic text-slate-400">гладкость</span>
                   </h2>
                   <p className="text-slate-400 font-light text-lg md:text-xl mb-12 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-                    Р—Р°РїРёС€РёС‚РµСЃСЊ РЅР° Р±РµСЃРїР»Р°С‚РЅСѓСЋ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЋ. Р’СЂР°С‡ РѕСЃРјРѕС‚СЂРёС‚ СЂСѓР±С†С‹, РїРѕРґР±РµСЂС‘С‚ Р»Р°Р·РµСЂ Рё СЃРѕСЃС‚Р°РІРёС‚ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РїР»Р°РЅ Р»РµС‡РµРЅРёСЏ.
+                    Запишитесь на бесплатную консультацию. Врач осмотрит рубцы, подберёт лазер и составит индивидуальный план лечения.
                   </p>
                   
                   <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-8">
@@ -363,7 +363,7 @@ export default function ScarRemovalClient() {
                         onClick={() => typeof window !== 'undefined' && window.dispatchEvent(new Event('open-booking-modal'))}
                         className="relative z-10 w-full sm:w-auto px-10 py-5 bg-[#60c2ff] text-white rounded-full font-medium shadow-[0_1rem_2rem_rgba(96,194,255,0.2)] transition-transform duration-500 hover:scale-105 focus:outline-none flex items-center justify-center gap-3 text-lg"
                       >
-                        Р‘РµСЃРїР»Р°С‚РЅР°СЏ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЏ
+                        Бесплатная консультация
                         <Icon icon="solar:arrow-right-linear" className="text-xl" />
                       </button>
                     </div>

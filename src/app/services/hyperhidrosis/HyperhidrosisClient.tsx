@@ -30,43 +30,43 @@ export default function HyperhidrosisClient() {
   }, []);
 
   const indications = [
-    { icon: 'solar:waterdrop-linear', title: 'РџРѕС‚Р»РёРІРѕСЃС‚СЊ РїРѕРґРјС‹С€РµРє', desc: 'РџРѕСЃС‚РѕСЏРЅРЅРѕРµ РїСЂРѕРјРѕРєР°РЅРёРµ РѕРґРµР¶РґС‹ РґР°Р¶Рµ РІ РїРѕРєРѕРµ' },
-    { icon: 'solar:hand-stars-linear', title: 'Р’Р»Р°Р¶РЅС‹Рµ Р»Р°РґРѕРЅРё', desc: 'Р”РёСЃРєРѕРјС„РѕСЂС‚ РїСЂРё СЂСѓРєРѕРїРѕР¶Р°С‚РёСЏС… Рё РїРёСЃСЊРјРµ' },
-    { icon: 'solar:running-2-linear', title: 'РџРѕС‚Р»РёРІРѕСЃС‚СЊ СЃС‚РѕРї', desc: 'РџРѕРІС‹С€РµРЅРЅР°СЏ РІР»Р°Р¶РЅРѕСЃС‚СЊ, РЅРµРїСЂРёСЏС‚РЅС‹Р№ Р·Р°РїР°С…' },
-    { icon: 'solar:sun-2-linear', title: 'Р›РёС†РµРІРѕР№ РіРёРїРµСЂРіРёРґСЂРѕР·', desc: 'РџРѕС‚Р»РёРІРѕСЃС‚СЊ Р»Р±Р° Рё РІРёСЃРєРѕРІ Р±РµР· С„РёР·РёС‡РµСЃРєРѕР№ РЅР°РіСЂСѓР·РєРё' },
-    { icon: 'solar:danger-triangle-linear', title: 'Р­РјРѕС†РёРѕРЅР°Р»СЊРЅР°СЏ РїРѕС‚Р»РёРІРѕСЃС‚СЊ', desc: 'РР·Р±С‹С‚РѕС‡РЅРѕРµ РїРѕС‚РѕРѕС‚РґРµР»РµРЅРёРµ РїСЂРё СЃС‚СЂРµСЃСЃРµ' },
-    { icon: 'solar:temperature-linear', title: 'РЎРµР·РѕРЅРЅРѕРµ РѕР±РѕСЃС‚СЂРµРЅРёРµ', desc: 'РЈСЃРёР»РµРЅРёРµ РїСЂРѕР±Р»РµРјС‹ РІ С‚С‘РїР»РѕРµ РІСЂРµРјСЏ РіРѕРґР°' },
+    { icon: 'solar:waterdrop-linear', title: 'Потливость подмышек', desc: 'Постоянное промокание одежды даже в покое' },
+    { icon: 'solar:hand-stars-linear', title: 'Влажные ладони', desc: 'Дискомфорт при рукопожатиях и письме' },
+    { icon: 'solar:running-2-linear', title: 'Потливость стоп', desc: 'Повышенная влажность, неприятный запах' },
+    { icon: 'solar:sun-2-linear', title: 'Лицевой гипергидроз', desc: 'Потливость лба и висков без физической нагрузки' },
+    { icon: 'solar:danger-triangle-linear', title: 'Эмоциональная потливость', desc: 'Избыточное потоотделение при стрессе' },
+    { icon: 'solar:temperature-linear', title: 'Сезонное обострение', desc: 'Усиление проблемы в тёплое время года' },
   ];
 
   const advantages = [
-    { title: 'Р‘С‹СЃС‚СЂС‹Р№ СЂРµР·СѓР»СЊС‚Р°С‚', desc: 'Р—Р°РјРµС‚РЅРѕРµ СЃРЅРёР¶РµРЅРёРµ РїРѕС‚РѕРѕС‚РґРµР»РµРЅРёСЏ СѓР¶Рµ С‡РµСЂРµР· 3вЂ“5 РґРЅРµР№ РїРѕСЃР»Рµ РїСЂРѕС†РµРґСѓСЂС‹. РџРѕР»РЅС‹Р№ СЌС„С„РµРєС‚ СЂР°Р·РІРёРІР°РµС‚СЃСЏ Рє 14 РґРЅСЋ.' },
-    { title: 'РџСЂРѕРґРѕР»Р¶РёС‚РµР»СЊРЅС‹Р№ СЌС„С„РµРєС‚', desc: 'Р”РµР№СЃС‚РІРёРµ РїСЂРµРїР°СЂР°С‚Р° СЃРѕС…СЂР°РЅСЏРµС‚СЃСЏ РѕС‚ 6 РґРѕ 8 РјРµСЃСЏС†РµРІ. РџСЂРё СЂРµРіСѓР»СЏСЂРЅС‹С… РїСЂРѕС†РµРґСѓСЂР°С… РґР»РёС‚РµР»СЊРЅРѕСЃС‚СЊ СЌС„С„РµРєС‚Р° СѓРІРµР»РёС‡РёРІР°РµС‚СЃСЏ.' },
-    { title: 'Р‘РµР·Р±РѕР»РµР·РЅРµРЅРЅРѕСЃС‚СЊ', desc: 'РџСЂРёРјРµРЅСЏРµРј Р°РЅРµСЃС‚РµР·РёСЂСѓСЋС‰РёР№ РєСЂРµРј РїРµСЂРµРґ РёРЅСЉРµРєС†РёСЏРјРё вЂ” РїСЂРѕС†РµРґСѓСЂР° РїСЂРѕС…РѕРґРёС‚ РјР°РєСЃРёРјР°Р»СЊРЅРѕ РєРѕРјС„РѕСЂС‚РЅРѕ РґР»СЏ РїР°С†РёРµРЅС‚Р°.' },
-    { title: 'Р‘РµР·РѕРїР°СЃРЅРѕСЃС‚СЊ', desc: 'РСЃРїРѕР»СЊР·СѓРµРј С‚РѕР»СЊРєРѕ СЃРµСЂС‚РёС„РёС†РёСЂРѕРІР°РЅРЅС‹Рµ РїСЂРµРїР°СЂР°С‚С‹ Р‘РѕС‚РѕРєСЃ Рё Р”РёСЃРїРѕСЂС‚. РњРµС‚РѕРґРёРєР° РѕРґРѕР±СЂРµРЅР° FDA Рё РїСЂРёРјРµРЅСЏРµС‚СЃСЏ Р±РѕР»РµРµ 20 Р»РµС‚.' },
-    { title: 'Р‘РµР· СЂРµР°Р±РёР»РёС‚Р°С†РёРё', desc: 'РџСЂРѕС†РµРґСѓСЂР° РЅРµ С‚СЂРµР±СѓРµС‚ РІРѕСЃСЃС‚Р°РЅРѕРІРёС‚РµР»СЊРЅРѕРіРѕ РїРµСЂРёРѕРґР°. Р’С‹ РјРѕР¶РµС‚Рµ РІРµСЂРЅСѓС‚СЊСЃСЏ Рє РѕР±С‹С‡РЅРѕРјСѓ РѕР±СЂР°Р·Сѓ Р¶РёР·РЅРё РІ С‚РѕС‚ Р¶Рµ РґРµРЅСЊ.' },
+    { title: 'Быстрый результат', desc: 'Заметное снижение потоотделения уже через 3–5 дней после процедуры. Полный эффект развивается к 14 дню.' },
+    { title: 'Продолжительный эффект', desc: 'Действие препарата сохраняется от 6 до 8 месяцев. При регулярных процедурах длительность эффекта увеличивается.' },
+    { title: 'Безболезненность', desc: 'Применяем анестезирующий крем перед инъекциями — процедура проходит максимально комфортно для пациента.' },
+    { title: 'Безопасность', desc: 'Используем только сертифицированные препараты Ботокс и Диспорт. Методика одобрена FDA и применяется более 20 лет.' },
+    { title: 'Без реабилитации', desc: 'Процедура не требует восстановительного периода. Вы можете вернуться к обычному образу жизни в тот же день.' },
   ];
 
   const steps = [
-    { title: 'РљРѕРЅСЃСѓР»СЊС‚Р°С†РёСЏ', desc: 'Р’СЂР°С‡-РєРѕСЃРјРµС‚РѕР»РѕРі РїСЂРѕРІРѕРґРёС‚ РѕСЃРјРѕС‚СЂ, РѕРїСЂРµРґРµР»СЏРµС‚ Р·РѕРЅС‹ РїРѕРІС‹С€РµРЅРЅРѕРіРѕ РїРѕС‚РѕРѕС‚РґРµР»РµРЅРёСЏ Рё РїРѕРґР±РёСЂР°РµС‚ РѕРїС‚РёРјР°Р»СЊРЅСѓСЋ РґРѕР·РёСЂРѕРІРєСѓ РїСЂРµРїР°СЂР°С‚Р°.' },
-    { title: 'РџСЂРѕР±Р° РњРёРЅРѕСЂР°', desc: 'РќР° РєРѕР¶Сѓ РЅР°РЅРѕСЃРёС‚СЃСЏ Р№РѕРґ Рё РєСЂР°С…РјР°Р» РґР»СЏ С‚РѕС‡РЅРѕРіРѕ РѕРїСЂРµРґРµР»РµРЅРёСЏ РіСЂР°РЅРёС† Р°РєС‚РёРІРЅС‹С… РїРѕС‚РѕРІС‹С… Р¶РµР»С‘Р· вЂ” С‚Р°Рє РјС‹ РіР°СЂР°РЅС‚РёСЂСѓРµРј С‚РѕС‡РµС‡РЅРѕРµ РІРѕР·РґРµР№СЃС‚РІРёРµ.' },
-    { title: 'РђРЅРµСЃС‚РµР·РёСЏ', desc: 'РќР° РѕР±СЂР°Р±Р°С‚С‹РІР°РµРјСѓСЋ Р·РѕРЅСѓ РЅР°РЅРѕСЃРёС‚СЃСЏ Р°РїРїР»РёРєР°С†РёРѕРЅРЅС‹Р№ Р°РЅРµСЃС‚РµС‚РёРє РґР»СЏ РїРѕР»РЅРѕРіРѕ РєРѕРјС„РѕСЂС‚Р° РІРѕ РІСЂРµРјСЏ РёРЅСЉРµРєС†РёР№.' },
-    { title: 'РРЅСЉРµРєС†РёРё', desc: 'Р‘РѕС‚СѓР»РѕС‚РѕРєСЃРёРЅ РІРІРѕРґРёС‚СЃСЏ РјРёРєСЂРѕРёРіР»РѕР№ РЅР° РіР»СѓР±РёРЅСѓ 2вЂ“3 РјРј СЃ С€Р°РіРѕРј 1,5вЂ“2 СЃРј РїРѕ РІСЃРµР№ Р·РѕРЅРµ РіРёРїРµСЂРіРёРґСЂРѕР·Р°. РџСЂРѕС†РµРґСѓСЂР° Р·Р°РЅРёРјР°РµС‚ 15вЂ“30 РјРёРЅСѓС‚.' },
-    { title: 'Р РµРєРѕРјРµРЅРґР°С†РёРё', desc: 'РџРѕСЃР»Рµ РїСЂРѕС†РµРґСѓСЂС‹ РІСЂР°С‡ РґР°С‘С‚ СЂРµРєРѕРјРµРЅРґР°С†РёРё РїРѕ СѓС…РѕРґСѓ: РЅРµ РїРѕСЃРµС‰Р°С‚СЊ Р±Р°РЅСЋ Рё СЃР°СѓРЅСѓ 7 РґРЅРµР№, РЅРµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ Р°РЅС‚РёРїРµСЂСЃРїРёСЂР°РЅС‚С‹ 24 С‡Р°СЃР°.' },
+    { title: 'Консультация', desc: 'Врач-косметолог проводит осмотр, определяет зоны повышенного потоотделения и подбирает оптимальную дозировку препарата.' },
+    { title: 'Проба Минора', desc: 'На кожу наносится йод и крахмал для точного определения границ активных потовых желёз — так мы гарантируем точечное воздействие.' },
+    { title: 'Анестезия', desc: 'На обрабатываемую зону наносится аппликационный анестетик для полного комфорта во время инъекций.' },
+    { title: 'РРЅСЉРµРєС†РёРё', desc: 'Ботулотоксин вводится микроиглой на глубину 2–3 мм с шагом 1,5–2 см по всей зоне гипергидроза. Процедура занимает 15–30 минут.' },
+    { title: 'Рекомендации', desc: 'После процедуры врач даёт рекомендации по уходу: не посещать баню и сауну 7 дней, не использовать антиперспиранты 24 часа.' },
   ];
 
   const prices = [
-     { name: 'Процедура 1', price: 'РѕС‚ 18 000 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'РѕС‚ 12 000 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'РѕС‚ 20 000 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'РѕС‚ 22 000 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'Р‘РµСЃРїР»Р°С‚РЅРѕ' },];
+     { name: 'Лечение гипергидроза подмышек', price: 'от 18 000 ₽' },
+     { name: 'Лечение гипергидроза ладоней', price: 'от 12 000 ₽' },
+     { name: 'Лечение гипергидроза стоп', price: 'от 20 000 ₽' },
+     { name: 'Расширенная зона гипергидроза', price: 'от 22 000 ₽' },
+     { name: 'Консультация врача', price: 'Бесплатно' },];
 
   const faq = [
-    { q: 'РќР°СЃРєРѕР»СЊРєРѕ Р±РѕР»РµР·РЅРµРЅРЅР° РїСЂРѕС†РµРґСѓСЂР°?', a: 'Р‘Р»Р°РіРѕРґР°СЂСЏ РїСЂРµРґРІР°СЂРёС‚РµР»СЊРЅРѕРјСѓ РЅР°РЅРµСЃРµРЅРёСЋ Р°РЅРµСЃС‚РµР·РёСЂСѓСЋС‰РµРіРѕ РєСЂРµРјР° РїСЂРѕС†РµРґСѓСЂР° РїСЂР°РєС‚РёС‡РµСЃРєРё Р±РµР·Р±РѕР»РµР·РЅРµРЅРЅР°. РџР°С†РёРµРЅС‚С‹ РѕС‰СѓС‰Р°СЋС‚ Р»РёС€СЊ Р»С‘РіРєРѕРµ РїРѕРєР°Р»С‹РІР°РЅРёРµ РІ РјРѕРјРµРЅС‚ РІРІРµРґРµРЅРёСЏ РїСЂРµРїР°СЂР°С‚Р°.' },
-    { q: 'РљРѕРіРґР° РЅР°СЃС‚СѓРїР°РµС‚ СЌС„С„РµРєС‚?', a: 'РџРµСЂРІС‹Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹ Р·Р°РјРµС‚РЅС‹ С‡РµСЂРµР· 3вЂ“5 РґРЅРµР№ РїРѕСЃР»Рµ РёРЅСЉРµРєС†РёР№. РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ СЌС„С„РµРєС‚ СЂР°Р·РІРёРІР°РµС‚СЃСЏ Рє 10вЂ“14 РґРЅСЋ Рё СЃРѕС…СЂР°РЅСЏРµС‚СЃСЏ 6вЂ“8 РјРµСЃСЏС†РµРІ.' },
-    { q: 'РќСѓР¶РЅРѕ Р»Рё РіРѕС‚РѕРІРёС‚СЊСЃСЏ Рє РїСЂРѕС†РµРґСѓСЂРµ?', a: 'Р—Р° 3 РґРЅСЏ РґРѕ РїСЂРѕС†РµРґСѓСЂС‹ СЂРµРєРѕРјРµРЅРґСѓРµС‚СЃСЏ РїСЂРµРєСЂР°С‚РёС‚СЊ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёРµ Р°РЅС‚РёРїРµСЂСЃРїРёСЂР°РЅС‚РѕРІ. Р’ РґРµРЅСЊ РІРёР·РёС‚Р° РїСЂРёС…РѕРґРёС‚Рµ СЃ С‡РёСЃС‚РѕР№, СЃСѓС…РѕР№ РєРѕР¶РµР№ РѕР±СЂР°Р±Р°С‚С‹РІР°РµРјРѕР№ Р·РѕРЅС‹.' },
-    { q: 'РњРѕР¶РЅРѕ Р»Рё Р·Р°РЅРёРјР°С‚СЊСЃСЏ СЃРїРѕСЂС‚РѕРј РїРѕСЃР»Рµ РїСЂРѕС†РµРґСѓСЂС‹?', a: 'Р РµРєРѕРјРµРЅРґСѓРµС‚СЃСЏ РІРѕР·РґРµСЂР¶Р°С‚СЊСЃСЏ РѕС‚ РёРЅС‚РµРЅСЃРёРІРЅС‹С… С„РёР·РёС‡РµСЃРєРёС… РЅР°РіСЂСѓР·РѕРє РІ С‚РµС‡РµРЅРёРµ 3 РґРЅРµР№, Р° С‚Р°РєР¶Рµ РѕС‚ РїРѕСЃРµС‰РµРЅРёСЏ Р±Р°РЅРё Рё СЃР°СѓРЅС‹ РІ С‚РµС‡РµРЅРёРµ 7 РґРЅРµР№.' },
-    { q: 'Р‘РµР·РѕРїР°СЃРЅР° Р»Рё Р±Р»РѕРєРёСЂРѕРІРєР° РїРѕС‚РѕРІС‹С… Р¶РµР»С‘Р·?', a: 'РђР±СЃРѕР»СЋС‚РЅРѕ Р±РµР·РѕРїР°СЃРЅР°. РџРѕС‚РѕРІС‹Рµ Р¶РµР»РµР·С‹ РѕР±СЂР°Р±Р°С‚С‹РІР°РµРјРѕР№ Р·РѕРЅС‹ СЃРѕСЃС‚Р°РІР»СЏСЋС‚ РјРµРЅРµРµ 2% РѕС‚ РѕР±С‰РµРіРѕ РєРѕР»РёС‡РµСЃС‚РІР°. РўРµСЂРјРѕСЂРµРіСѓР»СЏС†РёСЏ РѕСЂРіР°РЅРёР·РјР° РЅРµ РЅР°СЂСѓС€Р°РµС‚СЃСЏ вЂ” С‚РµР»Рѕ РїСЂРѕРґРѕР»Р¶Р°РµС‚ РѕС…Р»Р°Р¶РґР°С‚СЊСЃСЏ С‡РµСЂРµР· РѕСЃС‚Р°Р»СЊРЅС‹Рµ Р·РѕРЅС‹.' },
+    { q: 'Насколько болезненна процедура?', a: 'Благодаря предварительному нанесению анестезирующего крема процедура практически безболезненна. Пациенты ощущают лишь лёгкое покалывание в момент введения препарата.' },
+    { q: 'Когда наступает эффект?', a: 'Первые результаты заметны через 3–5 дней после инъекций. Максимальный эффект развивается к 10–14 дню и сохраняется 6–8 месяцев.' },
+    { q: 'Нужно ли готовиться к процедуре?', a: 'За 3 дня до процедуры рекомендуется прекратить использование антиперспирантов. В день визита приходите с чистой, сухой кожей обрабатываемой зоны.' },
+    { q: 'Можно ли заниматься спортом после процедуры?', a: 'Рекомендуется воздержаться от интенсивных физических нагрузок в течение 3 дней, а также от посещения бани и сауны в течение 7 дней.' },
+    { q: 'Безопасна ли блокировка потовых желёз?', a: 'Абсолютно безопасна. Потовые железы обрабатываемой зоны составляют менее 2% от общего количества. Терморегуляция организма не нарушается — тело продолжает охлаждаться через остальные зоны.' },
   ];
 
   const [openFaq, setOpenFaq] = React.useState<number | null>(null);
@@ -92,11 +92,11 @@ export default function HyperhidrosisClient() {
           {/* Breadcrumbs */}
           <section className="mb-6 md:mb-10 reveal-up opacity-0">
             <div className="flex flex-wrap items-center gap-2 text-xs md:text-sm text-slate-500">
-              <a href="/" className="hover:text-[#60c2ff] transition-colors duration-300">Р“Р»Р°РІРЅР°СЏ</a>
+              <a href="/" className="hover:text-[#60c2ff] transition-colors duration-300">Главная</a>
               <Icon icon="mdi:chevron-right" className="text-slate-400" />
-              <a href="/services/injection" className="hover:text-[#60c2ff] transition-colors duration-300">РРЅСЉРµРєС†РёРѕРЅРЅР°СЏ РєРѕСЃРјРµС‚РѕР»РѕРіРёСЏ</a>
+              <a href="/services/injection" className="hover:text-[#60c2ff] transition-colors duration-300">Инъекционная косметология</a>
               <Icon icon="mdi:chevron-right" className="text-slate-400" />
-              <span className="text-slate-700 font-medium">Р›РµС‡РµРЅРёРµ РіРёРїРµСЂРіРёРґСЂРѕР·Р°</span>
+              <span className="text-slate-700 font-medium">Лечение гипергидроза</span>
             </div>
           </section>
 
@@ -104,7 +104,7 @@ export default function HyperhidrosisClient() {
           <section className="mb-20 md:mb-32 reveal-up opacity-0">
             <div className="relative rounded-[2rem] md:rounded-[3rem] overflow-hidden bg-[#050B14] min-h-[550px] md:min-h-[700px] flex items-center group shadow-[0_2rem_5rem_-1rem_rgba(0,0,0,0.3)]">
               <div className="absolute inset-0 z-0">
-                <img src="/images/services/hyperhidrosis/hero.png" alt="Р›РµС‡РµРЅРёРµ РіРёРїРµСЂРіРёРґСЂРѕР·Р° РёРЅСЉРµРєС†РёСЏРјРё Р±РѕС‚СѓР»РѕС‚РѕРєСЃРёРЅР°" className="w-full h-full object-cover opacity-[0.35] mix-blend-overlay scale-105" />
+                <img src="/images/services/hyperhidrosis/hero.png" alt="Лечение гипергидроза инъекциями ботулотоксина" className="w-full h-full object-cover opacity-[0.35] mix-blend-overlay scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#050B14] via-[#050B14]/80 to-[#050B14]/60 md:bg-gradient-to-r md:from-[#050B14] md:via-[#050B14]/70 md:to-transparent"></div>
                 <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[60vw] h-[60vw] bg-[#60c2ff]/10 rounded-full blur-[100px] pointer-events-none z-10"></div>
               </div>
@@ -112,16 +112,16 @@ export default function HyperhidrosisClient() {
               <div className="relative z-20 px-8 py-12 sm:px-12 md:px-16 w-full max-w-4xl">
                 <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-[#60c2ff]/10 backdrop-blur-md border border-[#60c2ff]/20 text-white text-sm font-medium tracking-wide mb-6">
                   <span className="w-2 h-2 rounded-full bg-[#fbbf24] animate-pulse"></span>
-                  Р­С„С„РµРєС‚ РґРѕ 8 РјРµСЃСЏС†РµРІ
+                  Эффект до 8 месяцев
                 </div>
 
                 <h1 className="text-4xl md:text-6xl lg:text-[6rem] font-light tracking-[-0.04em] leading-[1.0] text-white mb-6 uppercase drop-shadow-2xl">
-                  Р›РµС‡РµРЅРёРµ <br />
-                  <span className="font-serif italic text-[#60c2ff]/80">РіРёРїРµСЂРіРёРґСЂРѕР·Р°</span>
+                  Лечение <br />
+                  <span className="font-serif italic text-[#60c2ff]/80">гипергидроза</span>
                 </h1>
 
                 <p className="text-lg md:text-xl font-light text-slate-300 mb-8 max-w-2xl leading-relaxed">
-                  РР·Р±Р°РІСЊС‚РµСЃСЊ РѕС‚ РїРѕРІС‹С€РµРЅРЅРѕР№ РїРѕС‚Р»РёРІРѕСЃС‚Рё Р·Р° РѕРґРЅСѓ РїСЂРѕС†РµРґСѓСЂСѓ. РРЅСЉРµРєС†РёРё Р±РѕС‚СѓР»РѕС‚РѕРєСЃРёРЅР° Р±Р»РѕРєРёСЂСѓСЋС‚ СЂР°Р±РѕС‚Сѓ РїРѕС‚РѕРІС‹С… Р¶РµР»С‘Р· вЂ” Р±РµР·РѕРїР°СЃРЅРѕ, Р±С‹СЃС‚СЂРѕ Рё СЃ РіР°СЂР°РЅС‚РёСЂРѕРІР°РЅРЅС‹Рј СЂРµР·СѓР»СЊС‚Р°С‚РѕРј.
+                  Избавьтесь от повышенной потливости за одну процедуру. Инъекции ботулотоксина блокируют работу потовых желёз — безопасно, быстро и с гарантированным результатом.
                 </p>
 
                 <div className="flex flex-wrap gap-6 items-center">
@@ -131,7 +131,7 @@ export default function HyperhidrosisClient() {
                       onClick={() => window.dispatchEvent(new Event('open-booking-modal'))}
                       className="relative z-10 px-8 flex items-center justify-center py-5 bg-[#60c2ff] text-white rounded-full font-medium transition-transform duration-500 hover:scale-105 shadow-xl gap-2 min-w-[240px]"
                     >
-                      Р—Р°РїРёСЃР°С‚СЊСЃСЏ РЅР° РїСЂРѕС†РµРґСѓСЂСѓ
+                      Записаться на процедуру
                       <Icon icon="solar:arrow-right-linear" className="text-xl" />
                     </button>
                   </div>
@@ -144,24 +144,24 @@ export default function HyperhidrosisClient() {
           <section className="mb-32 lg:mb-48 max-w-6xl mx-auto reveal-up opacity-0">
             <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
               <div>
-                <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Рћ РїСЂРѕС†РµРґСѓСЂРµ</span>
+                <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— О процедуре</span>
                 <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                  Р§С‚Рѕ С‚Р°РєРѕРµ <span className="font-serif italic text-slate-400">РіРёРїРµСЂРіРёРґСЂРѕР·</span>
+                  Что такое <span className="font-serif italic text-slate-400">гипергидроз</span>
                 </h2>
                 <p className="text-base sm:text-[17px] text-slate-600 font-light leading-relaxed mb-6">
-                  Р“РёРїРµСЂРіРёРґСЂРѕР· вЂ” СЌС‚Рѕ РїР°С‚РѕР»РѕРіРёС‡РµСЃРєРѕРµ СЃРѕСЃС‚РѕСЏРЅРёРµ, РїСЂРё РєРѕС‚РѕСЂРѕРј РїРѕС‚РѕРІС‹Рµ Р¶РµР»РµР·С‹ СЂР°Р±РѕС‚Р°СЋС‚ РІ РґРµСЃСЏС‚РєРё СЂР°Р· Р°РєС‚РёРІРЅРµРµ РЅРѕСЂРјС‹. РџСЂРѕР±Р»РµРјР° Р·Р°С‚СЂР°РіРёРІР°РµС‚ РґРѕ 3% РЅР°СЃРµР»РµРЅРёСЏ Рё Р·РЅР°С‡РёС‚РµР»СЊРЅРѕ РІР»РёСЏРµС‚ РЅР° РєР°С‡РµСЃС‚РІРѕ Р¶РёР·РЅРё: РјРѕРєСЂС‹Рµ РїСЏС‚РЅР° РЅР° РѕРґРµР¶РґРµ, РґРёСЃРєРѕРјС„РѕСЂС‚ РїСЂРё РѕР±С‰РµРЅРёРё, РѕРіСЂР°РЅРёС‡РµРЅРёСЏ РІ РІС‹Р±РѕСЂРµ РіР°СЂРґРµСЂРѕР±Р°.
+                  Гипергидроз — это патологическое состояние, при котором потовые железы работают в десятки раз активнее нормы. Проблема затрагивает до 3% населения и значительно влияет на качество жизни: мокрые пятна на одежде, дискомфорт при общении, ограничения в выборе гардероба.
                 </p>
                 <p className="text-base sm:text-[17px] text-slate-600 font-light leading-relaxed">
-                  РРЅСЉРµРєС†РёРё <span className="font-medium text-[#60c2ff]">Р‘РѕС‚РѕРєСЃ</span> РёР»Рё <span className="font-medium text-[#60c2ff]">Р”РёСЃРїРѕСЂС‚</span> вЂ” Р·РѕР»РѕС‚РѕР№ СЃС‚Р°РЅРґР°СЂС‚ Р»РµС‡РµРЅРёСЏ РіРёРїРµСЂРіРёРґСЂРѕР·Р°. Р‘РѕС‚СѓР»РѕС‚РѕРєСЃРёРЅ Р±Р»РѕРєРёСЂСѓРµС‚ РЅРµСЂРІРЅС‹Рµ РёРјРїСѓР»СЊСЃС‹ Рє РїРѕС‚РѕРІС‹Рј Р¶РµР»РµР·Р°Рј, СЃРЅРёР¶Р°СЏ РїРѕС‚РѕРѕС‚РґРµР»РµРЅРёРµ РЅР° 85вЂ“95% РІ РѕР±СЂР°Р±РѕС‚Р°РЅРЅРѕР№ Р·РѕРЅРµ.
+                  РРЅСЉРµРєС†РёРё <span className="font-medium text-[#60c2ff]">Ботокс</span> или <span className="font-medium text-[#60c2ff]">Диспорт</span> — золотой стандарт лечения гипергидроза. Ботулотоксин блокирует нервные импульсы к потовым железам, снижая потоотделение на 85–95% в обработанной зоне.
                 </p>
               </div>
               <div className="bg-white/60 backdrop-blur-xl border border-white/80 rounded-[2.5rem] p-8 md:p-10 shadow-[0_1rem_2.5rem_-0.5rem_rgba(0,0,0,0.03)]">
                 <div className="flex flex-col gap-6">
                   {[
-                    { num: '85вЂ“95%', label: 'РЎРЅРёР¶РµРЅРёРµ РїРѕС‚РѕРѕС‚РґРµР»РµРЅРёСЏ' },
-                    { num: '6вЂ“8', label: 'РњРµСЃСЏС†РµРІ РґРµР№СЃС‚РІРёСЏ РїСЂРµРїР°СЂР°С‚Р°' },
-                    { num: '15вЂ“30', label: 'РњРёРЅСѓС‚ вЂ” РґР»РёС‚РµР»СЊРЅРѕСЃС‚СЊ РїСЂРѕС†РµРґСѓСЂС‹' },
-                    { num: '2 400+', label: 'Р”РѕРІРѕР»СЊРЅС‹С… РїР°С†РёРµРЅС‚РѕРІ РЎРєРёРЅРњРµРґ' },
+                    { num: '85–95%', label: 'Снижение потоотделения' },
+                    { num: '6–8', label: 'Месяцев действия препарата' },
+                    { num: '15–30', label: 'Минут — длительность процедуры' },
+                    { num: '2 400+', label: 'Довольных пациентов СкинМед' },
                   ].map((stat, i) => (
                     <div key={i} className="flex items-center gap-4 py-3 border-b border-slate-100 last:border-0">
                       <span className="text-2xl md:text-3xl font-light text-[#60c2ff] min-w-[100px]">{stat.num}</span>
@@ -176,12 +176,12 @@ export default function HyperhidrosisClient() {
           {/* Indications */}
           <section className="mb-32 lg:mb-48 relative z-10">
             <div className="text-center mb-16 reveal-up opacity-0">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РџРѕРєР°Р·Р°РЅРёСЏ</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Показания</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                РљРѕРіРґР° РЅСѓР¶РЅР° <span className="font-serif italic text-slate-400">РїРѕРјРѕС‰СЊ</span>
+                Когда нужна <span className="font-serif italic text-slate-400">помощь</span>
               </h2>
               <p className="text-lg sm:text-xl text-slate-500 font-light max-w-2xl mx-auto leading-relaxed">
-                РџСЂРѕС†РµРґСѓСЂР° СЂРµРєРѕРјРµРЅРґРѕРІР°РЅР° РїСЂРё РёР·Р±С‹С‚РѕС‡РЅРѕРј РїРѕС‚РѕРѕС‚РґРµР»РµРЅРёРё, РЅРµ СЃРІСЏР·Р°РЅРЅРѕРј СЃ С„РёР·РёС‡РµСЃРєРѕР№ РЅР°РіСЂСѓР·РєРѕР№
+                Процедура рекомендована при избыточном потоотделении, не связанном с физической нагрузкой
               </p>
             </div>
 
@@ -204,9 +204,9 @@ export default function HyperhidrosisClient() {
           {/* Advantages */}
           <section className="mb-32 lg:mb-48 relative z-10 max-w-6xl mx-auto">
             <div className="mb-16 reveal-up opacity-0 border-b border-slate-200/50 pb-8">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РџСЂРµРёРјСѓС‰РµСЃС‚РІР°</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Преимущества</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] max-w-4xl">
-                РџРѕС‡РµРјСѓ <br /> <span className="font-serif italic text-slate-400">Р±РѕС‚СѓР»РёРЅРѕС‚РµСЂР°РїРёСЏ</span>
+                Почему <br /> <span className="font-serif italic text-slate-400">ботулинотерапия</span>
               </h2>
             </div>
 
@@ -218,18 +218,18 @@ export default function HyperhidrosisClient() {
           {/* Zones */}
           <section className="mb-32 lg:mb-48 relative z-10">
             <div className="text-center mb-16 reveal-up opacity-0">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Р—РѕРЅС‹ РѕР±СЂР°Р±РѕС‚РєРё</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Зоны обработки</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                РћР±Р»Р°СЃС‚СЊ <span className="font-serif italic text-slate-400">РІРѕР·РґРµР№СЃС‚РІРёСЏ</span>
+                Область <span className="font-serif italic text-slate-400">воздействия</span>
               </h2>
             </div>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 stagger-container">
               {[
-                { icon: 'solar:shield-check-linear', title: 'РџРѕРґРјС‹С€РµС‡РЅС‹Рµ РІРїР°РґРёРЅС‹', desc: 'РЎР°РјР°СЏ СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅС‘РЅРЅР°СЏ Р·РѕРЅР°. Р­С„С„РµРєС‚ 6вЂ“8 РјРµСЃСЏС†РµРІ, РґРѕР·РёСЂРѕРІРєР° 50вЂ“100 РµРґ.' },
-                { icon: 'solar:hand-stars-linear', title: 'Р›Р°РґРѕРЅРё', desc: 'РўРѕС‡РµС‡РЅС‹Рµ РёРЅСЉРµРєС†РёРё СЃ Р°РЅРµСЃС‚РµР·РёРµР№. РР·Р±Р°РІР»РµРЅРёРµ РѕС‚ РІР»Р°Р¶РЅС‹С… СЂСѓРє РЅР° 4вЂ“6 РјРµСЃСЏС†РµРІ.' },
-                { icon: 'solar:running-2-linear', title: 'РЎС‚РѕРїС‹', desc: 'РЎРЅРёР¶РµРЅРёРµ РїРѕС‚Р»РёРІРѕСЃС‚Рё РЅРѕРі Рё СЃРѕРїСѓС‚СЃС‚РІСѓСЋС‰РµРіРѕ Р·Р°РїР°С…Р°. Р­С„С„РµРєС‚ РґРѕ 6 РјРµСЃСЏС†РµРІ.' },
-                { icon: 'solar:eye-linear', title: 'Р›РёС†Рѕ Рё Р»РѕР±', desc: 'РљРѕСЂСЂРµРєС†РёСЏ РїРѕС‚Р»РёРІРѕСЃС‚Рё Р»Р±Р°, РІРёСЃРѕС‡РЅРѕР№ Р·РѕРЅС‹. РњРёРЅРёРјР°Р»СЊРЅС‹Рµ РґРѕР·РёСЂРѕРІРєРё.' },
+                { icon: 'solar:shield-check-linear', title: 'Подмышечные впадины', desc: 'Самая распространённая зона. Эффект 6–8 месяцев, дозировка 50–100 ед.' },
+                { icon: 'solar:hand-stars-linear', title: 'Ладони', desc: 'Точечные инъекции с анестезией. Избавление от влажных рук на 4–6 месяцев.' },
+                { icon: 'solar:running-2-linear', title: 'Стопы', desc: 'Снижение потливости ног и сопутствующего запаха. Эффект до 6 месяцев.' },
+                { icon: 'solar:eye-linear', title: 'Лицо и лоб', desc: 'Коррекция потливости лба, височной зоны. Минимальные дозировки.' },
               ].map((zone, i) => (
                 <div key={i} className="group bg-gradient-to-br from-white/90 to-white/40 backdrop-blur-xl border border-white/80 rounded-[2rem] p-8 shadow-[0_1rem_2.5rem_-0.5rem_rgba(0,0,0,0.03)] hover:shadow-[0_2rem_4rem_-1rem_rgba(96,194,255,0.2)] hover:border-[#60c2ff]/30 transition-all duration-[0.6s] hover:-translate-y-2 stagger-item opacity-0 scroll-glow-item">
                   <div className="w-14 h-14 rounded-2xl bg-[#60c2ff]/10 flex items-center justify-center mb-6 group-hover:bg-[#60c2ff] shadow-sm transition-all duration-500 transform group-hover:rotate-12 group-hover:scale-110">
@@ -245,9 +245,9 @@ export default function HyperhidrosisClient() {
           {/* Steps */}
           <section className="mb-32 lg:mb-48 relative z-10 max-w-6xl mx-auto">
             <div className="mb-16 reveal-up opacity-0 border-b border-slate-200/50 pb-8">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Р­С‚Р°РїС‹</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Этапы</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] max-w-4xl">
-                РљР°Рє РїСЂРѕС…РѕРґРёС‚ <br /> <span className="font-serif italic text-slate-400">РїСЂРѕС†РµРґСѓСЂР°</span>
+                Как проходит <br /> <span className="font-serif italic text-slate-400">процедура</span>
               </h2>
             </div>
 
@@ -261,7 +261,7 @@ export default function HyperhidrosisClient() {
             <div className="w-full bg-white/60 backdrop-blur-xl border border-white/80 rounded-[3rem] p-10 md:p-16 shadow-[0_2rem_4rem_-1rem_rgba(0,0,0,0.03)] reveal-up opacity-0">
               <div className="mb-12 border-b border-slate-100 pb-6">
                 <h2 className="text-[2.5rem] md:text-4xl font-light text-slate-900 tracking-tight">
-                  РЎС‚РѕРёРјРѕСЃС‚СЊ <span className="font-serif italic text-slate-400">СѓСЃР»СѓРі</span>
+                  Стоимость <span className="font-serif italic text-slate-400">услуг</span>
                 </h2>
               </div>
               <div className="flex flex-col divide-y divide-slate-100">
@@ -278,9 +278,9 @@ export default function HyperhidrosisClient() {
           {/* FAQ */}
           <section className="mb-32 lg:mb-48 max-w-4xl mx-auto w-full relative z-10">
             <div className="text-center mb-16 reveal-up opacity-0">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Р’РѕРїСЂРѕСЃС‹</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Вопросы</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                Р§Р°СЃС‚С‹Рµ <span className="font-serif italic text-slate-400">РІРѕРїСЂРѕСЃС‹</span>
+                Частые <span className="font-serif italic text-slate-400">вопросы</span>
               </h2>
             </div>
 
@@ -317,11 +317,11 @@ export default function HyperhidrosisClient() {
               <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12 max-w-6xl mx-auto">
                 <div className="flex-1 text-center lg:text-left">
                   <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-white tracking-[-0.04em] leading-[1.0] mb-6">
-                    Р—Р°Р±СѓРґСЊС‚Рµ Рѕ <br />
-                    <span className="font-serif italic text-slate-400">РїРѕС‚Р»РёРІРѕСЃС‚Рё</span>
+                    Забудьте о <br />
+                    <span className="font-serif italic text-slate-400">потливости</span>
                   </h2>
                   <p className="text-slate-400 font-light text-lg mb-12 max-w-lg mx-auto lg:mx-0">
-                    Р—Р°РїРёС€РёС‚РµСЃСЊ РЅР° Р±РµСЃРїР»Р°С‚РЅСѓСЋ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЋ РІСЂР°С‡Р°-РєРѕСЃРјРµС‚РѕР»РѕРіР°. РџРѕРґР±РµСЂС‘Рј РѕРїС‚РёРјР°Р»СЊРЅС‹Р№ РїСЂРѕС‚РѕРєРѕР» Р»РµС‡РµРЅРёСЏ Рё СЂР°СЃСЃС‡РёС‚Р°РµРј СЃС‚РѕРёРјРѕСЃС‚СЊ РїСЂРѕС†РµРґСѓСЂС‹.
+                    Запишитесь на бесплатную консультацию врача-косметолога. Подберём оптимальный протокол лечения и рассчитаем стоимость процедуры.
                   </p>
 
                   <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-8">
@@ -331,7 +331,7 @@ export default function HyperhidrosisClient() {
                         onClick={() => window.dispatchEvent(new Event('open-booking-modal'))}
                         className="relative z-10 px-10 py-5 bg-[#60c2ff] text-white rounded-full font-medium shadow-[0_1rem_2rem_rgba(96,194,255,0.2)] transition-transform duration-500 hover:scale-105 focus:outline-none flex items-center gap-3"
                       >
-                        Р‘РµСЃРїР»Р°С‚РЅР°СЏ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЏ
+                        Бесплатная консультация
                         <Icon icon="solar:arrow-right-linear" className="text-xl" />
                       </button>
                     </div>

@@ -51,23 +51,23 @@ export default function LaserRejuvenationClient() {
             <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-center">
               <div className="w-full lg:w-5/12 flex flex-col pt-8 lg:pt-12 relative z-10">
                 <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-6 stagger-item opacity-0">
-                  вЂ” РђРїРїР°СЂР°С‚ РїСЂРµРјРёСѓРј-РєР»Р°СЃСЃР°
+                  — Аппарат премиум-класса
                 </span>
                 
                 <h1 className="text-[3.5rem] sm:text-6xl lg:text-[6.5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-8 stagger-item opacity-0 relative z-10">
-                  Р›Р°Р·РµСЂРЅРѕРµ РѕРјРѕР»РѕР¶РµРЅРёРµ<br/>
+                  Лазерное омоложение<br/>
                   <span className="font-serif italic text-slate-400">PicoCare 450</span>
                 </h1>
                 
                 <p className="text-lg md:text-xl text-slate-500 font-light leading-relaxed mb-10 max-w-lg stagger-item opacity-0">
-                  РџРѕРґС‚СЏРЅСѓС‚Р°СЏ Рё СЃРёСЏСЋС‰Р°СЏ РєРѕР¶Р° Р±РµР· Р°РіСЂРµСЃСЃРёРІРЅРѕР№ С€Р»РёС„РѕРІРєРё, Р±РѕР»Рё Рё РґРѕР»РіРѕР№ СЂРµР°Р±РёР»РёС‚Р°С†РёРё. РЈСЃС‚СЂР°РЅСЏРµРј РјРѕСЂС‰РёРЅС‹, РїРёРіРјРµРЅС‚Р°С†РёСЋ Рё СЂР°СЃС€РёСЂРµРЅРЅС‹Рµ РїРѕСЂС‹ Р·Р° СЃС‡РµС‚ С„РѕС‚РѕР°РєСѓСЃС‚РёС‡РµСЃРєРѕРіРѕ СЌС„С„РµРєС‚Р°.
+                  Подтянутая и сияющая кожа без агрессивной шлифовки, боли и долгой реабилитации. Устраняем морщины, пигментацию и расширенные поры за счет фотоакустического эффекта.
                 </p>
 
                 <div className="flex flex-col gap-4 mb-10 stagger-item opacity-0">
                   {[
-                    "РРґРµР°Р»СЊРЅРѕ СЂРѕРІРЅС‹Р№ С‚РѕРЅ Рё СЂРµР»СЊРµС„",
-                    "Р‘РµР· СЃРµР·РѕРЅРЅС‹С… РѕРіСЂР°РЅРёС‡РµРЅРёР№ (РґР°Р¶Рµ Р»РµС‚РѕРј)",
-                    "Р РµР°Р±РёР»РёС‚Р°С†РёСЏ РІСЃРµРіРѕ 1-2 РґРЅСЏ"
+                    "Идеально ровный тон и рельеф",
+                    "Без сезонных ограничений (даже летом)",
+                    "Реабилитация всего 1-2 дня"
                   ].map((feature, i) => (
                     <div key={i} className="flex items-center gap-4 bg-white/50 backdrop-blur-sm p-3 rounded-2xl border border-slate-100 w-fit pr-6">
                        <div className="w-8 h-8 rounded-full bg-white shadow-sm flex items-center justify-center shrink-0">
@@ -84,7 +84,7 @@ export default function LaserRejuvenationClient() {
                     className="group px-10 py-5 bg-slate-900 text-white rounded-full font-medium hover:shadow-xl hover:-translate-y-1 transition-all duration-300 w-full sm:w-auto text-center flex items-center justify-center gap-3 relative overflow-hidden"
                   >
                     <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
-                    <span>Р—Р°РїРёСЃР°С‚СЊСЃСЏ РІ РєР»РёРЅРёРєСѓ</span>
+                    <span>Записаться в клинику</span>
                     <Icon icon="solar:arrow-right-linear" className="text-xl group-hover:translate-x-1 transition-transform" />
                   </button>
                 </div>
@@ -94,7 +94,7 @@ export default function LaserRejuvenationClient() {
                 <div className="absolute inset-2 sm:inset-3 rounded-[2.5rem] lg:rounded-[3.5rem] overflow-hidden group">
                   <img 
                     src="https://static.tildacdn.com/tild6431-6533-4465-a166-623536616431/11.jpg" 
-                    alt="Р›Р°Р·РµСЂРЅРѕРµ РѕРјРѕР»РѕР¶РµРЅРёРµ PicoCare РІ РЎРєРёРЅРњРµРґ"
+                    alt="Лазерное омоложение PicoCare в СкинМед"
                     className="absolute object-cover w-full h-full scale-[1.02] group-hover:scale-105 transition-transform duration-1000"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 via-transparent to-transparent opacity-80"></div>
@@ -105,7 +105,7 @@ export default function LaserRejuvenationClient() {
                        <Icon icon="solar:star-fall-bold-duotone" className="text-3xl text-yellow-300" />
                        <span className="text-4xl font-light">1-3</span>
                     </div>
-                    <p className="text-sm font-light text-white/80">РїСЂРѕС†РµРґСѓСЂС‹ РґР»СЏ РґРѕСЃС‚РёР¶РµРЅРёСЏ СЃС‚РѕР№РєРѕРіРѕ РІР°Сѓ-СЌС„С„РµРєС‚Р° РѕРјРѕР»РѕР¶РµРЅРёСЏ.</p>
+                    <p className="text-sm font-light text-white/80">процедуры для достижения стойкого вау-эффекта омоложения.</p>
                   </div>
                 </div>
               </div>
@@ -117,40 +117,40 @@ export default function LaserRejuvenationClient() {
              <div className="grid md:grid-cols-2 gap-16 lg:gap-24 items-center">
                 <div className="stagger-item opacity-0">
                   <h2 className="text-3xl lg:text-5xl font-light text-slate-900 mb-8 leading-tight">
-                    Р§С‚Рѕ С‚Р°РєРѕРµ <span className="font-serif italic text-slate-400">PicoCare?</span><br/>
-                    Р РїРѕС‡РµРјСѓ СЌС‚Рѕ РїСЂРѕСЂС‹РІ.
+                    Что такое <span className="font-serif italic text-slate-400">PicoCare?</span><br/>
+                    И почему это прорыв.
                   </h2>
                   <div className="space-y-6 text-lg text-slate-500 font-light leading-relaxed">
                      <p>
-                       РџРёРєРѕСЃРµРєСѓРЅРґРЅС‹Р№ Р»Р°Р·РµСЂ PicoCare вЂ” СЌС‚Рѕ СЂРµРІРѕР»СЋС†РёСЏ РІ Р°РїРїР°СЂР°С‚РЅРѕР№ РєРѕСЃРјРµС‚РѕР»РѕРіРёРё. Р•РіРѕ РіР»Р°РІРЅРѕРµ РѕС‚Р»РёС‡РёРµ РѕС‚ РєР»Р°СЃСЃРёС‡РµСЃРєРёС… CO2 РёР»Рё СЌСЂР±РёРµРІС‹С… Р»Р°Р·РµСЂРѕРІ Р·Р°РєР»СЋС‡Р°РµС‚СЃСЏ РІРѕ РІСЂРµРјРµРЅРё РёРјРїСѓР»СЊСЃР°.
+                       Пикосекундный лазер PicoCare — это революция в аппаратной косметологии. Его главное отличие от классических CO2 или эрбиевых лазеров заключается во времени импульса.
                      </p>
                      <p>
-                       Р’РјРµСЃС‚Рѕ РјРёР»Р»РёСЃРµРєСѓРЅРґ РѕРЅ СЂР°Р±РѕС‚Р°РµС‚ РІ РїРёРєРѕСЃРµРєСѓРЅРґРЅРѕРј РґРёР°РїР°Р·РѕРЅРµ (С‚СЂРёР»Р»РёРѕРЅРЅС‹Рµ РґРѕР»Рё СЃРµРєСѓРЅРґС‹). Р›Р°Р·РµСЂ <strong className="font-medium text-slate-700">РЅРµ РЅР°РіСЂРµРІР°РµС‚ Рё РЅРµ РёСЃРїР°СЂСЏРµС‚ С‚РєР°РЅРё</strong>. РћРЅ РёСЃРїРѕР»СЊР·СѓРµС‚ С„РѕС‚РѕР°РєСѓСЃС‚РёС‡РµСЃРєРёР№ СЌС„С„РµРєС‚ вЂ” РјРѕС‰РЅСѓСЋ СѓРґР°СЂРЅСѓСЋ РІРѕР»РЅСѓ.
+                       Вместо миллисекунд он работает в пикосекундном диапазоне (триллионные доли секунды). Лазер <strong className="font-medium text-slate-700">не нагревает и не испаряет ткани</strong>. Он использует фотоакустический эффект — мощную ударную волну.
                      </p>
                      <p>
-                       Р­С‚Р° РІРѕР»РЅР° СЃС‚РёРјСѓР»РёСЂСѓРµС‚ РєР»РµС‚РєРё РєРѕР¶Рё Рє Р°РєС‚РёРІРЅРѕРјСѓ СЃРёРЅС‚РµР·Сѓ РЅРѕРІРѕРіРѕ РєРѕР»Р»Р°РіРµРЅР° Рё СЌР»Р°СЃС‚РёРЅР°, РїСЂРё СЌС‚РѕРј СЌРїРёРґРµСЂРјРёСЃ РѕСЃС‚Р°РµС‚СЃСЏ С†РµР»С‹Рј. РљРѕР¶Р° РїРѕРґС‚СЏРіРёРІР°РµС‚СЃСЏ, РјРѕСЂС‰РёРЅС‹ РёСЃС‡РµР·Р°СЋС‚, Р° СЃСЂРѕРє СЂРµР°Р±РёР»РёС‚Р°С†РёРё СЃРѕРєСЂР°С‰Р°РµС‚СЃСЏ РґРѕ РјРёРЅРёРјСѓРјР°.
+                       Эта волна стимулирует клетки кожи к активному синтезу нового коллагена и эластина, при этом эпидермис остается целым. Кожа подтягивается, морщины исчезают, а срок реабилитации сокращается до минимума.
                      </p>
                   </div>
                 </div>
                 <div className="stagger-item opacity-0 grid grid-cols-2 gap-4">
                   <div className="space-y-4 pt-12">
                      <div className="aspect-[4/5] rounded-3xl overflow-hidden">
-                       <img src="https://static.tildacdn.com/tild3137-3438-4935-a664-333932396537/-.jpg" alt="РџСЂРѕС†РµСЃСЃ Р»Р°Р·РµСЂРЅРѕРіРѕ РѕРјРѕР»РѕР¶РµРЅРёСЏ" className="w-full h-full object-cover" />
+                       <img src="https://static.tildacdn.com/tild3137-3438-4935-a664-333932396537/-.jpg" alt="Процесс лазерного омоложения" className="w-full h-full object-cover" />
                      </div>
                      <div className="bg-blue-50 rounded-3xl p-6 h-40 flex flex-col justify-center border border-blue-100">
                        <Icon icon="solar:shield-check-bold" className="text-3xl text-blue-500 mb-3" />
-                       <span className="font-medium text-slate-800">РћРґРѕР±СЂРµРЅРѕ FDA</span>
-                       <span className="text-sm text-slate-500">Р—РѕР»РѕС‚РѕР№ СЃС‚Р°РЅРґР°СЂС‚ (РЎРЁРђ)</span>
+                       <span className="font-medium text-slate-800">Одобрено FDA</span>
+                       <span className="text-sm text-slate-500">Золотой стандарт (США)</span>
                      </div>
                   </div>
                   <div className="space-y-4">
                      <div className="bg-[#60c2ff]/10 rounded-3xl p-6 h-40 flex flex-col justify-center border border-[#60c2ff]/20">
                        <Icon icon="solar:clock-circle-bold" className="text-3xl text-[#60c2ff] mb-3" />
-                       <span className="font-medium text-slate-800">Р‘РµР· СЂРµР°Р±РёР»РёС‚Р°С†РёРё</span>
-                       <span className="text-sm text-slate-500">РџРѕРєСЂР°СЃРЅРµРЅРёРµ СЃС…РѕРґРёС‚ Р·Р° С‡Р°СЃС‹</span>
+                       <span className="font-medium text-slate-800">Без реабилитации</span>
+                       <span className="text-sm text-slate-500">Покраснение сходит за часы</span>
                      </div>
                      <div className="aspect-[4/5] rounded-3xl overflow-hidden">
-                       <img src="https://static.tildacdn.com/tild6431-6533-4465-a166-623536616431/11.jpg" alt="Р РµР·СѓР»СЊС‚Р°С‚ РїСЂРѕС†РµРґСѓСЂС‹ PicoCare" className="w-full h-full object-cover" />
+                       <img src="https://static.tildacdn.com/tild6431-6533-4465-a166-623536616431/11.jpg" alt="Результат процедуры PicoCare" className="w-full h-full object-cover" />
                      </div>
                   </div>
                 </div>
@@ -165,20 +165,20 @@ export default function LaserRejuvenationClient() {
             <div className="relative z-10 flex flex-col lg:flex-row gap-16 lg:gap-24 items-center">
                <div className="w-full lg:w-1/2 stagger-item opacity-0">
                  <h2 className="text-3xl lg:text-5xl font-light text-white mb-8">
-                   РљР°РєРёРµ РїСЂРѕР±Р»РµРјС‹ <span className="font-serif italic text-blue-300">СЂРµС€Р°РµС‚</span> PicoCare?
+                   Какие проблемы <span className="font-serif italic text-blue-300">решает</span> PicoCare?
                  </h2>
                  <p className="text-slate-300 font-light text-lg mb-10 leading-relaxed">
-                   Р’РѕР·СЂР°СЃС‚РЅС‹Рµ РёР·РјРµРЅРµРЅРёСЏ РЅР°С‡РёРЅР°СЋС‚СЃСЏ СѓР¶Рµ РїРѕСЃР»Рµ 30 Р»РµС‚. Р’С‹СЂР°Р±РѕС‚РєР° РєРѕР»Р»Р°РіРµРЅР° СЃРЅРёР¶Р°РµС‚СЃСЏ, РєРѕР¶Р° С‚РµСЂСЏРµС‚ С‚РѕРЅСѓСЃ, РїРѕСЏРІР»СЏСЋС‚СЃСЏ РїРµСЂРІС‹Рµ Р·Р°Р»РѕРјС‹ Рё РїРёРіРјРµРЅС‚РЅС‹Рµ РїСЏС‚РЅР°. PicoCare СЃРѕР·РґР°РЅР° РёРјРµРЅРЅРѕ РґР»СЏ С‚РѕРіРѕ, С‡С‚РѕР±С‹ РїРѕРІРµСЂРЅСѓС‚СЊ РІСЂРµРјСЏ РІСЃРїСЏС‚СЊ.
+                   Возрастные изменения начинаются уже после 30 лет. Выработка коллагена снижается, кожа теряет тонус, появляются первые заломы и пигментные пятна. PicoCare создана именно для того, чтобы повернуть время вспять.
                  </p>
                  
                  <div className="grid sm:grid-cols-2 gap-x-8 gap-y-6">
                     {[
-                      "РњРµР»РєРёРµ РјРѕСЂС‰РёРЅС‹ Рё Р·Р°Р»РѕРјС‹",
-                      "РџРѕС‚РµСЂСЏ С‚РѕРЅСѓСЃР° Рё РїР»РѕС‚РЅРѕСЃС‚Рё РєРѕР¶Рё",
-                      "РџРёРіРјРµРЅС‚РЅС‹Рµ РїСЏС‚РЅР° Рё РІРµСЃРЅСѓС€РєРё",
-                      "Р Р°СЃС€РёСЂРµРЅРЅС‹Рµ РїРѕСЂС‹",
-                      "РЎР»РµРґС‹ РїРѕСЃС‚Р°РєРЅРµ Рё СЂСѓР±С†С‹",
-                      "РўСѓСЃРєР»С‹Р№, СЃРµСЂС‹Р№ С†РІРµС‚ Р»РёС†Р°"
+                      "Мелкие морщины и заломы",
+                      "Потеря тонуса и плотности кожи",
+                      "Пигментные пятна и веснушки",
+                      "Расширенные поры",
+                      "Следы постакне и рубцы",
+                      "Тусклый, серый цвет лица"
                     ].map((item, i) => (
                       <div key={i} className="flex gap-4 items-start">
                         <Icon icon="solar:check-circle-bold" className="text-[#60c2ff] text-xl shrink-0 mt-0.5" />
@@ -188,8 +188,8 @@ export default function LaserRejuvenationClient() {
                  </div>
                  
                  <div className="mt-12 bg-white/5 backdrop-blur-sm border border-white/10 rounded-3xl p-6 text-sm text-slate-300">
-                   <strong className="text-white flex items-center gap-2 mb-2"><Icon icon="solar:info-circle-bold" className="text-blue-400" /> РџСЂРѕС‚РёРІРѕРїРѕРєР°Р·Р°РЅРёСЏ:</strong>
-                   Р‘РµСЂРµРјРµРЅРЅРѕСЃС‚СЊ, Р»Р°РєС‚Р°С†РёСЏ, РёРЅС„РµРєС†РёРё РІ СЃС‚Р°РґРёРё РѕР±РѕСЃС‚СЂРµРЅРёСЏ, СЃРІРµР¶РёР№ Р·Р°РіР°СЂ (РјРµРЅРµРµ 2-4 РЅРµРґРµР»СЊ), РѕРЅРєРѕР»РѕРіРёСЏ.
+                   <strong className="text-white flex items-center gap-2 mb-2"><Icon icon="solar:info-circle-bold" className="text-blue-400" /> Противопоказания:</strong>
+                   Беременность, лактация, инфекции в стадии обострения, свежий загар (менее 2-4 недель), онкология.
                  </div>
                </div>
                
@@ -198,7 +198,7 @@ export default function LaserRejuvenationClient() {
                      <div className="absolute inset-0 bg-[url('https://static.tildacdn.com/tild3134-6139-4861-b330-363262623638/--.jpg')] bg-cover bg-center rounded-full opacity-50 mix-blend-overlay"></div>
                      <div className="relative z-10 text-center">
                         <Icon icon="solar:health-bold" className="text-6xl text-white mb-6 mx-auto" />
-                        <div className="text-3xl font-light text-white leading-tight">Р’РµСЂРЅРёС‚Рµ РєРѕР¶Рµ<br/><span className="font-serif italic text-blue-300">Р·РґРѕСЂРѕРІСЊРµ Рё СЃРёСЏРЅРёРµ</span></div>
+                        <div className="text-3xl font-light text-white leading-tight">Верните коже<br/><span className="font-serif italic text-blue-300">здоровье и сияние</span></div>
                      </div>
                   </div>
                </div>
@@ -210,9 +210,9 @@ export default function LaserRejuvenationClient() {
              <div className="flex flex-col md:flex-row justify-between items-end mb-16 stagger-item opacity-0">
                <div>
                  <h2 className="text-4xl lg:text-5xl font-light tracking-tight text-slate-900">
-                   Р¤РѕС‚Рѕ <span className="font-serif italic text-slate-400">РґРѕ Рё РїРѕСЃР»Рµ</span>
+                   Фото <span className="font-serif italic text-slate-400">до и после</span>
                  </h2>
-                 <p className="text-slate-500 mt-4 text-lg font-light">Р”Рѕ 95% РїР°С†РёРµРЅС‚РѕРІ РѕС‚РјРµС‡Р°СЋС‚ СѓР»СѓС‡С€РµРЅРёРµ РєРѕР¶Рё СѓР¶Рµ РїРѕСЃР»Рµ 1 РІРёР·РёС‚Р°</p>
+                 <p className="text-slate-500 mt-4 text-lg font-light">До 95% пациентов отмечают улучшение кожи уже после 1 визита</p>
                </div>
                <div className="hidden md:flex gap-3 mt-6 md:mt-0">
                  <button onClick={() => scrollGallery('left')} className="w-12 h-12 rounded-full border border-slate-200 flex items-center justify-center hover:bg-slate-50 hover:scale-105 transition-all text-slate-600 bg-white shadow-sm z-10">
@@ -235,12 +235,12 @@ export default function LaserRejuvenationClient() {
                
                <div ref={galleryRef} className="flex overflow-x-auto snap-x snap-mandatory gap-6 pb-12 hide-scrollbar px-4 lg:px-12 -mx-4 lg:-mx-12 scroll-smooth">
                  {[
-                 { src: "https://static.tildacdn.com/tild3338-6237-4635-b438-383766326333/6.png", label: "Р›Р°Р·РµСЂРЅРѕРµ РѕРјРѕР»РѕР¶РµРЅРёРµ, РІС‹СЂР°РІРЅРёРІР°РЅРёРµ С‚РѕРЅР°" },
-                 { src: "https://static.tildacdn.com/tild3138-3238-4839-b465-343135663532/5.jpg", label: "РЎСѓР¶РµРЅРёРµ РїРѕСЂ, СЂР°Р·РіР»Р°Р¶РёРІР°РЅРёРµ РјРѕСЂС‰РёРЅ" },
-                 { src: "https://static.tildacdn.com/tild3133-3963-4332-b264-323163383038/3.png", label: "РЈСЃС‚СЂР°РЅРµРЅРёРµ РїРёРіРјРµРЅС‚Р°С†РёРё" },
-                 { src: "https://static.tildacdn.com/tild3439-3364-4635-b439-636537613366/4.jpg", label: "Р›РµС‡РµРЅРёРµ РїРѕСЃС‚Р°РєРЅРµ Рё СѓР»СѓС‡С€РµРЅРёРµ СЂРµР»СЊРµС„Р°" },
-                 { src: "https://static.tildacdn.com/tild3664-3534-4061-b036-653938613831/1.jpg", label: "Р›РёС„С‚РёРЅРі СЌС„С„РµРєС‚ Рё РѕСЃРІРµС‚Р»РµРЅРёРµ" },
-                 { src: "https://static.tildacdn.com/tild3134-3932-4631-b634-326534663265/2.jpg", label: "РџСЂРѕС„РёР»Р°РєС‚РёРєР° РІРѕР·СЂР°СЃС‚РЅС‹С… РёР·РјРµРЅРµРЅРёР№" }
+                 { src: "https://static.tildacdn.com/tild3338-6237-4635-b438-383766326333/6.png", label: "Лазерное омоложение, выравнивание тона" },
+                 { src: "https://static.tildacdn.com/tild3138-3238-4839-b465-343135663532/5.jpg", label: "Сужение пор, разглаживание морщин" },
+                 { src: "https://static.tildacdn.com/tild3133-3963-4332-b264-323163383038/3.png", label: "Устранение пигментации" },
+                 { src: "https://static.tildacdn.com/tild3439-3364-4635-b439-636537613366/4.jpg", label: "Лечение постакне и улучшение рельефа" },
+                 { src: "https://static.tildacdn.com/tild3664-3534-4061-b036-653938613831/1.jpg", label: "Лифтинг эффект и осветление" },
+                 { src: "https://static.tildacdn.com/tild3134-3932-4631-b634-326534663265/2.jpg", label: "Профилактика возрастных изменений" }
                ].map((item, i) => (
                  <div key={i} className="min-w-[85vw] sm:min-w-[380px] snap-center shrink-0 flex flex-col gap-6 stagger-item opacity-0">
                    <div className="relative h-[400px] sm:h-[450px] rounded-3xl overflow-hidden shadow-[0_1rem_3rem_-1rem_rgba(0,0,0,0.1)] border border-slate-200 bg-white group flex items-center justify-center p-4">
@@ -261,16 +261,16 @@ export default function LaserRejuvenationClient() {
           <section className="mb-32 lg:mb-48 relative max-w-7xl mx-auto px-4 stagger-container">
             <div className="text-center mb-16 stagger-item opacity-0">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-slate-900 tracking-tight">
-                Р’СЂР°С‡Рё-СЌРєСЃРїРµСЂС‚С‹ РїРѕ Р»Р°Р·РµСЂРЅРѕРјСѓ РѕРјРѕР»РѕР¶РµРЅРёСЋ <span className="font-serif italic text-slate-400">PicoCare</span>
+                Врачи-эксперты по лазерному омоложению <span className="font-serif italic text-slate-400">PicoCare</span>
               </h2>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 lg:gap-6">
               {[
-                 { name: "Специалист SkinMed", role: "Р“Р»Р°РІРЅС‹Р№ РІСЂР°С‡, РєРѕСЃРјРµС‚РѕР»РѕРі", src: "https://static.tildacdn.com/tild3135-6136-4039-b265-353466623863/photo.jpg" },
-                 { name: "Специалист SkinMed", role: "Р’СЂР°С‡-РґРµСЂРјР°С‚РѕРІРµРЅРµСЂРѕР»РѕРі", src: "https://static.tildacdn.com/tild3134-6133-4638-b463-626334343761/--3.jpg" },
-                 { name: "Специалист SkinMed", role: "Р’СЂР°С‡-РєРѕСЃРјРµС‚РѕР»РѕРі", src: "https://static.tildacdn.com/tild3531-3565-4365-a430-333762333134/-.jpg" },
-                 { name: "Специалист SkinMed", role: "Р’СЂР°С‡-РґРµСЂРјР°С‚РѕР»РѕРі", src: "https://static.tildacdn.com/tild6433-3563-4639-b431-353834383066/-.jpg" },
-                 { name: "Специалист SkinMed", role: "Р’СЂР°С‡-РєРѕСЃРјРµС‚РѕР»РѕРі", src: "https://static.tildacdn.com/tild6430-3238-4635-a361-393430646636/-.jpg" },
+                 { name: "Специалист SkinMed", role: "Главный врач, косметолог", src: "https://static.tildacdn.com/tild3135-6136-4039-b265-353466623863/photo.jpg" },
+                 { name: "Специалист SkinMed", role: "Врач-дерматовенеролог", src: "https://static.tildacdn.com/tild3134-6133-4638-b463-626334343761/--3.jpg" },
+                 { name: "Специалист SkinMed", role: "Врач-косметолог", src: "https://static.tildacdn.com/tild3531-3565-4365-a430-333762333134/-.jpg" },
+                 { name: "Специалист SkinMed", role: "Врач-дерматолог", src: "https://static.tildacdn.com/tild6433-3563-4639-b431-353834383066/-.jpg" },
+                 { name: "Специалист SkinMed", role: "Врач-косметолог", src: "https://static.tildacdn.com/tild6430-3238-4635-a361-393430646636/-.jpg" },
               ].map((doc, i) => (
                 <div key={i} className="flex flex-col items-center stagger-item opacity-0 group">
                   <div className="relative w-full aspect-[3/4] rounded-[2rem] overflow-hidden mb-4 border border-slate-200">
@@ -288,15 +288,15 @@ export default function LaserRejuvenationClient() {
           <section className="mb-32 lg:mb-48 relative max-w-7xl mx-auto px-4">
             <div className="text-center mb-16 stagger-container">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-slate-900 tracking-tight stagger-item opacity-0">
-                РџРѕС‡РµРјСѓ PicoCare РЅСЂР°РІРёС‚СЃСЏ <span className="font-serif italic text-slate-400">РїР°С†РёРµРЅС‚Р°Рј?</span>
+                Почему PicoCare нравится <span className="font-serif italic text-slate-400">пациентам?</span>
               </h2>
             </div>
             
             <div className="grid md:grid-cols-3 gap-6 lg:gap-8 stagger-container">
               {[
-                { title: "Р‘РµР· Р±РѕР»Рё Рё РѕР¶РѕРіРѕРІ", desc: "Р—Р°Р±СѓРґСЊС‚Рµ Рѕ Р»Р°Р·РµСЂР°С… РїСЂРѕС€Р»РѕРіРѕ РїРѕРєРѕР»РµРЅРёСЏ, РєРѕС‚РѕСЂС‹Рµ СЃР¶РёРіР°Р»Рё РєРѕР¶Сѓ. PicoCare РґРµР№СЃС‚РІСѓРµС‚ СѓР»СЊС‚СЂР°РєРѕСЂРѕС‚РєРёРј РёРјРїСѓР»СЊСЃРѕРј, РєРѕС‚РѕСЂС‹Р№ РЅРµ СѓСЃРїРµРІР°РµС‚ СЂР°Р·РѕРіСЂРµС‚СЊ С‚РєР°РЅСЊ. РџР°С†РёРµРЅС‚ РѕС‰СѓС‰Р°РµС‚ Р»РёС€СЊ Р»РµРіРєРѕРµ С‚РµРїР»Рѕ.", icon: "solar:leaf-linear", color: "text-emerald-500", bg: "bg-emerald-50", border: "border-emerald-100" },
-                { title: "Р’СЃРµСЃРµР·РѕРЅРЅРѕСЃС‚СЊ", desc: "РўРµРїРµСЂСЊ РЅРµ РЅСѓР¶РЅРѕ Р¶РґР°С‚СЊ Р·РёРјС‹. РћРјРѕР»РѕР¶РµРЅРёРµ PicoCare РјРѕР¶РЅРѕ РґРµР»Р°С‚СЊ РґР°Р¶Рµ Р»РµС‚РѕРј! Р“Р»Р°РІРЅРѕРµ вЂ” РЅР°РЅРѕСЃРёС‚СЊ СЃРѕР»РЅС†РµР·Р°С‰РёС‚РЅС‹Р№ РєСЂРµРј SPF-50 РїРµСЂРµРґ РІС‹С…РѕРґРѕРј РЅР° СѓР»РёС†Сѓ.", icon: "solar:sun-linear", color: "text-orange-500", bg: "bg-orange-50", border: "border-orange-100" },
-                { title: "Р‘РµР· СЂРµР°Р±РёР»РёС‚Р°С†РёРё", desc: "РќРёРєР°РєРёС… РєРѕСЂРѕРє, С€РµР»СѓС€РµРЅРёР№ Рё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё СЃРёРґРµС‚СЊ РґРѕРјР° РЅРµРґРµР»СЋ. Р›РµРіРєРѕРµ РїРѕРєСЂР°СЃРЅРµРЅРёРµ Р»РёС†Р° РїСЂРѕС…РѕРґРёС‚ СѓР¶Рµ Рє РІРµС‡РµСЂСѓ РёР»Рё РЅР° СЃР»РµРґСѓСЋС‰РёР№ РґРµРЅСЊ. Р’С‹ СЃСЂР°Р·Сѓ РІРѕР·РІСЂР°С‰Р°РµС‚РµСЃСЊ Рє Р¶РёР·РЅРё.", icon: "solar:cup-star-linear", color: "text-blue-500", bg: "bg-blue-50", border: "border-blue-100" }
+                { title: "Без боли и ожогов", desc: "Забудьте о лазерах прошлого поколения, которые сжигали кожу. PicoCare действует ультракоротким импульсом, который не успевает разогреть ткань. Пациент ощущает лишь легкое тепло.", icon: "solar:leaf-linear", color: "text-emerald-500", bg: "bg-emerald-50", border: "border-emerald-100" },
+                { title: "Всесезонность", desc: "Теперь не нужно ждать зимы. Омоложение PicoCare можно делать даже летом! Главное — наносить солнцезащитный крем SPF-50 перед выходом на улицу.", icon: "solar:sun-linear", color: "text-orange-500", bg: "bg-orange-50", border: "border-orange-100" },
+                { title: "Без реабилитации", desc: "Никаких корок, шелушений и необходимости сидеть дома неделю. Легкое покраснение лица проходит уже к вечеру или на следующий день. Вы сразу возвращаетесь к жизни.", icon: "solar:cup-star-linear", color: "text-blue-500", bg: "bg-blue-50", border: "border-blue-100" }
               ].map((adv, i) => (
                 <div key={i} className="bg-white rounded-[2.5rem] p-10 lg:p-12 border border-slate-100 shadow-[0_1rem_4rem_-1rem_rgba(0,0,0,0.03)] hover:shadow-xl hover:-translate-y-2 transition-all duration-500 stagger-item opacity-0">
                   <div className={`w-16 h-16 rounded-[1.5rem] flex items-center justify-center mb-8 ${adv.bg} ${adv.border} border`}>
@@ -316,18 +316,18 @@ export default function LaserRejuvenationClient() {
              <div>
                 <div className="mb-16 stagger-item opacity-0 flex flex-col justify-start border-b border-slate-200/50 pb-8">
                   <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">
-                    вЂ” Р’РѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёРµ
+                    — Восстановление
                   </span>
                   <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0]">
-                    Р РµРєРѕРјРµРЅРґР°С†РёРё <span className="font-serif italic text-slate-400">РїРѕСЃР»Рµ</span>
+                    Рекомендации <span className="font-serif italic text-slate-400">после</span>
                   </h2>
                 </div>
 
                 <div className="flex flex-col">
                   <EditorialList items={[
-                { title: "Р’ С‚РµС‡РµРЅРёРµ 2 РЅРµРґРµР»СЊ РёР·Р±РµРіР°Р№С‚Рµ Р°РєС‚РёРІРЅРѕРіРѕ СЃРѕР»РЅС†Р°. Р•Р¶РµРґРЅРµРІРЅРѕ РЅР°РЅРѕСЃРёС‚Рµ РєСЂРµРј СЃ SPF 50 РЅР° РѕР±СЂР°Р±РѕС‚Р°РЅРЅС‹Рµ Р·РѕРЅС‹ РїРµСЂРµРґ РІС‹С…РѕРґРѕРј РЅР° СѓР»РёС†Сѓ.", desc: "" },
-                { title: "Р’ РїРµСЂРІС‹Рµ 7в€’10 РґРЅРµР№ РёСЃРєР»СЋС‡РёС‚Рµ Р±Р°РЅРё, СЃР°СѓРЅС‹, РіРѕСЂСЏС‡РёРµ РІР°РЅРЅС‹ Рё РїРµСЂРµРѕС…Р»Р°Р¶РґРµРЅРёРµ. РљРѕР¶Р° РґРѕР»Р¶РЅР° РІРѕСЃСЃС‚Р°РЅР°РІР»РёРІР°С‚СЊСЃСЏ РІ РєРѕРјС„РѕСЂС‚РЅРѕР№ С‚РµРјРїРµСЂР°С‚СѓСЂРµ Р±РµР· СЂРµР·РєРёС… СЃРєР°С‡РєРѕРІ.", desc: "" },
-                { title: "РР·Р±РµРіР°Р№С‚Рµ Р°РіСЂРµСЃСЃРёРІРЅС‹С… СЃСЂРµРґСЃС‚РІ, СЃРєСЂР°Р±РѕРІ, СЃРїРёСЂС‚РѕСЃРѕРґРµСЂР¶Р°С‰РёС… Р»РѕСЃСЊРѕРЅРѕРІ Рё РєРёСЃР»РѕС‚ РјРёРЅРёРјСѓРј РЅР° РѕРґРЅСѓ РЅРµРґРµР»СЋ.", desc: "" }
+                { title: "В течение 2 недель избегайте активного солнца. Ежедневно наносите крем с SPF 50 на обработанные зоны перед выходом на улицу.", desc: "" },
+                { title: "В первые 7−10 дней исключите бани, сауны, горячие ванны и переохлаждение. Кожа должна восстанавливаться в комфортной температуре без резких скачков.", desc: "" },
+                { title: "Избегайте агрессивных средств, скрабов, спиртосодержащих лосьонов и кислот минимум на одну неделю.", desc: "" }
               ]} />
                 </div>
              </div>
@@ -336,26 +336,26 @@ export default function LaserRejuvenationClient() {
              <div>
                 <div className="mb-16 stagger-item opacity-0 flex flex-col justify-start border-b border-slate-200/50 pb-8">
                   <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">
-                    вЂ” FAQ
+                    — FAQ
                   </span>
                   <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0]">
-                    РџРѕРїСѓР»СЏСЂРЅС‹Рµ <span className="font-serif italic text-slate-400">РІРѕРїСЂРѕСЃС‹</span>
+                    Популярные <span className="font-serif italic text-slate-400">вопросы</span>
                   </h2>
                 </div>
                 
                 <div className="flex flex-col gap-4">
                   {[
                     {
-                      q: "РљР°Рє Р±С‹СЃС‚СЂРѕ СЏ СѓРІРёР¶Сѓ СЂРµР·СѓР»СЊС‚Р°С‚, Рё СЃРєРѕР»СЊРєРѕ РѕРЅ РґРµСЂР¶РёС‚СЃСЏ?",
-                      a: "Р’Рѕ РјРЅРѕРіРёС… СЃР»СѓС‡Р°СЏС… СѓР»СѓС‡С€РµРЅРёРµ С‚РѕРЅСѓСЃР°, С†РІРµС‚Р° Рё С‚РµРєСЃС‚СѓСЂС‹ РєРѕР¶Рё РІС‹ Р·Р°РјРµС‚РёС‚Рµ СѓР¶Рµ РїРѕСЃР»Рµ 1 РїСЂРѕС†РµРґСѓСЂС‹. РњР°РєСЃРёРјР°Р»СЊРЅС‹Р№ СЌС„С„РµРєС‚ (РІС‹СЂР°Р±РѕС‚РєР° СЃРІРѕРµРіРѕ РєРѕР»Р»Р°РіРµРЅР°) СЂР°Р·РІРѕСЂР°С‡РёРІР°РµС‚СЃСЏ Р·Р° 1 РјРµСЃСЏС†. Р РµР·СѓР»СЊС‚Р°С‚ РґРµСЂР¶РёС‚СЃСЏ РґРѕ 1-1.5 Р»РµС‚."
+                      q: "Как быстро я увижу результат, и сколько он держится?",
+                      a: "Во многих случаях улучшение тонуса, цвета и текстуры кожи вы заметите уже после 1 процедуры. Максимальный эффект (выработка своего коллагена) разворачивается за 1 месяц. Результат держится до 1-1.5 лет."
                     },
                     {
-                      q: "Р‘РµР·Р±РѕР»РµР·РЅРµРЅРЅР° Р»Рё РїСЂРѕС†РµРґСѓСЂР°?",
-                      a: "PicoCare РѕС‡РµРЅСЊ РєРѕРјС„РѕСЂС‚РЅР° РїРѕ СЃСЂР°РІРЅРµРЅРёСЋ СЃРѕ СЃС‚Р°СЂРѕР№ CO2 С€Р»РёС„РѕРІРєРѕР№. Р‘РѕР»СЊС€РёРЅСЃС‚РІРѕ РїР°С†РёРµРЅС‚РѕРІ РѕС‰СѓС‰Р°СЋС‚ Р»РёС€СЊ С‚РµРїР»Рѕ Рё Р»РµРіРєРѕРµ РїРѕРєР°Р»С‹РІР°РЅРёРµ. РџРѕ Р¶РµР»Р°РЅРёСЋ РЅР°РЅРѕСЃРёС‚СЃСЏ Р°РїРїР»РёРєР°С†РёРѕРЅРЅР°СЏ Р°РЅРµСЃС‚РµР·РёСЏ (РєСЂРµРј), РЅРѕ С‡Р°СЃС‚Рѕ РјРѕР¶РЅРѕ РѕР±РѕР№С‚РёСЃСЊ Рё Р±РµР· РЅРµРµ."
+                      q: "Безболезненна ли процедура?",
+                      a: "PicoCare очень комфортна по сравнению со старой CO2 шлифовкой. Большинство пациентов ощущают лишь тепло и легкое покалывание. По желанию наносится аппликационная анестезия (крем), но часто можно обойтись и без нее."
                     },
                     {
-                      q: "Р§РµРј PicoCare РѕС‚Р»РёС‡Р°РµС‚СЃСЏ РѕС‚ CO2-С€Р»РёС„РѕРІРєРё?",
-                      a: "CO2 РёСЃРїР°СЂСЏРµС‚ (СЃР¶РёРіР°РµС‚) РІРµСЂС…РЅРёР№ СЃР»РѕР№ РєРѕР¶Рё, РѕСЃС‚Р°РІР»СЏСЏ РєРѕСЂРєРё Рё С‚СЂРµР±СѓСЏ РЅРµРґРµР»СЋ Р±РѕР»СЊРЅРёС‡РЅРѕРіРѕ. PicoCare СЂР°Р±РѕС‚Р°РµС‚ В«С…РѕР»РѕРґРЅС‹РјВ» СЃРІРµС‚РѕРј, СЃРѕР·РґР°РІР°СЏ Р°РєСѓСЃС‚РёС‡РµСЃРєСѓСЋ РІР·СЂС‹РІРЅСѓСЋ РІРѕР»РЅСѓ РІРЅСѓС‚СЂРё РєРѕР¶Рё Р±РµР· РїРѕРІСЂРµР¶РґРµРЅРёСЏ РїРѕРІРµСЂС…РЅРѕСЃС‚Рё. РќРµС‚ РєРѕСЂРѕРє, РЅРµС‚ РѕР¶РѕРіРѕРІ, СЌС„С„РµРєС‚ Р»РёС„С‚РёРЅРіР° РїСЂРё СЌС‚РѕРј РїРѕС‚СЂСЏСЃР°СЋС‰РёР№."
+                      q: "Чем PicoCare отличается от CO2-шлифовки?",
+                      a: "CO2 испаряет (сжигает) верхний слой кожи, оставляя корки и требуя неделю больничного. PicoCare работает «холодным» светом, создавая акустическую взрывную волну внутри кожи без повреждения поверхности. Нет корок, нет ожогов, эффект лифтинга при этом потрясающий."
                     }
                   ].map((faq, i) => (
                      <details key={i} className="group bg-white rounded-[2.5rem] border border-slate-100 overflow-hidden [&_summary::-webkit-details-marker]:hidden shadow-[0_1rem_4rem_-1rem_rgba(0,0,0,0.03)] hover:shadow-[0_2rem_4rem_-1rem_rgba(96,194,255,0.15)] transition-shadow duration-500 stagger-item opacity-0">
@@ -384,17 +384,17 @@ export default function LaserRejuvenationClient() {
               <Icon icon="solar:magic-stick-3-bold-duotone" className="text-6xl text-[#60c2ff] mx-auto mb-8 opacity-80" />
               
               <h2 className="text-3xl lg:text-5xl font-light text-white mb-6">
-                Р—Р°РїРёС€РёС‚РµСЃСЊ РЅР° Р»Р°Р·РµСЂРЅРѕРµ РѕРјРѕР»РѕР¶РµРЅРёРµ
+                Запишитесь на лазерное омоложение
               </h2>
               <p className="text-slate-300 font-light text-xl max-w-2xl mx-auto mb-10">
-                РњС‹ СЃРІСЏР¶РµРјСЃСЏ СЃ РІР°РјРё РІ С‚РµС‡РµРЅРёРµ 15 РјРёРЅСѓС‚ РІ СЂР°Р±РѕС‡РµРµ РІСЂРµРјСЏ Рё РѕС‚РІРµС‚РёРј РЅР° РІСЃРµ РІРѕРїСЂРѕСЃС‹.
+                Мы свяжемся с вами в течение 15 минут в рабочее время и ответим на все вопросы.
               </p>
               
               <button 
                 onClick={() => window.dispatchEvent(new Event('open-booking-modal'))}
                 className="px-10 py-5 bg-[#60c2ff] text-slate-900 rounded-full font-semibold text-lg hover:bg-white transition-colors duration-300 shadow-[0_0_40px_rgba(96,194,255,0.4)]"
               >
-                РћСЃС‚Р°РІРёС‚СЊ Р·Р°СЏРІРєСѓ
+                Оставить заявку
               </button>
             </div>
           </section>

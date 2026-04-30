@@ -26,43 +26,43 @@ export default function MechanicalCleaningClient() {
   }, []);
 
   const indications = [
-    { icon: 'solar:danger-triangle-linear', title: 'РљРѕРјРµРґРѕРЅС‹', desc: 'РћС‚РєСЂС‹С‚С‹Рµ Рё Р·Р°РєСЂС‹С‚С‹Рµ РєРѕРјРµРґРѕРЅС‹ (С‡С‘СЂРЅС‹Рµ Рё Р±РµР»С‹Рµ С‚РѕС‡РєРё)' },
-    { icon: 'solar:eye-linear', title: 'Р Р°СЃС€РёСЂРµРЅРЅС‹Рµ РїРѕСЂС‹', desc: 'Р’РёР·СѓР°Р»СЊРЅРѕ Р·Р°РјРµС‚РЅС‹Рµ, Р·Р°Р±РёС‚С‹Рµ РїРѕСЂС‹ Рў-Р·РѕРЅС‹' },
-    { icon: 'solar:waterdrop-linear', title: 'Р–РёСЂРЅР°СЏ РєРѕР¶Р°', desc: 'РР·Р±С‹С‚РѕС‡РЅРѕРµ СЃР°Р»РѕРѕС‚РґРµР»РµРЅРёРµ, Р¶РёСЂРЅС‹Р№ Р±Р»РµСЃРє' },
-    { icon: 'solar:pallete-2-linear', title: 'РўСѓСЃРєР»С‹Р№ С†РІРµС‚', desc: 'РЎРµСЂС‹Р№, РЅРµСЂРѕРІРЅС‹Р№ С‚РѕРЅ РєРѕР¶Рё РёР·-Р·Р° Р·Р°РіСЂСЏР·РЅРµРЅРёР№' },
-    { icon: 'solar:heart-linear', title: 'РњРёР»РёСѓРјС‹', desc: 'Р‘РµР»С‹Рµ СѓР·РµР»РєРё (РїСЂРѕСЃСЏРЅРєРё), РЅРµ СѓРґР°Р»СЏРµРјС‹Рµ СЃРєСЂР°Р±Р°РјРё' },
-    { icon: 'solar:shield-check-linear', title: 'РџСЂРѕС„РёР»Р°РєС‚РёРєР° Р°РєРЅРµ', desc: 'РџСЂРµРґРѕС‚РІСЂР°С‰РµРЅРёРµ РІРѕСЃРїР°Р»РёС‚РµР»СЊРЅС‹С… РІС‹СЃС‹РїР°РЅРёР№' },
+    { icon: 'solar:danger-triangle-linear', title: 'Комедоны', desc: 'Открытые и закрытые комедоны (чёрные и белые точки)' },
+    { icon: 'solar:eye-linear', title: 'Расширенные поры', desc: 'Визуально заметные, забитые поры Т-зоны' },
+    { icon: 'solar:waterdrop-linear', title: 'Жирная кожа', desc: 'Избыточное салоотделение, жирный блеск' },
+    { icon: 'solar:pallete-2-linear', title: 'Тусклый цвет', desc: 'Серый, неровный тон кожи из-за загрязнений' },
+    { icon: 'solar:heart-linear', title: 'Милиумы', desc: 'Белые узелки (просянки), не удаляемые скрабами' },
+    { icon: 'solar:shield-check-linear', title: 'Профилактика акне', desc: 'Предотвращение воспалительных высыпаний' },
   ];
 
   const steps = [
-    { title: 'Р”РµРјР°РєРёСЏР¶', desc: 'РўС‰Р°С‚РµР»СЊРЅРѕРµ РѕС‡РёС‰РµРЅРёРµ РєРѕР¶Рё РѕС‚ РјР°РєРёСЏР¶Р°, Р·Р°РіСЂСЏР·РЅРµРЅРёР№ Рё РёР·Р±С‹С‚РєР° РєРѕР¶РЅРѕРіРѕ СЃР°Р»Р° РїСЂРѕС„РµСЃСЃРёРѕРЅР°Р»СЊРЅС‹РјРё СЃСЂРµРґСЃС‚РІР°РјРё.' },
-    { title: 'РџРѕРґРіРѕС‚РѕРІРєР° РєРѕР¶Рё', desc: 'РќР°РЅРµСЃРµРЅРёРµ СЌРєСЃС„РѕР»РёР°РЅС‚Р° Рё СЂР°Р·РѕРіСЂРµРІР°СЋС‰РёС… СЃСЂРµРґСЃС‚РІ РґР»СЏ СЂР°СЃРєСЂС‹С‚РёСЏ РїРѕСЂ. РљРѕР¶Р° СЃС‚Р°РЅРѕРІРёС‚СЃСЏ РјСЏРіРєРѕР№ Рё РїРѕРґРіРѕС‚РѕРІР»РµРЅРЅРѕР№ Рє РіР»СѓР±РѕРєРѕР№ С‡РёСЃС‚РєРµ.' },
-    { title: 'РЈР»СЊС‚СЂР°Р·РІСѓРєРѕРІР°СЏ С‡РёСЃС‚РєР°', desc: 'РџСЂРµРґРІР°СЂРёС‚РµР»СЊРЅР°СЏ РЈР—-РѕР±СЂР°Р±РѕС‚РєР° РєРѕР¶Рё РґР»СЏ РїРѕРІРµСЂС…РЅРѕСЃС‚РЅРѕРіРѕ РѕС‡РёС‰РµРЅРёСЏ Рё РїРѕРґРіРѕС‚РѕРІРєРё Рє РјРµС…Р°РЅРёС‡РµСЃРєРѕРјСѓ СЌС‚Р°РїСѓ вЂ” РІРєР»СЋС‡РµРЅР° РІ РїСЂРѕС†РµРґСѓСЂСѓ.' },
-    { title: 'РњРµС…Р°РЅРёС‡РµСЃРєР°СЏ СЌРєСЃС‚СЂР°РєС†РёСЏ', desc: 'Р СѓС‡РЅРѕРµ СѓРґР°Р»РµРЅРёРµ РєРѕРјРµРґРѕРЅРѕРІ, РјРёР»РёСѓРјРѕРІ Рё Р·Р°РіСЂСЏР·РЅРµРЅРёР№ СЃ РїРѕРјРѕС‰СЊСЋ СЃС‚РµСЂРёР»СЊРЅРѕР№ Р»РѕР¶РєРё РЈРЅРѕ Рё РїРµС‚Р»Рё Р’РёРґР°Р»СЏ. РђРЅС‚РёСЃРµРїС‚РёС‡РµСЃРєР°СЏ РѕР±СЂР°Р±РѕС‚РєР° РїРѕСЃР»Рµ РєР°Р¶РґРѕРіРѕ СѓС‡Р°СЃС‚РєР°.' },
-    { title: 'РњР°СЃРєР°', desc: 'РќР°РЅРµСЃРµРЅРёРµ Р·Р°Р¶РёРІР»СЏСЋС‰РµР№, РїРѕСЂРѕСЃСѓР¶Р°СЋС‰РµР№ РјР°СЃРєРё СЃ РїСЂРѕС‚РёРІРѕРІРѕСЃРїР°Р»РёС‚РµР»СЊРЅС‹Рј РґРµР№СЃС‚РІРёРµРј РґР»СЏ СѓСЃРїРѕРєРѕРµРЅРёСЏ Рё РІРѕСЃСЃС‚Р°РЅРѕРІР»РµРЅРёСЏ РєРѕР¶Рё.' },
-    { title: 'SPF-Р·Р°С‰РёС‚Р°', desc: 'РќР°РЅРµСЃРµРЅРёРµ СѓРІР»Р°Р¶РЅСЏСЋС‰РµРіРѕ РєСЂРµРјР° СЃ СЃРѕР»РЅС†РµР·Р°С‰РёС‚РЅС‹Рј С„Р°РєС‚РѕСЂРѕРј SPF РґР»СЏ Р·Р°С‰РёС‚С‹ РѕР±РЅРѕРІР»С‘РЅРЅРѕР№ РєРѕР¶Рё.' },
+    { title: 'Демакияж', desc: 'Тщательное очищение кожи от макияжа, загрязнений и избытка кожного сала профессиональными средствами.' },
+    { title: 'Подготовка кожи', desc: 'Нанесение эксфолианта и разогревающих средств для раскрытия пор. Кожа становится мягкой и подготовленной к глубокой чистке.' },
+    { title: 'Ультразвуковая чистка', desc: 'Предварительная УЗ-обработка кожи для поверхностного очищения и подготовки к механическому этапу — включена в процедуру.' },
+    { title: 'Механическая экстракция', desc: 'Ручное удаление комедонов, милиумов и загрязнений с помощью стерильной ложки Уно и петли Видаля. Антисептическая обработка после каждого участка.' },
+    { title: 'Маска', desc: 'Нанесение заживляющей, поросужающей маски с противовоспалительным действием для успокоения и восстановления кожи.' },
+    { title: 'SPF-защита', desc: 'Нанесение увлажняющего крема с солнцезащитным фактором SPF для защиты обновлённой кожи.' },
   ];
 
   const advantages = [
-    { title: 'РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ РіР»СѓР±РёРЅР°', desc: 'Р’ РѕС‚Р»РёС‡РёРµ РѕС‚ СѓР»СЊС‚СЂР°Р·РІСѓРєРѕРІРѕР№ С‡РёСЃС‚РєРё, РјРµС…Р°РЅРёС‡РµСЃРєР°СЏ РїРѕР·РІРѕР»СЏРµС‚ СѓРґР°Р»РёС‚СЊ РіР»СѓР±РѕРєРѕ Р·Р°Р»РµРіР°СЋС‰РёРµ РєРѕРјРµРґРѕРЅС‹, РєРѕС‚РѕСЂС‹Рµ РЅРµРґРѕСЃС‚СѓРїРЅС‹ РґР»СЏ Р°РїРїР°СЂР°С‚РЅС‹С… РјРµС‚РѕРґРѕРІ.' },
-    { title: 'Р’РёР·СѓР°Р»СЊРЅС‹Р№ РєРѕРЅС‚СЂРѕР»СЊ', desc: 'Р’СЂР°С‡-РєРѕСЃРјРµС‚РѕР»РѕРі СЂР°Р±РѕС‚Р°РµС‚ РїРѕРґ СѓРІРµР»РёС‡РёС‚РµР»СЊРЅРѕР№ Р»Р°РјРїРѕР№, РєРѕРЅС‚СЂРѕР»РёСЂСѓСЏ РєР°Р¶РґС‹Р№ РјРёР»Р»РёРјРµС‚СЂ РѕР±СЂР°Р±Р°С‚С‹РІР°РµРјРѕР№ Р·РѕРЅС‹ вЂ” РЅРёС‡РµРіРѕ РЅРµ РїСЂРѕРїСѓСЃРєР°РµС‚СЃСЏ.' },
-    { title: 'РњРіРЅРѕРІРµРЅРЅС‹Р№ СЂРµР·СѓР»СЊС‚Р°С‚', desc: 'РЎСЂР°Р·Сѓ РїРѕСЃР»Рµ РїСЂРѕС†РµРґСѓСЂС‹ РїРѕСЂС‹ РѕС‡РёС‰РµРЅС‹, С†РІРµС‚ Р»РёС†Р° СЃРІРµР¶РёР№, СЂРµР»СЊРµС„ СЂРѕРІРЅС‹Р№. Р§РµСЂРµР· 1вЂ“2 РґРЅСЏ РїРѕРєСЂР°СЃРЅРµРЅРёСЏ РїРѕР»РЅРѕСЃС‚СЊСЋ РїСЂРѕС…РѕРґСЏС‚.' },
-    { title: 'РџСЂРѕС„РёР»Р°РєС‚РёРєР° РІРѕСЃРїР°Р»РµРЅРёР№', desc: 'Р РµРіСѓР»СЏСЂРЅР°СЏ С‡РёСЃС‚РєР° РїСЂРµРґРѕС‚РІСЂР°С‰Р°РµС‚ СЂР°Р·РІРёС‚РёРµ Р°РєРЅРµ вЂ” СѓРґР°Р»СЏРµС‚ В«РїСЂРѕР±РєРёВ» РІ РїРѕСЂР°С… РґРѕ С‚РѕРіРѕ, РєР°Рє РѕРЅРё РІРѕСЃРїР°Р»СЏС‚СЃСЏ.' },
+    { title: 'Максимальная глубина', desc: 'В отличие от ультразвуковой чистки, механическая позволяет удалить глубоко залегающие комедоны, которые недоступны для аппаратных методов.' },
+    { title: 'Визуальный контроль', desc: 'Врач-косметолог работает под увеличительной лампой, контролируя каждый миллиметр обрабатываемой зоны — ничего не пропускается.' },
+    { title: 'Мгновенный результат', desc: 'Сразу после процедуры поры очищены, цвет лица свежий, рельеф ровный. Через 1–2 дня покраснения полностью проходят.' },
+    { title: 'Профилактика воспалений', desc: 'Регулярная чистка предотвращает развитие акне — удаляет «пробки» в порах до того, как они воспалятся.' },
   ];
 
   const prices = [
-     { name: 'Процедура 1', price: 'РѕС‚ 3 500 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'РѕС‚ 4 500 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'РѕС‚ 2 000 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'РѕС‚ 5 000 в‚Ѕ' },
-     { name: 'Процедура 1', price: 'Р‘РµСЃРїР»Р°С‚РЅРѕ' },];
+     { name: 'Механическая чистка лица', price: 'от 3 500 ₽' },
+     { name: 'Комбинированная чистка', price: 'от 4 500 ₽' },
+     { name: 'Локальная чистка зоны', price: 'от 2 000 ₽' },
+     { name: 'Чистка спины', price: 'от 5 000 ₽' },
+     { name: 'Консультация косметолога', price: 'Бесплатно' },];
 
   const faq = [
-    { q: 'Р§РµРј РјРµС…Р°РЅРёС‡РµСЃРєР°СЏ С‡РёСЃС‚РєР° РѕС‚Р»РёС‡Р°РµС‚СЃСЏ РѕС‚ СѓР»СЊС‚СЂР°Р·РІСѓРєРѕРІРѕР№?', a: 'РЈР»СЊС‚СЂР°Р·РІСѓРєРѕРІР°СЏ С‡РёСЃС‚РєР° РґР°С‘С‚ РїРѕРІРµСЂС…РЅРѕСЃС‚РЅРѕРµ РѕС‡РёС‰РµРЅРёРµ Рё РїРѕРґС…РѕРґРёС‚ РґР»СЏ Р»С‘РіРєРёС… Р·Р°РіСЂСЏР·РЅРµРЅРёР№. РњРµС…Р°РЅРёС‡РµСЃРєР°СЏ С‡РёСЃС‚РєР° СѓРґР°Р»СЏРµС‚ РіР»СѓР±РѕРєРёРµ РєРѕРјРµРґРѕРЅС‹, РјРёР»РёСѓРјС‹ Рё РїР»РѕС‚РЅС‹Рµ СЃР°Р»СЊРЅС‹Рµ РїСЂРѕР±РєРё, РєРѕС‚РѕСЂС‹Рµ РЈР— РЅРµ СЃРїРѕСЃРѕР±РµРЅ РёР·РІР»РµС‡СЊ. РћРїС‚РёРјР°Р»СЊРЅС‹Р№ РІР°СЂРёР°РЅС‚ вЂ” РєРѕРјР±РёРЅРёСЂРѕРІР°РЅРЅС‹Р№ РїРѕРґС…РѕРґ.' },
-    { q: 'Р‘РѕР»СЊРЅРѕ Р»Рё РґРµР»Р°С‚СЊ РјРµС…Р°РЅРёС‡РµСЃРєСѓСЋ С‡РёСЃС‚РєСѓ?', a: 'РћС‰СѓС‰РµРЅРёСЏ Р·Р°РІРёСЃСЏС‚ РѕС‚ РєРѕР»РёС‡РµСЃС‚РІР° РІС‹СЃС‹РїР°РЅРёР№ Рё РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕР№ С‡СѓРІСЃС‚РІРёС‚РµР»СЊРЅРѕСЃС‚Рё РєРѕР¶Рё. Р‘РѕР»СЊС€РёРЅСЃС‚РІРѕ РїР°С†РёРµРЅС‚РѕРІ РѕС†РµРЅРёРІР°СЋС‚ РїСЂРѕС†РµРґСѓСЂСѓ РєР°Рє С‚РµСЂРїРёРјСѓСЋ. РџСЂРё РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РјС‹ РёСЃРїРѕР»СЊР·СѓРµРј РѕР±РµР·Р±РѕР»РёРІР°СЋС‰РёР№ РєСЂРµРј.' },
-    { q: 'РљР°Рє С‡Р°СЃС‚Рѕ РЅСѓР¶РЅРѕ РґРµР»Р°С‚СЊ С‡РёСЃС‚РєСѓ?', a: 'Р”Р»СЏ Р¶РёСЂРЅРѕР№ Рё РєРѕРјР±РёРЅРёСЂРѕРІР°РЅРЅРѕР№ РєРѕР¶Рё вЂ” РєР°Р¶РґС‹Рµ 4вЂ“6 РЅРµРґРµР»СЊ. Р”Р»СЏ РЅРѕСЂРјР°Р»СЊРЅРѕР№ РєРѕР¶Рё вЂ” 1 СЂР°Р· РІ 2вЂ“3 РјРµСЃСЏС†Р°. РўРѕС‡РЅСѓСЋ РїРµСЂРёРѕРґРёС‡РЅРѕСЃС‚СЊ РѕРїСЂРµРґРµР»СЏРµС‚ РІСЂР°С‡-РєРѕСЃРјРµС‚РѕР»РѕРі.' },
-    { q: 'РљР°РєРёРµ РѕРіСЂР°РЅРёС‡РµРЅРёСЏ РїРѕСЃР»Рµ РїСЂРѕС†РµРґСѓСЂС‹?', a: 'Р’ С‚РµС‡РµРЅРёРµ 24 С‡Р°СЃРѕРІ: РЅРµ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ РґРµРєРѕСЂР°С‚РёРІРЅСѓСЋ РєРѕСЃРјРµС‚РёРєСѓ, РЅРµ С‚СЂРѕРіР°С‚СЊ Р»РёС†Рѕ СЂСѓРєР°РјРё. 3вЂ“5 РґРЅРµР№: РёР·Р±РµРіР°С‚СЊ Р±Р°РЅРё, СЃР°СѓРЅС‹, Р±Р°СЃСЃРµР№РЅР°. 7 РґРЅРµР№: РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ SPF-Р·Р°С‰РёС‚Сѓ.' },
-    { q: 'РљРѕРјСѓ РїСЂРѕС‚РёРІРѕРїРѕРєР°Р·Р°РЅР° РјРµС…Р°РЅРёС‡РµСЃРєР°СЏ С‡РёСЃС‚РєР°?', a: 'Р“РµСЂРїРµСЃ РІ Р°РєС‚РёРІРЅРѕР№ С„Р°Р·Рµ, С‚СЏР¶С‘Р»Р°СЏ СЃС‚РµРїРµРЅСЊ Р°РєРЅРµ (С‚СЂРµР±СѓРµС‚ РјРµРґРёРєР°РјРµРЅС‚РѕР·РЅРѕРіРѕ Р»РµС‡РµРЅРёСЏ), РѕСЃС‚СЂС‹Рµ РєРѕР¶РЅС‹Рµ Р·Р°Р±РѕР»РµРІР°РЅРёСЏ, РїРѕРІСЂРµР¶РґРµРЅРёСЏ РєРѕР¶Рё РІ Р·РѕРЅРµ С‡РёСЃС‚РєРё, РїРѕРІС‹С€РµРЅРЅР°СЏ Р»РѕРјРєРѕСЃС‚СЊ СЃРѕСЃСѓРґРѕРІ.' },
+    { q: 'Чем механическая чистка отличается от ультразвуковой?', a: 'Ультразвуковая чистка даёт поверхностное очищение и подходит для лёгких загрязнений. Механическая чистка удаляет глубокие комедоны, милиумы и плотные сальные пробки, которые УЗ не способен извлечь. Оптимальный вариант — комбинированный подход.' },
+    { q: 'Больно ли делать механическую чистку?', a: 'Ощущения зависят от количества высыпаний и индивидуальной чувствительности кожи. Большинство пациентов оценивают процедуру как терпимую. При необходимости мы используем обезболивающий крем.' },
+    { q: 'Как часто нужно делать чистку?', a: 'Для жирной и комбинированной кожи — каждые 4–6 недель. Для нормальной кожи — 1 раз в 2–3 месяца. Точную периодичность определяет врач-косметолог.' },
+    { q: 'Какие ограничения после процедуры?', a: 'В течение 24 часов: не использовать декоративную косметику, не трогать лицо руками. 3–5 дней: избегать бани, сауны, бассейна. 7 дней: обязательно использовать SPF-защиту.' },
+    { q: 'Кому противопоказана механическая чистка?', a: 'Герпес в активной фазе, тяжёлая степень акне (требует медикаментозного лечения), острые кожные заболевания, повреждения кожи в зоне чистки, повышенная ломкость сосудов.' },
   ];
 
   const [openFaq, setOpenFaq] = React.useState<number | null>(null);
@@ -85,38 +85,38 @@ export default function MechanicalCleaningClient() {
 
           <section className="mb-6 md:mb-10 reveal-up opacity-0">
             <div className="flex flex-wrap items-center gap-2 text-xs md:text-sm text-slate-500">
-              <a href="/" className="hover:text-[#60c2ff] transition-colors duration-300">Р“Р»Р°РІРЅР°СЏ</a>
+              <a href="/" className="hover:text-[#60c2ff] transition-colors duration-300">Главная</a>
               <Icon icon="mdi:chevron-right" className="text-slate-400" />
-              <a href="/services/aesthetic" className="hover:text-[#60c2ff] transition-colors duration-300">Р­СЃС‚РµС‚РёС‡РµСЃРєР°СЏ РєРѕСЃРјРµС‚РѕР»РѕРіРёСЏ</a>
+              <a href="/services/aesthetic" className="hover:text-[#60c2ff] transition-colors duration-300">Эстетическая косметология</a>
               <Icon icon="mdi:chevron-right" className="text-slate-400" />
-              <span className="text-slate-700 font-medium">РњРµС…Р°РЅРёС‡РµСЃРєР°СЏ С‡РёСЃС‚РєР°</span>
+              <span className="text-slate-700 font-medium">Механическая чистка</span>
             </div>
           </section>
 
           <section className="mb-20 md:mb-32 reveal-up opacity-0">
             <div className="relative rounded-[2rem] md:rounded-[3rem] overflow-hidden bg-[#050B14] min-h-[550px] md:min-h-[700px] flex items-center group shadow-[0_2rem_5rem_-1rem_rgba(0,0,0,0.3)]">
               <div className="absolute inset-0 z-0">
-                <img src="/images/services/aesthetic/mechanical-cleaning/hero.png" alt="РњРµС…Р°РЅРёС‡РµСЃРєР°СЏ С‡РёСЃС‚РєР° Р»РёС†Р° РІ РЎРєРёРЅРњРµРґ" className="w-full h-full object-cover opacity-[0.35] mix-blend-overlay scale-105" />
+                <img src="/images/services/aesthetic/mechanical-cleaning/hero.png" alt="Механическая чистка лица в СкинМед" className="w-full h-full object-cover opacity-[0.35] mix-blend-overlay scale-105" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#050B14] via-[#050B14]/80 to-[#050B14]/60 md:bg-gradient-to-r md:from-[#050B14] md:via-[#050B14]/70 md:to-transparent"></div>
                 <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[60vw] h-[60vw] bg-[#60c2ff]/10 rounded-full blur-[100px] pointer-events-none z-10"></div>
               </div>
               <div className="relative z-20 px-8 py-12 sm:px-12 md:px-16 w-full max-w-4xl">
                 <div className="inline-flex items-center gap-3 px-4 py-2 rounded-full bg-[#60c2ff]/10 backdrop-blur-md border border-[#60c2ff]/20 text-white text-sm font-medium tracking-wide mb-6">
                   <span className="w-2 h-2 rounded-full bg-[#fbbf24] animate-pulse"></span>
-                  Р“Р»СѓР±РѕРєРѕРµ РѕС‡РёС‰РµРЅРёРµ
+                  Глубокое очищение
                 </div>
                 <h1 className="text-4xl md:text-6xl lg:text-[6rem] font-light tracking-[-0.04em] leading-[1.0] text-white mb-6 uppercase drop-shadow-2xl">
-                  РњРµС…Р°РЅРёС‡РµСЃРєР°СЏ <br />
-                  <span className="font-serif italic text-[#60c2ff]/80">С‡РёСЃС‚РєР° Р»РёС†Р°</span>
+                  Механическая <br />
+                  <span className="font-serif italic text-[#60c2ff]/80">чистка лица</span>
                 </h1>
                 <p className="text-lg md:text-xl font-light text-slate-300 mb-8 max-w-2xl leading-relaxed">
-                  РџСЂРѕС„РµСЃСЃРёРѕРЅР°Р»СЊРЅРѕРµ РіР»СѓР±РѕРєРѕРµ РѕС‡РёС‰РµРЅРёРµ РїРѕСЂ РѕС‚ РєРѕРјРµРґРѕРЅРѕРІ Рё Р·Р°РіСЂСЏР·РЅРµРЅРёР№. Р СѓС‡РЅР°СЏ СЂР°Р±РѕС‚Р° РІСЂР°С‡Р°-РєРѕСЃРјРµС‚РѕР»РѕРіР° СЃРѕ СЃС‚РµСЂРёР»СЊРЅС‹РјРё РёРЅСЃС‚СЂСѓРјРµРЅС‚Р°РјРё вЂ” РјР°РєСЃРёРјР°Р»СЊРЅР°СЏ С‡РёСЃС‚РѕС‚Р° Рё Р·РґРѕСЂРѕРІСЊРµ РєРѕР¶Рё.
+                  Профессиональное глубокое очищение пор от комедонов и загрязнений. Ручная работа врача-косметолога со стерильными инструментами — максимальная чистота и здоровье кожи.
                 </p>
                 <div className="flex flex-wrap gap-6 items-center">
                   <div className="relative inline-flex group/btn">
                     <div className="absolute inset-0 bg-[#60c2ff] rounded-full blur-[20px] opacity-40 group-hover/btn:opacity-70 transition-opacity duration-700"></div>
                     <button onClick={() => window.dispatchEvent(new Event('open-booking-modal'))} className="relative z-10 px-8 flex items-center justify-center py-5 bg-[#60c2ff] text-white rounded-full font-medium transition-transform duration-500 hover:scale-105 shadow-xl gap-2 min-w-[240px]">
-                      Р—Р°РїРёСЃР°С‚СЊСЃСЏ РЅР° С‡РёСЃС‚РєСѓ
+                      Записаться на чистку
                       <Icon icon="solar:arrow-right-linear" className="text-xl" />
                     </button>
                   </div>
@@ -128,9 +128,9 @@ export default function MechanicalCleaningClient() {
           {/* Indications */}
           <section className="mb-32 lg:mb-48 relative z-10">
             <div className="text-center mb-16 reveal-up opacity-0">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РџРѕРєР°Р·Р°РЅРёСЏ</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Показания</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                РљРѕРјСѓ РЅСѓР¶РЅР° <span className="font-serif italic text-slate-400">С‡РёСЃС‚РєР°</span>
+                Кому нужна <span className="font-serif italic text-slate-400">чистка</span>
               </h2>
             </div>
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 stagger-container">
@@ -150,9 +150,9 @@ export default function MechanicalCleaningClient() {
           {/* Steps */}
           <section className="mb-32 lg:mb-48 relative z-10 max-w-6xl mx-auto">
             <div className="mb-16 reveal-up opacity-0 border-b border-slate-200/50 pb-8">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Р­С‚Р°РїС‹</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Этапы</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] max-w-4xl">
-                РљР°Рє РїСЂРѕС…РѕРґРёС‚ <br /> <span className="font-serif italic text-slate-400">РїСЂРѕС†РµРґСѓСЂР°</span>
+                Как проходит <br /> <span className="font-serif italic text-slate-400">процедура</span>
               </h2>
             </div>
             <div className="flex flex-col stagger-container">
@@ -163,9 +163,9 @@ export default function MechanicalCleaningClient() {
           {/* Advantages */}
           <section className="mb-32 lg:mb-48 relative z-10 max-w-6xl mx-auto">
             <div className="mb-16 reveal-up opacity-0 border-b border-slate-200/50 pb-8">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РџСЂРµРёРјСѓС‰РµСЃС‚РІР°</span>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Преимущества</span>
               <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] max-w-4xl">
-                РџРѕС‡РµРјСѓ СЂСѓС‡РЅР°СЏ <br /> <span className="font-serif italic text-slate-400">С‡РёСЃС‚РєР°</span>
+                Почему ручная <br /> <span className="font-serif italic text-slate-400">чистка</span>
               </h2>
             </div>
             <div className="flex flex-col stagger-container">
@@ -177,7 +177,7 @@ export default function MechanicalCleaningClient() {
           <section className="mb-32 lg:mb-48 max-w-6xl mx-auto w-full">
             <div className="w-full bg-white/60 backdrop-blur-xl border border-white/80 rounded-[3rem] p-10 md:p-16 shadow-[0_2rem_4rem_-1rem_rgba(0,0,0,0.03)] reveal-up opacity-0">
               <div className="mb-12 border-b border-slate-100 pb-6">
-                <h2 className="text-[2.5rem] md:text-4xl font-light text-slate-900 tracking-tight">РЎС‚РѕРёРјРѕСЃС‚СЊ <span className="font-serif italic text-slate-400">СѓСЃР»СѓРі</span></h2>
+                <h2 className="text-[2.5rem] md:text-4xl font-light text-slate-900 tracking-tight">Стоимость <span className="font-serif italic text-slate-400">услуг</span></h2>
               </div>
               <div className="flex flex-col divide-y divide-slate-100">
                 {prices.map((price, idx) => (
@@ -193,8 +193,8 @@ export default function MechanicalCleaningClient() {
           {/* FAQ */}
           <section className="mb-32 lg:mb-48 max-w-4xl mx-auto w-full relative z-10">
             <div className="text-center mb-16 reveal-up opacity-0">
-              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Р’РѕРїСЂРѕСЃС‹</span>
-              <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">Р§Р°СЃС‚С‹Рµ <span className="font-serif italic text-slate-400">РІРѕРїСЂРѕСЃС‹</span></h2>
+              <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Вопросы</span>
+              <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">Частые <span className="font-serif italic text-slate-400">вопросы</span></h2>
             </div>
             <div className="flex flex-col gap-4 stagger-container">
               {faq.map((item, index) => (
@@ -220,14 +220,14 @@ export default function MechanicalCleaningClient() {
               <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12 max-w-6xl mx-auto">
                 <div className="flex-1 text-center lg:text-left">
                   <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-white tracking-[-0.04em] leading-[1.0] mb-6">
-                    Р§РёСЃС‚Р°СЏ РєРѕР¶Р° вЂ” <br /><span className="font-serif italic text-slate-400">Р·РґРѕСЂРѕРІР°СЏ РєРѕР¶Р°</span>
+                    Чистая кожа — <br /><span className="font-serif italic text-slate-400">здоровая кожа</span>
                   </h2>
-                  <p className="text-slate-400 font-light text-lg mb-12 max-w-lg mx-auto lg:mx-0">Р—Р°РїРёС€РёС‚РµСЃСЊ РЅР° Р±РµСЃРїР»Р°С‚РЅСѓСЋ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЋ Рё РїРѕРґР±РµСЂРёС‚Рµ РїСЂРѕРіСЂР°РјРјСѓ РѕС‡РёС‰РµРЅРёСЏ РґР»СЏ Р’Р°С€РµРіРѕ С‚РёРїР° РєРѕР¶Рё.</p>
+                  <p className="text-slate-400 font-light text-lg mb-12 max-w-lg mx-auto lg:mx-0">Запишитесь на бесплатную консультацию и подберите программу очищения для Вашего типа кожи.</p>
                   <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-8">
                     <div className="relative inline-flex group">
                       <div className="absolute inset-0 bg-[#60c2ff] rounded-full blur-[25px] opacity-40 group-hover:opacity-70 transition-opacity duration-700"></div>
                       <button onClick={() => window.dispatchEvent(new Event('open-booking-modal'))} className="relative z-10 px-10 py-5 bg-[#60c2ff] text-white rounded-full font-medium shadow-[0_1rem_2rem_rgba(96,194,255,0.2)] transition-transform duration-500 hover:scale-105 focus:outline-none flex items-center gap-3">
-                        Р—Р°РїРёСЃР°С‚СЊСЃСЏ РЅР° С‡РёСЃС‚РєСѓ
+                        Записаться на чистку
                         <Icon icon="solar:arrow-right-linear" className="text-xl" />
                       </button>
                     </div>

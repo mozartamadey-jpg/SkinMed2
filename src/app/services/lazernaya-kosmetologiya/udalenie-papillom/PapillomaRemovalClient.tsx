@@ -75,46 +75,46 @@ export default function PapillomaRemovalClient() {
   }, []);
 
   const indications = [
-    { title: "Р­СЃС‚РµС‚РёС‡РµСЃРєРёР№ РґРёСЃРєРѕРјС„РѕСЂС‚", desc: "РќР°Р»РёС‡РёРµ РЅРµРєСЂР°СЃРёРІС‹С… РЅР°СЂРѕСЃС‚РѕРІ РЅР° Р»РёС†Рµ, С€РµРµ РёР»Рё РІ Р·РѕРЅРµ РґРµРєРѕР»СЊС‚Рµ.", icon: "solar:eye-linear" },
-    { title: "Р¤РёР·РёС‡РµСЃРєРѕРµ С‚СЂРµРЅРёРµ", desc: "РџР°РїРёР»Р»РѕРјС‹ РІ РјРµСЃС‚Р°С… С‚СЂРµРЅРёСЏ РѕРґРµР¶РґС‹ РёР»Рё Р±РµР»СЊСЏ (РїРѕРґРјС‹С€РєРё, РїР°С…, РїРѕСЏСЃРЅРёС†Р°).", icon: "solar:danger-triangle-linear" },
-    { title: "РўСЂР°РІРјР°С‚РёР·Р°С†РёСЏ", desc: "РЎР»СѓС‡Р°Р№РЅРѕРµ РїРѕРІСЂРµР¶РґРµРЅРёРµ РёР»Рё С‡Р°СЃС‚РёС‡РЅС‹Р№ РЅР°РґСЂС‹РІ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ.", icon: "solar:scissors-square-linear" },
-    { title: "РњРЅРѕР¶РµСЃС‚РІРµРЅРЅС‹Рµ СЂРѕСЃСЃС‹РїРё", desc: "Р‘С‹СЃС‚СЂРѕРµ РїРѕСЏРІР»РµРЅРёРµ РЅРѕРІС‹С… РїР°РїРёР»Р»РѕРј РЅР° С‚РµР»Рµ, СѓРєР°Р·С‹РІР°СЋС‰РµРµ РЅР° Р°РєС‚РёРІРЅРѕСЃС‚СЊ Р’РџР§.", icon: "solar:stars-linear" },
-    { title: "РР·РјРµРЅРµРЅРёРµ С†РІРµС‚Р° / СЂР°Р·РјРµСЂР°", desc: "Р‘С‹СЃС‚СЂС‹Р№ СЂРѕСЃС‚, РїРѕРєСЂР°СЃРЅРµРЅРёРµ РёР»Рё РїРѕС‚РµРјРЅРµРЅРёРµ СЃСѓС‰РµСЃС‚РІСѓСЋС‰РµР№ РїР°РїРёР»Р»РѕРјС‹.", icon: "solar:medical-kit-linear" },
-    { title: "РџСЂРѕС„РёР»Р°РєС‚РёРєР°", desc: "РЈРґР°Р»РµРЅРёРµ РґР»СЏ РїСЂРµРґРѕС‚РІСЂР°С‰РµРЅРёСЏ СЂР°СЃРїСЂРѕСЃС‚СЂР°РЅРµРЅРёСЏ РІРёСЂСѓСЃР° РЅР° Р·РґРѕСЂРѕРІС‹Рµ СѓС‡Р°СЃС‚РєРё РєРѕР¶Рё.", icon: "solar:shield-check-linear" },
+    { title: "Эстетический дискомфорт", desc: "Наличие некрасивых наростов на лице, шее или в зоне декольте.", icon: "solar:eye-linear" },
+    { title: "Физическое трение", desc: "Папилломы в местах трения одежды или белья (подмышки, пах, поясница).", icon: "solar:danger-triangle-linear" },
+    { title: "Травматизация", desc: "Случайное повреждение или частичный надрыв образования.", icon: "solar:scissors-square-linear" },
+    { title: "Множественные россыпи", desc: "Быстрое появление новых папиллом на теле, указывающее на активность ВПЧ.", icon: "solar:stars-linear" },
+    { title: "Изменение цвета / размера", desc: "Быстрый рост, покраснение или потемнение существующей папилломы.", icon: "solar:medical-kit-linear" },
+    { title: "Профилактика", desc: "Удаление для предотвращения распространения вируса на здоровые участки кожи.", icon: "solar:shield-check-linear" },
   ];
 
   const advantages = [
-    { title: "РЎС‚РµСЂРёР»СЊРЅРѕСЃС‚СЊ Рё Р±РµСЃРєСЂРѕРІРЅРѕСЃС‚СЊ", desc: "Р›Р°Р·РµСЂ РјРіРЅРѕРІРµРЅРЅРѕ РєРѕР°РіСѓР»РёСЂСѓРµС‚ (В«Р·Р°РїР°РёРІР°РµС‚В») РєСЂРѕРІРµРЅРѕСЃРЅС‹Рµ СЃРѕСЃСѓРґС‹, РёСЃРєР»СЋС‡Р°СЏ РєСЂРѕРІРѕС‚РµС‡РµРЅРёРµ Рё РёРЅС„РёС†РёСЂРѕРІР°РЅРёРµ." },
-    { title: "РњРёРЅРёРјР°Р»СЊРЅС‹Р№ СЂРёСЃРє СЂСѓР±С†РѕРІ", desc: "РЈР»СЊС‚СЂР°С‚РѕРЅРєРёР№ Р»Р°Р·РµСЂРЅС‹Р№ Р»СѓС‡ РІРѕР·РґРµР№СЃС‚РІСѓРµС‚ С‚РѕР»СЊРєРѕ РЅР° РїР°С‚РѕР»РѕРіРёС‡РµСЃРєСѓСЋ С‚РєР°РЅСЊ, РЅРµ С‚СЂР°РІРјРёСЂСѓСЏ Р·РґРѕСЂРѕРІСѓСЋ РєРѕР¶Сѓ РІРѕРєСЂСѓРі." },
-    { title: "РЎРєРѕСЂРѕСЃС‚СЊ РїСЂРѕС†РµРґСѓСЂС‹", desc: "РЈРґР°Р»РµРЅРёРµ РѕРґРЅРѕРіРѕ СЌР»РµРјРµРЅС‚Р° Р·Р°РЅРёРјР°РµС‚ РЅРµ Р±РѕР»РµРµ 1вЂ“2 РјРёРЅСѓС‚ (В«РїСЂРѕС†РµРґСѓСЂР° РѕР±РµРґРµРЅРЅРѕРіРѕ РїРµСЂРµСЂС‹РІР°В»)." },
-    { title: "Р“РёСЃС‚РѕР»РѕРіРёС‡РµСЃРєРёР№ РєРѕРЅС‚СЂРѕР»СЊ", desc: "РџСЂРё РјР°Р»РµР№С€РёС… РїРѕРґРѕР·СЂРµРЅРёСЏС… РЅР° РєР°С‡РµСЃС‚РІРѕ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ, РјС‹ РѕС‚РїСЂР°РІР»СЏРµРј РјР°С‚РµСЂРёР°Р» РЅР° РіРёСЃС‚РѕР»РѕРіРёС‡РµСЃРєРѕРµ РёСЃСЃР»РµРґРѕРІР°РЅРёРµ." }
+    { title: "Стерильность и бескровность", desc: "Лазер мгновенно коагулирует («запаивает») кровеносные сосуды, исключая кровотечение и инфицирование." },
+    { title: "Минимальный риск рубцов", desc: "Ультратонкий лазерный луч воздействует только на патологическую ткань, не травмируя здоровую кожу вокруг." },
+    { title: "Скорость процедуры", desc: "Удаление одного элемента занимает не более 1–2 минут («процедура обеденного перерыва»)." },
+    { title: "Гистологический контроль", desc: "При малейших подозрениях на качество образования, мы отправляем материал на гистологическое исследование." }
   ];
 
   const steps = [
-    { title: "РћСЃРјРѕС‚СЂ РґРµСЂРјР°С‚РѕР»РѕРіР°", desc: "Р’СЂР°С‡ РїСЂРѕРІРѕРґРёС‚ РґРµСЂРјР°С‚РѕСЃРєРѕРїРёСЋ вЂ” РѕСЃРјРѕС‚СЂ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ РїРѕРґ РјРЅРѕРіРѕРєСЂР°С‚РЅС‹Рј СѓРІРµР»РёС‡РµРЅРёРµРј, С‡С‚РѕР±С‹ СѓР±РµРґРёС‚СЊСЃСЏ РІ РµРіРѕ РґРѕР±СЂРѕРєР°С‡РµСЃС‚РІРµРЅРЅРѕСЃС‚Рё." },
-    { title: "РњРµСЃС‚РЅР°СЏ Р°РЅРµСЃС‚РµР·РёСЏ", desc: "Р”Р»СЏ РїРѕР»РЅРѕРіРѕ РєРѕРјС„РѕСЂС‚Р° Р·РѕРЅР° СѓРґР°Р»РµРЅРёСЏ РѕР±СЂР°Р±Р°С‚С‹РІР°РµС‚СЃСЏ РѕР±РµР·Р±РѕР»РёРІР°СЋС‰РёРј РєСЂРµРјРѕРј РёР»Рё РґРµР»Р°РµС‚СЃСЏ РјРёРєСЂРѕРёРЅСЉРµРєС†РёСЏ Р°РЅРµСЃС‚РµС‚РёРєР°." },
-    { title: "Р›Р°Р·РµСЂРЅРѕРµ СѓРґР°Р»РµРЅРёРµ", desc: "Р’СЂР°С‡ РёСЃСЃРµРєР°РµС‚ РїР°РїРёР»Р»РѕРјСѓ CO2 Р»Р°Р·РµСЂРѕРј РѕС‚ РѕСЃРЅРѕРІР°РЅРёСЏ. РџСЂРѕРёСЃС…РѕРґРёС‚ РјРіРЅРѕРІРµРЅРЅР°СЏ РІР°РїРѕСЂРёР·Р°С†РёСЏ (РІС‹РїР°СЂРёРІР°РЅРёРµ) С‚РєР°РЅРµР№." },
-    { title: "РћР±СЂР°Р±РѕС‚РєР°", desc: "РќР° РјРµСЃС‚Рµ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ РѕСЃС‚Р°РµС‚СЃСЏ РЅРµР±РѕР»СЊС€Р°СЏ РєРѕСЂРѕС‡РєР°. Р’СЂР°С‡ Р°РЅС‚РёСЃРµРїС‚РёС‡РµСЃРєРё РѕР±СЂР°Р±Р°С‚С‹РІР°РµС‚ РµРµ Рё РґР°РµС‚ СЂРµРєРѕРјРµРЅРґР°С†РёРё РїРѕ РґРѕРјР°С€РЅРµРјСѓ СѓС…РѕРґСѓ." }
+    { title: "Осмотр дерматолога", desc: "Врач проводит дерматоскопию — осмотр образования под многократным увеличением, чтобы убедиться в его доброкачественности." },
+    { title: "Местная анестезия", desc: "Для полного комфорта зона удаления обрабатывается обезболивающим кремом или делается микроинъекция анестетика." },
+    { title: "Лазерное удаление", desc: "Врач иссекает папиллому CO2 лазером от основания. Происходит мгновенная вапоризация (выпаривание) тканей." },
+    { title: "Обработка", desc: "На месте образования остается небольшая корочка. Врач антисептически обрабатывает ее и дает рекомендации по домашнему уходу." }
   ];
 
   const aftercare = [
-    { title: "РќРµ РјРѕС‡РёС‚СЊ РєРѕСЂРѕС‡РєСѓ", desc: "РР·Р±РµРіР°Р№С‚Рµ РїСЂСЏРјРѕРіРѕ РєРѕРЅС‚Р°РєС‚Р° СЃ РІРѕРґРѕР№ Рё РјРѕСЋС‰РёРјРё СЃСЂРµРґСЃС‚РІР°РјРё РІ РїРµСЂРІС‹Рµ 48 С‡Р°СЃРѕРІ.", icon: "solar:waterdrop-linear" },
-    { title: "РќРµ РѕС‚СЂС‹РІР°С‚СЊ СЃС‚СЂСѓРї", desc: "РљРѕСЂРѕС‡РєР° (СЃС‚СЂСѓРї) РґРѕР»Р¶РЅР° РѕС‚РїР°СЃС‚СЊ СЃР°РјРѕСЃС‚РѕСЏС‚РµР»СЊРЅРѕ С‡РµСЂРµР· 5вЂ“7 РґРЅРµР№.", icon: "solar:hand-stars-linear" },
-    { title: "РР·Р±РµРіР°С‚СЊ РЅР°РіСЂРµРІР°", desc: "РћС‚РєР°Р¶РёС‚РµСЃСЊ РѕС‚ СЃРѕР»СЏСЂРёСЏ, Р±Р°РЅРё Рё СЃР°СѓРЅС‹ РґРѕ РїРѕР»РЅРѕРіРѕ Р·Р°Р¶РёРІР»РµРЅРёСЏ РєРѕР¶Рё.", icon: "solar:temperature-linear" },
-    { title: "SPF-Р·Р°С‰РёС‚Р°", desc: "РџРѕСЃР»Рµ РѕС‚С…РѕР¶РґРµРЅРёСЏ РєРѕСЂРѕС‡РєРё РёСЃРїРѕР»СЊР·СѓР№С‚Рµ СЃРѕР»РЅС†РµР·Р°С‰РёС‚РЅС‹Р№ РєСЂРµРј РґР»СЏ РїСЂРµРґРѕС‚РІСЂР°С‰РµРЅРёСЏ РїРёРіРјРµРЅС‚Р°С†РёРё.", icon: "solar:sun-2-linear" }
+    { title: "Не мочить корочку", desc: "Избегайте прямого контакта с водой и моющими средствами в первые 48 часов.", icon: "solar:waterdrop-linear" },
+    { title: "Не отрывать струп", desc: "Корочка (струп) должна отпасть самостоятельно через 5–7 дней.", icon: "solar:hand-stars-linear" },
+    { title: "Избегать нагрева", desc: "Откажитесь от солярия, бани и сауны до полного заживления кожи.", icon: "solar:temperature-linear" },
+    { title: "SPF-защита", desc: "После отхождения корочки используйте солнцезащитный крем для предотвращения пигментации.", icon: "solar:sun-2-linear" }
   ];
 
   const faqData = [
-    { q: "РћС‚РєСѓРґР° Р±РµСЂСѓС‚СЃСЏ РїР°РїРёР»Р»РѕРјС‹?", a: "РћСЃРЅРѕРІРЅР°СЏ РїСЂРёС‡РёРЅР° вЂ” РІРёСЂСѓСЃ РїР°РїРёР»Р»РѕРјС‹ С‡РµР»РѕРІРµРєР° (Р’РџР§), РєРѕС‚РѕСЂС‹Р№ РјРѕР¶РµС‚ РґРѕР»РіРѕРµ РІСЂРµРјСЏ РЅР°С…РѕРґРёС‚СЊСЃСЏ РІ РѕСЂРіР°РЅРёР·РјРµ РІ СЃРїСЏС‰РµРј СЃРѕСЃС‚РѕСЏРЅРёРё. РђРєС‚РёРІР°С†РёСЏ РїСЂРѕРёСЃС…РѕРґРёС‚ РЅР° С„РѕРЅРµ СЃРЅРёР¶РµРЅРёСЏ РёРјРјСѓРЅРёС‚РµС‚Р°, СЃС‚СЂРµСЃСЃРѕРІ РёР»Рё РіРѕСЂРјРѕРЅР°Р»СЊРЅС‹С… РёР·РјРµРЅРµРЅРёР№." },
-    { q: "РњРѕР¶РµС‚ Р»Рё РїР°РїРёР»Р»РѕРјР° РїРѕСЏРІРёС‚СЊСЃСЏ СЃРЅРѕРІР° РЅР° С‚РѕРј Р¶Рµ РјРµСЃС‚Рµ?", a: "Р›Р°Р·РµСЂРЅРѕРµ СѓРґР°Р»РµРЅРёРµ РіР°СЂР°РЅС‚РёСЂСѓРµС‚ СѓСЃС‚СЂР°РЅРµРЅРёРµ РєРѕРЅРєСЂРµС‚РЅРѕРіРѕ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ РЅР°РІСЃРµРіРґР°. РћРґРЅР°РєРѕ, РµСЃР»Рё РІРёСЂСѓСЃ Р’РџР§ РѕСЃС‚Р°РµС‚СЃСЏ Р°РєС‚РёРІРЅС‹Рј РІ РѕСЂРіР°РЅРёР·РјРµ, РІРѕР·РјРѕР¶РЅРѕ РїРѕСЏРІР»РµРЅРёРµ РЅРѕРІС‹С… РїР°РїРёР»Р»РѕРј РЅР° СЃРѕСЃРµРґРЅРёС… СѓС‡Р°СЃС‚РєР°С… РєРѕР¶Рё." },
-    { q: "РћСЃС‚Р°РЅРµС‚СЃСЏ Р»Рё С€СЂР°Рј?", a: "РџСЂРё СѓРґР°Р»РµРЅРёРё РјРµР»РєРёС… РѕР±СЂР°Р·РѕРІР°РЅРёР№ CO2 Р»Р°Р·РµСЂРѕРј С€СЂР°РјРѕРІ РЅРµ РѕСЃС‚Р°РµС‚СЃСЏ. РљРѕР¶Р° РїРѕР»РЅРѕСЃС‚СЊСЋ СЂРµРіРµРЅРµСЂРёСЂСѓРµС‚СЃСЏ. РџСЂРё СѓРґР°Р»РµРЅРёРё РіР»СѓР±РѕРєРёС… Рё РєСЂСѓРїРЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ РјРѕР¶РµС‚ РѕСЃС‚Р°С‚СЊСЃСЏ РµРґРІР° Р·Р°РјРµС‚РЅРѕРµ СЃРІРµС‚Р»РѕРµ РїСЏС‚РЅС‹С€РєРѕ." },
-    { q: "РњРѕР¶РЅРѕ Р»Рё СѓРґР°Р»СЏС‚СЊ РёС… СЃР°РјРѕСЃС‚РѕСЏС‚РµР»СЊРЅРѕ С‡РёСЃС‚РѕС‚РµР»РѕРј?", a: "РњС‹ РєР°С‚РµРіРѕСЂРёС‡РµСЃРєРё РЅРµ СЂРµРєРѕРјРµРЅРґСѓРµРј РёСЃРїРѕР»СЊР·РѕРІР°С‚СЊ Р°РіСЂРµСЃСЃРёРІРЅС‹Рµ С…РёРјРёС‡РµСЃРєРёРµ СЃСЂРµРґСЃС‚РІР° РґРѕРјР°. РћРЅРё РІС‹Р·С‹РІР°СЋС‚ С…РёРјРёС‡РµСЃРєРёРµ РѕР¶РѕРіРё, РіР»СѓР±РѕРєРёРµ СЂСѓР±С†С‹ Рё РЅРµ РіР°СЂР°РЅС‚РёСЂСѓСЋС‚ РїРѕР»РЅРѕРµ СѓРґР°Р»РµРЅРёРµ РєРѕСЂРЅСЏ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ, С‡С‚Рѕ РїСЂРёРІРѕРґРёС‚ Рє СЂРµС†РёРґРёРІР°Рј." }
+    { q: "Откуда берутся папилломы?", a: "Основная причина — вирус папилломы человека (ВПЧ), который может долгое время находиться в организме в спящем состоянии. Активация происходит на фоне снижения иммунитета, стрессов или гормональных изменений." },
+    { q: "Может ли папиллома появиться снова на том же месте?", a: "Лазерное удаление гарантирует устранение конкретного образования навсегда. Однако, если вирус ВПЧ остается активным в организме, возможно появление новых папиллом на соседних участках кожи." },
+    { q: "Останется ли шрам?", a: "При удалении мелких образований CO2 лазером шрамов не остается. Кожа полностью регенерируется. При удалении глубоких и крупных элементов может остаться едва заметное светлое пятнышко." },
+    { q: "Можно ли удалять их самостоятельно чистотелом?", a: "Мы категорически не рекомендуем использовать агрессивные химические средства дома. Они вызывают химические ожоги, глубокие рубцы и не гарантируют полное удаление корня образования, что приводит к рецидивам." }
   ];
 
     const doctors = [
-     { name: "Специалист SkinMed", role: "Р“Р»Р°РІРЅС‹Р№ РІСЂР°С‡, РєРѕСЃРјРµС‚РѕР»РѕРі, РґРµСЂРјР°С‚РѕРІРµРЅРµСЂРѕР»РѕРі", exp: "РћРїС‹С‚ 15 Р»РµС‚", img: "/images/doctors/kachyurina.jpg" },
-     { name: "Специалист SkinMed", role: "Р’СЂР°С‡-РєРѕСЃРјРµС‚РѕР»РѕРі, РґРµСЂРјР°С‚РѕР»РѕРі", exp: "РћРїС‹С‚ 10 Р»РµС‚", img: "/images/doctors/muhametzanova.jpg" },
-     { name: "Специалист SkinMed", role: "Р’СЂР°С‡-РґРµСЂРјР°С‚РѕР»РѕРі, С‚СЂРёС…РѕР»РѕРі, РєРѕСЃРјРµС‚РѕР»РѕРі", exp: "РћРїС‹С‚ 12 Р»РµС‚", img: "/images/doctors/vorobyova.jpg" },
+     { name: "Специалист SkinMed", role: "Главный врач, косметолог, дерматовенеролог", exp: "Опыт 15 лет", img: "/images/doctors/kachyurina.jpg" },
+     { name: "Специалист SkinMed", role: "Врач-косметолог, дерматолог", exp: "Опыт 10 лет", img: "/images/doctors/muhametzanova.jpg" },
+     { name: "Специалист SkinMed", role: "Врач-дерматолог, трихолог, косметолог", exp: "Опыт 12 лет", img: "/images/doctors/vorobyova.jpg" },
   ];
 
   const cases = [
@@ -140,11 +140,11 @@ export default function PapillomaRemovalClient() {
             {/* Breadcrumbs */}
             <section className="mb-[-2rem] reveal-up opacity-0">
               <div className="flex flex-wrap items-center gap-2 text-sm sm:text-base text-slate-500 font-light">
-                <Link href="/" className="hover:text-[#60c2ff] transition-colors duration-300">Р“Р»Р°РІРЅР°СЏ</Link>
+                <Link href="/" className="hover:text-[#60c2ff] transition-colors duration-300">Главная</Link>
                 <Icon icon="mdi:chevron-right" className="text-slate-400" />
-                <Link href="/services/lazernaya-kosmetologiya" className="hover:text-[#60c2ff] transition-colors duration-300">Р›Р°Р·РµСЂРЅР°СЏ РєРѕСЃРјРµС‚РѕР»РѕРіРёСЏ</Link>
+                <Link href="/services/lazernaya-kosmetologiya" className="hover:text-[#60c2ff] transition-colors duration-300">Лазерная косметология</Link>
                 <Icon icon="mdi:chevron-right" className="text-slate-400" />
-                <span className="text-slate-700 font-medium">РЈРґР°Р»РµРЅРёРµ РїР°РїРёР»Р»РѕРј</span>
+                <span className="text-slate-700 font-medium">Удаление папиллом</span>
               </div>
             </section>
 
@@ -153,22 +153,22 @@ export default function PapillomaRemovalClient() {
               <div className="bg-[#050B14] rounded-[2rem] md:rounded-[3rem] p-8 md:py-16 md:px-20 min-h-[550px] md:min-h-[700px] relative overflow-hidden shadow-[0_2rem_5rem_-1rem_rgba(0,0,0,0.3)] flex items-center border border-white/10 group-[.mobile-glow-active]:shadow-[#60c2ff]/30 transition-all duration-700">
                 <div className="absolute inset-0 z-0 overflow-hidden">
                   <div className="absolute inset-0 bg-gradient-to-t from-[#050B14] via-[#050B14]/80 to-[#050B14]/60 md:bg-gradient-to-r md:from-[#050B14] md:via-[#050B14]/70 md:to-transparent z-10"></div>
-                  <ServiceImage src="/images/papilloma-removal-hero.png" alt="РЈРґР°Р»РµРЅРёРµ РїР°РїРёР»Р»РѕРј CO2 Р»Р°Р·РµСЂРѕРј" sizes="100vw" priority className="w-full h-full object-cover opacity-80 mix-blend-overlay scale-[1.02] md:group-hover:scale-[1.04] transition-transform duration-[2s]" />
+                  <ServiceImage src="/images/papilloma-removal-hero.png" alt="Удаление папиллом CO2 лазером" sizes="100vw" priority className="w-full h-full object-cover opacity-80 mix-blend-overlay scale-[1.02] md:group-hover:scale-[1.04] transition-transform duration-[2s]" />
                   <div className="absolute top-1/2 left-0 -translate-y-1/2 w-[60vw] h-[60vw] bg-[#60c2ff]/10 rounded-full blur-[100px] pointer-events-none z-10"></div>
                 </div>
                 
                 <div className="relative z-20 w-full max-w-4xl mt-auto md:mt-0 pt-32 md:pt-0">
                   <div className="inline-flex items-center gap-3 bg-[#60c2ff]/10 backdrop-blur-md text-[#60c2ff] px-5 py-2.5 rounded-full border border-[#60c2ff]/20 shadow-sm mb-6">
                     <span className="w-2 h-2 rounded-full bg-[#fbbf24] animate-pulse"></span>
-                    <span className="text-xs sm:text-sm font-semibold uppercase tracking-widest text-white">Р‘С‹СЃС‚СЂРѕ Рё Р±РµР· С€СЂР°РјРѕРІ</span>
+                    <span className="text-xs sm:text-sm font-semibold uppercase tracking-widest text-white">Быстро и без шрамов</span>
                   </div>
                   
                   <h1 className="text-4xl md:text-6xl lg:text-[6rem] font-light text-white leading-[1.0] uppercase tracking-[-0.04em] drop-shadow-2xl mb-6">
-                    РЈРґР°Р»РµРЅРёРµ <br/> <span className="font-serif italic text-[#60c2ff]/80">РїР°РїРёР»Р»РѕРј</span>
+                    Удаление <br/> <span className="font-serif italic text-[#60c2ff]/80">папиллом</span>
                   </h1>
                   
                   <p className="text-lg md:text-xl font-light text-slate-300 leading-relaxed max-w-2xl mb-8">
-                    Р Р°РґРёРѕРІРѕР»РЅРѕРІРѕРµ Рё Р»Р°Р·РµСЂРЅРѕРµ СѓРґР°Р»РµРЅРёРµ РґРѕР±СЂРѕРєР°С‡РµСЃС‚РІРµРЅРЅС‹С… РЅРѕРІРѕРѕР±СЂР°Р·РѕРІР°РЅРёР№. Р‘РµР· Р±РѕР»Рё, Р±РµСЃРєСЂРѕРІРЅРѕ, СЃ РѕР±СЏР·Р°С‚РµР»СЊРЅС‹Рј РґРµСЂРјР°С‚РѕСЃРєРѕРїРёС‡РµСЃРєРёРј РєРѕРЅС‚СЂРѕР»РµРј.
+                    Радиоволновое и лазерное удаление доброкачественных новообразований. Без боли, бескровно, с обязательным дерматоскопическим контролем.
                   </p>
                   
                   <div className="flex flex-wrap gap-6 items-center">
@@ -178,7 +178,7 @@ export default function PapillomaRemovalClient() {
                         onClick={() => typeof window !== 'undefined' && window.dispatchEvent(new Event('open-booking-modal'))}
                         className="relative z-10 w-full px-8 py-5 flex items-center justify-center bg-[#60c2ff] text-white rounded-full font-medium transition-transform duration-500 hover:scale-105 shadow-xl min-w-[240px] gap-2"
                       >
-                        Р—Р°РїРёСЃР°С‚СЊСЃСЏ Рє РІСЂР°С‡Сѓ
+                        Записаться к врачу
                         <Icon icon="solar:arrow-right-linear" className="text-xl" />
                       </button>
                     </div>
@@ -190,9 +190,9 @@ export default function PapillomaRemovalClient() {
             {/* Indications Section */}
             <section className="reveal-up opacity-0 flex flex-col items-center max-w-7xl mx-auto w-full relative z-10">
               <div className="text-center mb-16">
-                <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РџРѕРєР°Р·Р°РЅРёСЏ</span>
+                <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Показания</span>
                 <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                  Р—Р°С‡РµРј РЅСѓР¶РЅРѕ <span className="font-serif italic text-slate-400">СѓРґР°Р»РµРЅРёРµ</span>
+                  Зачем нужно <span className="font-serif italic text-slate-400">удаление</span>
                 </h2>
               </div>
               
@@ -213,9 +213,9 @@ export default function PapillomaRemovalClient() {
             {/* Cases Section (Before & After) */}
             <section className="reveal-up opacity-0 relative z-10 max-w-7xl mx-auto w-full">
                <div className="mb-16 text-center">
-                 <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” Р­С„С„РµРєС‚</span>
+                 <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Эффект</span>
                  <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] mb-6">
-                   Р РµР·СѓР»СЊС‚Р°С‚ <span className="font-serif italic text-slate-400">Р»РµС‡РµРЅРёСЏ</span>
+                   Результат <span className="font-serif italic text-slate-400">лечения</span>
                  </h2>
                </div>
                
@@ -223,15 +223,15 @@ export default function PapillomaRemovalClient() {
                  {cases.map((c, i) => (
                    <div key={i} className="flex flex-col md:flex-row gap-4 sm:gap-6 bg-white/50 p-4 sm:p-6 rounded-[3rem] border border-white">
                      <div className="relative rounded-[2.5rem] overflow-hidden shadow-[0_1rem_3rem_-1rem_rgba(0,0,0,0.1)] group flex-1 aspect-square sm:aspect-auto">
-                       <ServiceImage src={c.before} alt="Р”Рѕ" sizes="(max-width: 768px) 100vw, 50vw" className="w-full h-full object-cover md:group-hover:scale-[1.03] transition-transform duration-700" />
-                       <div className="absolute top-6 left-6 bg-white/90 backdrop-blur text-xs px-4 py-2 rounded-full font-bold tracking-widest">Р”Рћ</div>
+                       <ServiceImage src={c.before} alt="До" sizes="(max-width: 768px) 100vw, 50vw" className="w-full h-full object-cover md:group-hover:scale-[1.03] transition-transform duration-700" />
+                       <div className="absolute top-6 left-6 bg-white/90 backdrop-blur text-xs px-4 py-2 rounded-full font-bold tracking-widest">ДО</div>
                      </div>
                      <div className="hidden md:flex flex-col items-center justify-center shrink-0 w-8">
                        <div className="w-[1px] h-full bg-slate-200"></div>
                      </div>
                      <div className="relative rounded-[2.5rem] overflow-hidden shadow-[0_1rem_3rem_-1rem_rgba(0,0,0,0.15)] group flex-1 aspect-square sm:aspect-auto">
-                       <ServiceImage src={c.after} alt="РџРѕСЃР»Рµ" sizes="(max-width: 768px) 100vw, 50vw" className="w-full h-full object-cover md:group-hover:scale-[1.03] transition-transform duration-700" />
-                       <div className="absolute top-6 right-6 bg-[#60c2ff] text-white text-xs px-4 py-2 rounded-full font-bold tracking-widest shadow-md">РџРћРЎР›Р•</div>
+                       <ServiceImage src={c.after} alt="После" sizes="(max-width: 768px) 100vw, 50vw" className="w-full h-full object-cover md:group-hover:scale-[1.03] transition-transform duration-700" />
+                       <div className="absolute top-6 right-6 bg-[#60c2ff] text-white text-xs px-4 py-2 rounded-full font-bold tracking-widest shadow-md">ПОСЛЕ</div>
                      </div>
                    </div>
                  ))}
@@ -241,28 +241,28 @@ export default function PapillomaRemovalClient() {
             {/* Problem & Tech Section */}
             <section className="reveal-up opacity-0 flex flex-col lg:flex-row gap-12 lg:gap-20 items-center bg-white/60 backdrop-blur-xl border border-white/80 rounded-[3rem] p-8 md:p-12 lg:p-16 shadow-[0_1rem_3rem_-1rem_rgba(0,0,0,0.05)] max-w-7xl mx-auto scroll-glow-item group">
                <div className="w-full lg:w-1/2 flex flex-col items-start gap-6">
-                  <span className="text-xs uppercase tracking-widest text-[#60c2ff] font-bold block">вЂ” РҐРёСЂСѓСЂРіРёС‡РµСЃРєРёР№ CO2 Р»Р°Р·РµСЂ</span>
+                  <span className="text-xs uppercase tracking-widest text-[#60c2ff] font-bold block">— Хирургический CO2 лазер</span>
                   <h2 className="text-[2.5rem] md:text-5xl font-light text-slate-900 leading-tight">
-                     Р®РІРµР»РёСЂРЅР°СЏ С‚РѕС‡РЅРѕСЃС‚СЊ Р±РµР· <span className="font-serif italic text-[#60c2ff]">РєСЂРѕРІРё</span>
+                     Ювелирная точность без <span className="font-serif italic text-[#60c2ff]">крови</span>
                   </h2>
                   <p className="text-lg md:text-xl text-slate-600 font-light leading-relaxed mt-4">
-                     Р’ РѕС‚Р»РёС‡РёРµ РѕС‚ СЃРєР°Р»СЊРїРµР»СЏ РёР»Рё Р¶РёРґРєРѕРіРѕ Р°Р·РѕС‚Р°, СЌСЂР±РёРµРІС‹Р№ РёР»Рё CO2 Р»Р°Р·РµСЂ РїРѕР·РІРѕР»СЏРµС‚ СѓРґР°Р»СЏС‚СЊ РЅРѕРІРѕРѕР±СЂР°Р·РѕРІР°РЅРёСЏ СЃ СЋРІРµР»РёСЂРЅРѕР№ С‚РѕС‡РЅРѕСЃС‚СЊСЋ, РєРѕРЅС‚СЂРѕР»РёСЂСѓСЏ РіР»СѓР±РёРЅСѓ РІРѕР·РґРµР№СЃС‚РІРёСЏ РґРѕ РґРѕР»РµР№ РјРёР»Р»РёРјРµС‚СЂР°.
+                     В отличие от скальпеля или жидкого азота, эрбиевый или CO2 лазер позволяет удалять новообразования с ювелирной точностью, контролируя глубину воздействия до долей миллиметра.
                   </p>
                   <p className="text-lg md:text-xl text-slate-600 font-light leading-relaxed">
-                     Р›Р°Р·РµСЂРЅС‹Р№ Р»СѓС‡ РјРіРЅРѕРІРµРЅРЅРѕ РёСЃРїР°СЂСЏРµС‚ РІР»Р°РіСѓ РёР· РїР°С‚РѕР»РѕРіРёС‡РµСЃРєРёС… РєР»РµС‚РѕРє, РѕРґРЅРѕРІСЂРµРјРµРЅРЅРѕ В«Р·Р°РїР°РёРІР°СЏВ» РјРµР»РєРёРµ РєСЂРѕРІРµРЅРѕСЃРЅС‹Рµ СЃРѕСЃСѓРґС‹ (СЌС„С„РµРєС‚ РєРѕР°РіСѓР»СЏС†РёРё). Р­С‚Рѕ РёСЃРєР»СЋС‡Р°РµС‚ СЂРёСЃРє РёРЅС„РёС†РёСЂРѕРІР°РЅРёСЏ, РїСЂРµРґРѕС‚РІСЂР°С‰Р°РµС‚ РєСЂРѕРІРѕС‚РµС‡РµРЅРёРµ Рё РѕР±РµСЃРїРµС‡РёРІР°РµС‚ Р±С‹СЃС‚СЂРѕРµ Р·Р°Р¶РёРІР»РµРЅРёРµ РІ РІРёРґРµ РєСЂРѕС€РµС‡РЅРѕР№ РєРѕСЂРѕС‡РєРё.
+                     Лазерный луч мгновенно испаряет влагу из патологических клеток, одновременно «запаивая» мелкие кровеносные сосуды (эффект коагуляции). Это исключает риск инфицирования, предотвращает кровотечение и обеспечивает быстрое заживление в виде крошечной корочки.
                   </p>
                </div>
                <div className="w-full lg:w-1/2 relative rounded-[2.5rem] overflow-hidden aspect-[4/3] lg:h-[500px] shadow-2xl">
-                  <ServiceImage src="/images/papilloma-removal-process.png" alt="РџСЂРѕС†РµСЃСЃ Р»Р°Р·РµСЂРЅРѕРіРѕ СѓРґР°Р»РµРЅРёСЏ РїР°РїРёР»Р»РѕРј" sizes="(max-width: 1024px) 100vw, 50vw" className="w-full h-full object-cover md:group-hover:scale-[1.03] transition-transform duration-700" />
+                  <ServiceImage src="/images/papilloma-removal-process.png" alt="Процесс лазерного удаления папиллом" sizes="(max-width: 1024px) 100vw, 50vw" className="w-full h-full object-cover md:group-hover:scale-[1.03] transition-transform duration-700" />
                </div>
             </section>
 
             {/* Advantages (Numbered List) */}
             <section className="reveal-up opacity-0 max-w-6xl mx-auto w-full relative z-10">
               <div className="mb-16 border-b border-slate-200/50 pb-8 text-center sm:text-left">
-                <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">вЂ” РџРѕС‡РµРјСѓ Р»Р°Р·РµСЂ</span>
+                <span className="block text-xs sm:text-sm font-medium uppercase tracking-[0.2em] text-[#60c2ff] mb-4">— Почему лазер</span>
                 <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-slate-900 tracking-[-0.04em] leading-[1.0] max-w-4xl">
-                  РџСЂРµРёРјСѓС‰РµСЃС‚РІР° <br className="hidden sm:block"/> <span className="font-serif italic text-slate-400">РјРµС‚РѕРґРёРєРё</span>
+                  Преимущества <br className="hidden sm:block"/> <span className="font-serif italic text-slate-400">методики</span>
                 </h2>
               </div>
               <div className="flex flex-col stagger-container">
@@ -276,7 +276,7 @@ export default function PapillomaRemovalClient() {
                 <div className="absolute top-0 right-0 w-[40rem] h-[40rem] bg-gradient-to-bl from-[#60c2ff]/5 to-transparent rounded-full blur-3xl pointer-events-none translate-x-1/3 -translate-y-1/3"></div>
                 
                 <h2 className="text-[2.5rem] md:text-5xl lg:text-[4rem] font-light text-slate-900 tracking-tight leading-tight mb-16 text-center relative z-10">
-                  Р­С‚Р°РїС‹ <span className="font-serif italic text-[#60c2ff]">СѓРґР°Р»РµРЅРёСЏ</span>
+                  Этапы <span className="font-serif italic text-[#60c2ff]">удаления</span>
                 </h2>
 
                 <div className="relative z-10 flex flex-col gap-16 md:gap-20">
@@ -300,25 +300,25 @@ export default function PapillomaRemovalClient() {
               <div className="w-full bg-white/60 backdrop-blur-xl border border-white/80 rounded-[3rem] p-10 md:p-16 shadow-[0_2rem_4rem_-1rem_rgba(0,0,0,0.03)] reveal-up opacity-0">
                 <div className="mb-12 border-b border-slate-100 pb-6 text-center sm:text-left">
                   <h2 className="text-[2.5rem] md:text-4xl font-light text-slate-900 tracking-tight">
-                    РЎС‚РѕРёРјРѕСЃС‚СЊ <span className="font-serif italic text-slate-400">СѓСЃР»СѓРі</span>
+                    Стоимость <span className="font-serif italic text-slate-400">услуг</span>
                   </h2>
                 </div>
                 <div className="flex flex-col divide-y divide-slate-100">
                   <div className="flex flex-col sm:flex-row justify-between sm:items-center py-6 group hover:px-4 transition-all duration-300 gap-2">
-                    <span className="text-lg lg:text-xl font-medium text-slate-800 group-hover:text-[#60c2ff] transition-colors">Р Р°РґРёРѕРІРѕР»РЅРѕРІРѕРµ СѓРґР°Р»РµРЅРёРµ РїР°РїРёР»Р»РѕРјС‹ (1 СЌР»РµРјРµРЅС‚ РґРѕ 0.5СЃРј)</span>
-                    <span className="text-xl lg:text-2xl font-light text-slate-900 bg-slate-50 px-5 py-2.5 rounded-full border border-slate-100 shrink-0">РѕС‚ 500 в‚Ѕ</span>
+                    <span className="text-lg lg:text-xl font-medium text-slate-800 group-hover:text-[#60c2ff] transition-colors">Радиоволновое удаление папилломы (1 элемент до 0.5см)</span>
+                    <span className="text-xl lg:text-2xl font-light text-slate-900 bg-slate-50 px-5 py-2.5 rounded-full border border-slate-100 shrink-0">от 500 ₽</span>
                   </div>
                   <div className="flex flex-col sm:flex-row justify-between sm:items-center py-6 group hover:px-4 transition-all duration-300 gap-2">
-                    <span className="text-lg lg:text-xl font-medium text-slate-800 group-hover:text-[#60c2ff] transition-colors">РњРЅРѕР¶РµСЃС‚РІРµРЅРЅРѕРµ СѓРґР°Р»РµРЅРёРµ РїР°РїРёР»Р»РѕРј (РѕС‚ 10 СЌР»РµРјРµРЅС‚РѕРІ)</span>
-                    <span className="text-xl lg:text-2xl font-light text-slate-900 bg-slate-50 px-5 py-2.5 rounded-full border border-slate-100 shrink-0">РѕС‚ 3 500 в‚Ѕ</span>
+                    <span className="text-lg lg:text-xl font-medium text-slate-800 group-hover:text-[#60c2ff] transition-colors">Множественное удаление папиллом (от 10 элементов)</span>
+                    <span className="text-xl lg:text-2xl font-light text-slate-900 bg-slate-50 px-5 py-2.5 rounded-full border border-slate-100 shrink-0">от 3 500 ₽</span>
                   </div>
                   <div className="flex flex-col sm:flex-row justify-between sm:items-center py-6 group hover:px-4 transition-all duration-300 gap-2">
-                    <span className="text-lg lg:text-xl font-medium text-slate-800 group-hover:text-[#60c2ff] transition-colors">Р”РµСЂРјР°С‚РѕСЃРєРѕРїРёСЏ РѕР±СЂР°Р·РѕРІР°РЅРёСЏ</span>
-                    <span className="text-xl lg:text-2xl font-light text-slate-900 bg-slate-50 px-5 py-2.5 rounded-full border border-slate-100 shrink-0">600 в‚Ѕ</span>
+                    <span className="text-lg lg:text-xl font-medium text-slate-800 group-hover:text-[#60c2ff] transition-colors">Дерматоскопия образования</span>
+                    <span className="text-xl lg:text-2xl font-light text-slate-900 bg-slate-50 px-5 py-2.5 rounded-full border border-slate-100 shrink-0">600 ₽</span>
                   </div>
                   <div className="flex flex-col sm:flex-row justify-between sm:items-center py-6 group hover:px-4 transition-all duration-300 gap-2">
-                    <span className="text-lg lg:text-xl font-medium text-slate-800 group-hover:text-[#60c2ff] transition-colors">Р“РёСЃС‚РѕР»РѕРіРёС‡РµСЃРєРѕРµ РёСЃСЃР»РµРґРѕРІР°РЅРёРµ С‚РєР°РЅРµР№</span>
-                    <span className="text-xl lg:text-2xl font-light text-slate-900 bg-slate-50 px-5 py-2.5 rounded-full border border-slate-100 shrink-0">2 500 в‚Ѕ</span>
+                    <span className="text-lg lg:text-xl font-medium text-slate-800 group-hover:text-[#60c2ff] transition-colors">Гистологическое исследование тканей</span>
+                    <span className="text-xl lg:text-2xl font-light text-slate-900 bg-slate-50 px-5 py-2.5 rounded-full border border-slate-100 shrink-0">2 500 ₽</span>
                   </div>
                 </div>
               </div>
@@ -327,9 +327,9 @@ export default function PapillomaRemovalClient() {
             {/* Doctors Section */}
             <section className="reveal-up opacity-0 flex flex-col items-center w-full max-w-7xl mx-auto">
                <div className="mb-16 text-center">
-                <span className="text-xs uppercase tracking-widest text-[#60c2ff] font-bold mb-3">вЂ” Р­РєСЃРїРµСЂС‚С‹</span>
+                <span className="text-xs uppercase tracking-widest text-[#60c2ff] font-bold mb-3">— Эксперты</span>
                 <h2 className="text-[2.5rem] md:text-5xl font-light text-slate-900 tracking-tight leading-tight">
-                  РџСЂРѕС†РµРґСѓСЂСѓ РїСЂРѕРІРѕРґСЏС‚ <span className="font-serif italic text-slate-400">РІСЂР°С‡Рё</span>
+                  Процедуру проводят <span className="font-serif italic text-slate-400">врачи</span>
                 </h2>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full px-4 sm:px-0">
@@ -338,7 +338,7 @@ export default function PapillomaRemovalClient() {
                     <div className="aspect-[4/5] w-full relative overflow-hidden bg-slate-50">
                       <ServiceImage src={doc.img} alt={doc.name} sizes="(max-width: 1024px) 50vw, 25vw" className="w-full h-full object-cover object-top transition-transform duration-700 md:group-hover/doc:scale-[1.04]" />
                       <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-md px-3 py-1.5 rounded-full text-xs font-medium text-[#60c2ff] shadow-sm flex items-center gap-1">
-                        <Icon icon="solar:verified-check-bold" /> Р’С‹СЃС€РµРµ РјРµРґ.
+                        <Icon icon="solar:verified-check-bold" /> Высшее мед.
                       </div>
                     </div>
                     <div className="p-6 md:p-8 flex flex-col flex-1 bg-white relative z-10">
@@ -357,7 +357,7 @@ export default function PapillomaRemovalClient() {
             {/* Aftercare */}
             <section className="reveal-up opacity-0 max-w-6xl mx-auto w-full bg-[#FAFAFA] p-8 md:p-16 rounded-[3rem] border border-slate-100 shadow-sm">
                 <div className="mb-12 text-center">
-                  <h2 className="text-3xl md:text-5xl font-light text-slate-900 tracking-tight">Р РµРєРѕРјРµРЅРґР°С†РёРё <span className="font-serif italic text-slate-400">РїРѕСЃР»Рµ С‚РµСЂР°РїРёРё</span></h2>
+                  <h2 className="text-3xl md:text-5xl font-light text-slate-900 tracking-tight">Рекомендации <span className="font-serif italic text-slate-400">после терапии</span></h2>
                 </div>
                 <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
                   {aftercare.map((item, idx) => (
@@ -376,14 +376,14 @@ export default function PapillomaRemovalClient() {
             <section className="reveal-up opacity-0 flex flex-col lg:flex-row gap-12 lg:gap-20 max-w-7xl mx-auto w-full items-start">
                <div className="w-full lg:w-1/3 sticky top-32">
                  <h2 className="text-3xl md:text-5xl font-light text-slate-900 leading-tight mb-6">
-                   Р’РѕРїСЂРѕСЃС‹ <br className="hidden lg:block"/><span className="font-serif italic text-slate-400">Рё РѕС‚РІРµС‚С‹</span>
+                   Вопросы <br className="hidden lg:block"/><span className="font-serif italic text-slate-400">и ответы</span>
                  </h2>
-                 <p className="text-lg text-slate-500 font-light mb-8">РЎРѕР±СЂР°Р»Рё РґР»СЏ РІР°СЃ РѕС‚РІРµС‚С‹ РЅР° С‡Р°СЃС‚Рѕ Р·Р°РґР°РІР°РµРјС‹Рµ РІРѕРїСЂРѕСЃС‹ РѕР± СѓРґР°Р»РµРЅРёРё РѕР±СЂР°Р·РѕРІР°РЅРёР№.</p>
+                 <p className="text-lg text-slate-500 font-light mb-8">Собрали для вас ответы на часто задаваемые вопросы об удалении образований.</p>
                  <button 
                   onClick={() => typeof window !== 'undefined' && window.dispatchEvent(new Event('open-booking-modal'))}
                   className="hidden lg:flex px-8 py-4 bg-white border border-[#60c2ff] text-[#60c2ff] rounded-full font-medium hover:bg-[#60c2ff] hover:text-white transition-all duration-300 items-center justify-center gap-2"
                  >
-                   Р—Р°РґР°С‚СЊ СЃРІРѕР№ РІРѕРїСЂРѕСЃ <Icon icon="solar:arrow-right-linear" className="text-xl" />
+                   Задать свой вопрос <Icon icon="solar:arrow-right-linear" className="text-xl" />
                  </button>
                </div>
                
@@ -422,11 +422,11 @@ export default function PapillomaRemovalClient() {
                  <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-12 max-w-6xl mx-auto">
                    <div className="flex-1 text-center lg:text-left">
                      <h2 className="text-[3rem] sm:text-5xl lg:text-[5rem] font-light text-white tracking-[-0.04em] leading-[1.0] mb-6">
-                       Р§РёСЃС‚Р°СЏ РєРѕР¶Р° <br />
-                       <span className="font-serif italic text-slate-400">Р±РµР· РЅРѕРІРѕРѕР±СЂР°Р·РѕРІР°РЅРёР№</span>
+                       Чистая кожа <br />
+                       <span className="font-serif italic text-slate-400">без новообразований</span>
                      </h2>
                      <p className="text-slate-400 font-light text-lg lg:text-xl mb-12 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-                       РћСЃС‚Р°РІСЊС‚Рµ Р·Р°СЏРІРєСѓ РЅР° СѓРґР°Р»РµРЅРёРµ. РћРїС‹С‚РЅС‹Р№ РІСЂР°С‡-РґРµСЂРјР°С‚РѕРІРµРЅРµСЂРѕР»РѕРі РѕСЃРјРѕС‚СЂРёС‚ СЂРѕРґРёРЅРєСѓ РёР»Рё РїР°РїРёР»Р»РѕРјСѓ Рё Р±РµСЂРµР¶РЅРѕ РёР·Р±Р°РІРёС‚ РІР°СЃ РѕС‚ РЅРµРµ Р·Р° РїР°СЂСѓ РјРёРЅСѓС‚.
+                       Оставьте заявку на удаление. Опытный врач-дерматовенеролог осмотрит родинку или папиллому и бережно избавит вас от нее за пару минут.
                      </p>
                      
                      <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-8">
@@ -436,7 +436,7 @@ export default function PapillomaRemovalClient() {
                            onClick={() => window.dispatchEvent(new Event('open-booking-modal'))}
                            className="relative z-10 px-10 py-5 bg-[#60c2ff] text-white rounded-full text-lg font-medium shadow-[0_1rem_2rem_rgba(96,194,255,0.2)] transition-transform duration-500 hover:scale-105 focus:outline-none flex items-center gap-3"
                          >
-                           Р—Р°РїРёСЃР°С‚СЊСЃСЏ Рє РІСЂР°С‡Сѓ
+                           Записаться к врачу
                            <Icon icon="solar:arrow-right-linear" className="text-xl" />
                          </button>
                        </div>
