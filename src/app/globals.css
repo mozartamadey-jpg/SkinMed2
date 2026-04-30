@@ -148,3 +148,39 @@ main > section:not(:first-child) {
   content-visibility: auto;
   contain-intrinsic-size: auto 600px;
 }
+
+@media (max-width: 640px) {
+  main,
+  main > section,
+  main .grid,
+  main .flex,
+  body[data-surface="services"] main,
+  body[data-surface="services"] main > section,
+  body[data-surface="services"] main .grid,
+  body[data-surface="services"] main .flex {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  main > section,
+  body[data-surface="services"] main > section {
+    width: 100%;
+  }
+
+  main h1,
+  main h2,
+  main h3,
+  main p,
+  main a,
+  main span,
+  main li,
+  body[data-surface="services"] main h1,
+  body[data-surface="services"] main h2,
+  body[data-surface="services"] main h3,
+  body[data-surface="services"] main p,
+  body[data-surface="services"] main a,
+  body[data-surface="services"] main span,
+  body[data-surface="services"] main li {
+    overflow-wrap: anywhere;
+  }
+}

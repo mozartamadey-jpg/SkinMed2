@@ -41,3 +41,5 @@ next-env.d.ts
 
 # gemini agent artifacts
 .gemini/
+
+.vercel
