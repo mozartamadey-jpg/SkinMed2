@@ -33,9 +33,12 @@ export default function Header({ mode = "sticky" }: { mode?: "sticky" | "static"
           ? "bg-white border-white shadow-[0_1.5rem_3rem_-1.5rem_rgba(15,23,42,0.28)]"
           : "bg-white/90 backdrop-blur-xl border-white/70 shadow-[0_10px_24px_-18px_rgba(96,194,255,0.18)]"
       }`}>
-        <a href="/" className="flex items-center cursor-pointer group relative z-10" onClick={closeMenu}>
-          <span className="text-lg sm:text-xl font-extralight text-slate-800 tracking-tighter uppercase">
-            СкинМед
+        <a href="/" className="flex items-center gap-2.5 cursor-pointer group relative z-10" onClick={closeMenu}>
+          <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-[#60c2ff]/10 flex items-center justify-center group-hover:bg-[#60c2ff] transition-colors duration-500">
+            <Icon icon="solar:health-bold" className="text-lg sm:text-xl text-[#60c2ff] group-hover:text-white transition-colors duration-500" />
+          </div>
+          <span className="text-lg sm:text-xl font-light text-slate-800 tracking-wide uppercase group-hover:text-[#60c2ff] transition-colors duration-500">
+            Скин<span className="font-medium text-[#60c2ff] group-hover:text-slate-800 transition-colors duration-500">Мед</span>
           </span>
         </a>
 
