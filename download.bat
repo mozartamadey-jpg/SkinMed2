@@ -1,0 +1,10 @@
+@echo off
+curl.exe -L -A "Mozilla/5.0" "https://static.tildacdn.com/tild3365-6637-4933-b764-356338343634/-.jpg" -o "e:/SkinMed2/public/images/doctors/kachyurina.jpg"
+curl.exe -L -A "Mozilla/5.0" "https://static.tildacdn.com/tild3631-6265-4433-a538-633138653535/1.jpg" -o "e:/SkinMed2/public/images/doctors/emelina.jpg"
+curl.exe -L -A "Mozilla/5.0" "https://static.tildacdn.com/tild3739-3061-4133-a664-306666663762/photo.jpg" -o "e:/SkinMed2/public/images/doctors/glubokaya.jpg"
+curl.exe -L -A "Mozilla/5.0" "https://static.tildacdn.com/tild3464-3535-4664-a333-633661643164/2pg.jpg" -o "e:/SkinMed2/public/images/doctors/muhametzanova.jpg"
+curl.exe -L -A "Mozilla/5.0" "https://static.tildacdn.com/tild6638-3139-4161-b730-326432666133/-.jpg" -o "e:/SkinMed2/public/images/doctors/shitov.jpg"
+curl.exe -L -A "Mozilla/5.0" "https://static.tildacdn.com/tild3631-3435-4565-a438-333735653936/-.jpg" -o "e:/SkinMed2/public/images/doctors/vorobyova.jpg"
+curl.exe -L -A "Mozilla/5.0" "https://static.tildacdn.com/tild6465-3064-4532-a331-626262376234/15.jpg" -o "e:/SkinMed2/public/images/doctors/nikiforova.jpg"
+curl.exe -L -A "Mozilla/5.0" "https://static.tildacdn.com/tild6165-3663-4064-a533-326464303034/--3.jpg" -o "e:/SkinMed2/public/images/doctors/safyanova.jpg"
+echo "Download complete!"

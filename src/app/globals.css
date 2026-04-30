@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading tracking-tight;
+  }
+
+  /* ── GPU Performance: force hardware acceleration on animated elements ── */
+  .reveal-up,
+  .reveal-scale,
+  .stagger-item,
+  .anim-whip,
+  .anim-words,
+  .anim-clip {
+    will-change: transform, opacity;
+    transform: translateZ(0);
+    backface-visibility: hidden;
+  }
+
+}
+
+/* Content removed to allow Lenis to control scroll-behavior */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.hide-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+@layer utilities {
+  .glass-refract {
+    @apply transition-all duration-700 ease-[cubic-bezier(0.23,1,0.32,1)];
+  }
+
+  /* Micro-interactions used in original HTML */
+  .icon-spin-hover {
+    @apply group-hover:animate-spin-slow;
+  }
+  
+  .icon-bounce-hover {
+    @apply group-hover:animate-[subtle-bounce_1s_ease-in-out_infinite];
+  }
+}
+
+/* Анимации для модального окна */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ── Performance: reduce paint complexity for backdrop-blur elements ── */
+@layer base {
+  /* Ensure the body doesn't trigger unnecessary repaints */
+  body {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeSpeed;
+  }
+
+  body[data-surface="services"] .animate-orbit,
+  body[data-surface="services"] .animate-float {
+    animation-duration: 42s !important;
+    filter: blur(2rem) !important;
+    will-change: transform !important;
+  }
+
+  body[data-surface="services"] .backdrop-blur-md {
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+  }
+
+  body[data-surface="services"] .backdrop-blur-xl {
+    backdrop-filter: blur(14px) !important;
+    -webkit-backdrop-filter: blur(14px) !important;
+  }
+
+  body[data-surface="services"] .backdrop-blur-2xl {
+    backdrop-filter: blur(18px) !important;
+    -webkit-backdrop-filter: blur(18px) !important;
+  }
+
+  body[data-surface="services"] .mix-blend-overlay,
+  body[data-surface="services"] .mix-blend-multiply {
+    mix-blend-mode: normal !important;
+    opacity: 0.018 !important;
+  }
+
+  body[data-surface="services"] .scroll-glow-item,
+  body[data-surface="services"] .reveal-up,
+  body[data-surface="services"] .reveal-scale,
+  body[data-surface="services"] .stagger-item,
+  body[data-surface="services"] .anim-clip {
+    contain: layout paint;
+  }
+
+  main img.service-img-smooth {
+    transition: opacity 900ms cubic-bezier(0.22, 1, 0.36, 1), transform 1200ms cubic-bezier(0.22, 1, 0.36, 1);
+    backface-visibility: hidden;
+  }
+
+  body[data-surface="services"] main p,
+  body[data-surface="services"] main li {
+    text-wrap: pretty;
+  }
+}
+
+/* ── Respect reduced-motion preferences ── */
+@media (prefers-reduced-motion: reduce) {
+  .reveal-up,
+  .reveal-scale,
+  .stagger-item,
+  .anim-whip,
+  .anim-words,
+  .anim-clip {
+    opacity: 1 !important;
+    transform: none !important;
+    will-change: auto !important;
+    transition: none !important;
+  }
+
+  .animate-orbit,
+  .animate-float,
+  .animate-pulse,
+  .animate-spin-slow {
+    animation: none !important;
+  }
+}
+
+/* ── Lazy rendering for off-screen sections (skip hero) ── */
+main > section:not(:first-child) {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 600px;
+}

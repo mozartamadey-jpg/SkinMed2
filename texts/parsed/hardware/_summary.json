@@ -1,0 +1,57 @@
+{
+  "parsedAt": "2026-04-08T22:10:57.012Z",
+  "totalPages": 7,
+  "success": 7,
+  "fail": 0,
+  "pages": [
+    {
+      "slug": "hardware-main",
+      "blocks": 21,
+      "images": 51,
+      "videos": 0,
+      "prices": 6
+    },
+    {
+      "slug": "smas-lifting-ulthera",
+      "blocks": 51,
+      "images": 41,
+      "videos": 1,
+      "prices": 25
+    },
+    {
+      "slug": "smas-lifting-bison",
+      "blocks": 31,
+      "images": 23,
+      "videos": 0,
+      "prices": 0
+    },
+    {
+      "slug": "rf-lifting-vivace",
+      "blocks": 41,
+      "images": 36,
+      "videos": 1,
+      "prices": 29
+    },
+    {
+      "slug": "oligio",
+      "blocks": 36,
+      "images": 31,
+      "videos": 0,
+      "prices": 8
+    },
+    {
+      "slug": "ultrazvukovaya-chistka",
+      "blocks": 22,
+      "images": 53,
+      "videos": 0,
+      "prices": 0
+    },
+    {
+      "slug": "fotoomolozhenie",
+      "blocks": 29,
+      "images": 54,
+      "videos": 0,
+      "prices": 21
+    }
+  ]
+}

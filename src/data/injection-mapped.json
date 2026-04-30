@@ -1,0 +1,415 @@
+{
+  "biorevitalization": {
+    "hero": {
+      "title": "Биоревитализация лица в Казани",
+      "subtitle": "Инъекционная косметология",
+      "description": "Тогда вам подойдет процедура **биоревитализации лица** — одно из наиболее действенных решений для восстановления молодости кожи. Эта методика насыщает кожу **гиалуроновой кислотой**, стимулируя процессы регенерации и глубокого увлажнения.В нашей клинике «СкинМед» применяются исключительно сертифицированные биоревитализанты, и каждый пациент получает индивидуальный подход, благодаря чему достигается естественный результат без видимых признаков вмешательства.",
+      "image": "/images/services/injection/inj_biorev_1775859281338.png",
+      "features": [
+        "Мгновенный результат",
+        "Сертифицированные препараты",
+        "Безболезненное введение"
+      ]
+    },
+    "about": {
+      "title": "О процедуре",
+      "content": [
+        "Предложение действует до 30 апреля!",
+        "Запишитесь на процедуру с выгодой 5.000₽!",
+        "Биоревитализация JALUPRO + консультация врача за 12.000₽ вместо 16.000₽",
+        "ГЛУБОКОЕ УВЛАЖНЕНИЕ И ОМОЛОЖЕНИЕ КОЖИ",
+        "Главная / Услуги / Инъекционная косметология / Биоревитализация лица",
+        "Тогда вам подойдет процедура **биоревитализации лица** — одно из наиболее действенных решений для восстановления молодости кожи. Эта методика насыщает кожу **гиалуроновой кислотой**, стимулируя процессы регенерации и глубокого увлажнения.В нашей клинике «СкинМед» применяются исключительно сертифицированные биоревитализанты, и каждый пациент получает индивидуальный подход, благодаря чему достигается естественный результат без видимых признаков вмешательства."
+      ]
+    },
+    "pricing": [
+      {
+        "name": "P-SHINE",
+        "price": "7.500₽"
+      },
+      {
+        "name": "NCTF 135 HA+",
+        "price": "14.000₽"
+      },
+      {
+        "name": "Безинъекционная мезотерапияMD: COMPLEX MLNCS 3мл",
+        "price": "7.000₽"
+      },
+      {
+        "name": "Вискодерм Скинко 5мл",
+        "price": "12.000₽"
+      },
+      {
+        "name": "REVI (EYE Corection) 1мл",
+        "price": "14.500₽"
+      },
+      {
+        "name": "REVI STYLE 1мл",
+        "price": "12.500₽"
+      },
+      {
+        "name": "Вискодерм СКИНКО Е 5мл",
+        "price": "13.000₽"
+      },
+      {
+        "name": "JALUPRO 3,0 мл",
+        "price": "14.000₽"
+      },
+      {
+        "name": "Belotero Hydro 1мл",
+        "price": "14.000₽"
+      },
+      {
+        "name": "Belotero Revive",
+        "price": "19.100₽"
+      },
+      {
+        "name": "REVI SILK 1мл",
+        "price": "15.000₽"
+      },
+      {
+        "name": "REVI STRONG 1мл",
+        "price": "15.000₽"
+      },
+      {
+        "name": "Профайло",
+        "price": "27.000₽"
+      },
+      {
+        "name": "Профайло Боди",
+        "price": "40.000₽"
+      },
+      {
+        "name": "PLINEST 2мл",
+        "price": "22.500₽"
+      },
+      {
+        "name": "PLINEST FAST 2мл",
+        "price": "22.500₽"
+      },
+      {
+        "name": "МЕЗОСКАЛЬПТ 1,5 мл",
+        "price": "21.000₽"
+      },
+      {
+        "name": "МЕЗОВАРТОН 1,5мл",
+        "price": "21.000₽"
+      },
+      {
+        "name": "СФЕРОГЕЛЬ Long Fine 0,5мл",
+        "price": "19.000₽"
+      },
+      {
+        "name": "МЕЗОКСАНТИН 1,5мл",
+        "price": "21.000₽"
+      },
+      {
+        "name": "REVI STYLE 2мл",
+        "price": "20.000₽"
+      },
+      {
+        "name": "REVI STRONG 2мл",
+        "price": "21.500₽"
+      },
+      {
+        "name": "REVI SILK 2мл",
+        "price": "21.500₽"
+      },
+      {
+        "name": "Вискодерм Скинкодля мезотерапии волос",
+        "price": "8.000₽"
+      },
+      {
+        "name": "Bellarty Lift 2 мл",
+        "price": "18.000₽"
+      },
+      {
+        "name": "Bellarty Vita",
+        "price": "16.200₽"
+      },
+      {
+        "name": "Novocutan Y-Bio 2 мл",
+        "price": "21.000₽"
+      },
+      {
+        "name": "HAIR X",
+        "price": "9.400₽"
+      }
+    ],
+    "gallery": [
+      "https://static.tildacdn.com/tild3462-3436-4062-b934-393665373238/--.jpg",
+      "https://static.tildacdn.com/tild3137-3366-4966-a534-366666633938/11.jpg",
+      "https://static.tildacdn.com/tild3339-6437-4564-a131-366134653834/photo.jpg",
+      "https://static.tildacdn.com/tild3066-6639-4338-a661-643032383631/2pg.jpg",
+      "https://static.tildacdn.com/tild3465-3839-4364-b335-383330303335/-.jpg",
+      "https://static.tildacdn.com/tild3966-6331-4134-a134-663730323839/-.jpg",
+      "https://static.tildacdn.com/tild3530-6434-4330-b566-316566363036/2.jpg",
+      "https://static.tildacdn.com/tild3962-6438-4662-b966-653538316237/1.jpg",
+      "https://static.tildacdn.com/tild3135-6136-4039-b265-353466623863/photo.jpg",
+      "https://static.tildacdn.com/tild3639-6462-4334-b033-616662396136/-.jpg",
+      "https://static.tildacdn.com/tild6461-3530-4534-a464-636636373638/--.jpg",
+      "https://static.tildacdn.com/tild3134-6133-4638-b463-626334343761/--3.jpg",
+      "https://static.tildacdn.com/tild3133-6561-4865-b466-363266383566/--.jpg",
+      "https://static.tildacdn.com/tild3531-3565-4365-a430-333762333134/-.jpg",
+      "https://static.tildacdn.com/tild6433-3563-4639-b431-353834383066/-.jpg",
+      "https://static.tildacdn.com/tild6430-3238-4635-a361-393430646636/-.jpg",
+      "https://optim.tildacdn.com/tild3763-6333-4338-a637-376233363934/-/cover/387x530/center/center/-/format/webp/photo.jpg.webp",
+      "https://optim.tildacdn.com/tild3637-3233-4133-b065-633739623039/-/cover/387x530/center/center/-/format/webp/11.jpg.webp",
+      "https://optim.tildacdn.com/tild3138-3364-4662-b335-633137383737/-/cover/387x530/center/center/-/format/webp/1.jpg.webp",
+      "https://optim.tildacdn.com/tild6364-3138-4238-a164-653130636566/-/cover/387x530/center/center/-/format/webp/photo.jpg.webp",
+      "https://lh3.googleusercontent.com/a-/ALV-UjUx8yw8CyP_1usAJsHDp6k8bMIw8dOiJehoXY3xwk_6MDYNmVqM7A=s120-c-rp-mo-br100",
+      "https://lh3.googleusercontent.com/a/ACg8ocKSuJj8MdpnjNJwikyxj0HFxu-4zCWA4wJISNnaC8mv8hDdtw=s120-c-rp-mo-br100",
+      "https://lh3.googleusercontent.com/a/ACg8ocL9lag6uJC1_YhAy0Fe16csV3A8OZ0ysImPkcLPIi5iVuLLDw=s120-c-rp-mo-br100",
+      "https://lh3.googleusercontent.com/a/ACg8ocKL4lRXfGHVL1z9KAcD3idAYs1605x16yM1l5GyWlrpB2Cc6dc=s120-c-rp-mo-br100",
+      "https://lh3.googleusercontent.com/a/ACg8ocIMeTY3UHsYZKYxK6qCaJflRJoqzLWwCm0kQc595CNRcDXCFQ=s120-c-rp-mo-br100",
+      "https://lh3.googleusercontent.com/a/ACg8ocILPWSkkL5AJm7kU6cV9nRut8mBbADHxK708KYoqRaW29Zmog=s120-c-rp-mo-br100",
+      "https://lh3.googleusercontent.com/a/ACg8ocI6vaSuRBXTLxbOOdUE-LkngRTBSN2OJFyyNktpqy-8RFZde3c=s120-c-rp-mo-br100"
+    ],
+    "faq": null
+  },
+  "contour-plastics": {
+    "hero": {
+      "title": "Контурная пластика лица в Казани",
+      "subtitle": "Инъекционная косметология",
+      "description": "В клинике «СкинМед» в Казани контурная пластика лица поможет вам создать гармоничные пропорции и добиться естественного результата. Мы применяем современные филлеры, такие как Radiess, Belotero, Neauvia, Эстефил, которые обеспечивают долгосрочный эффект",
+      "image": "/images/services/injection/inj_contour_1775859317872.png",
+      "features": [
+        "Мгновенный результат",
+        "Сертифицированные препараты",
+        "Безболезненное введение"
+      ]
+    },
+    "about": {
+      "title": "О процедуре",
+      "content": [
+        "воспользуйтесь акцией до 30 апреля!",
+        "Запишитесь на бесплатную консультацию и получите скидку 5% на контурную пластику лица",
+        "только сертифицированные препараты",
+        "Главная / Услуги / Инъекционная косметология / Контурная пластика лица",
+        "в день процедуры консультация в подарок",
+        "В клинике «СкинМед» в Казани контурная пластика лица поможет вам создать гармоничные пропорции и добиться естественного результата. Мы применяем современные филлеры, такие как Radiess, Belotero, Neauvia, Эстефил, которые обеспечивают долгосрочный эффект"
+      ]
+    },
+    "pricing": [
+      {
+        "name": "Belotero Lips Contour 0,6мл",
+        "price": "17.500₽"
+      },
+      {
+        "name": "Belotero Lips Shape 0,6мл",
+        "price": "18.000₽"
+      },
+      {
+        "name": "Belotero Intense 1,0мл",
+        "price": "25.000₽"
+      },
+      {
+        "name": "Belotero Balance 1,0мл",
+        "price": "23.500₽"
+      },
+      {
+        "name": "Belotero Volume 1,0мл",
+        "price": "25.000₽"
+      },
+      {
+        "name": "Belotero SOFT",
+        "price": "22.800₽"
+      },
+      {
+        "name": "STYLAGE M 1мл",
+        "price": "23.000₽"
+      },
+      {
+        "name": "ART filler 1мл",
+        "price": "25.000₽"
+      },
+      {
+        "name": "RADIESSE 1,5мл",
+        "price": "33.000₽"
+      },
+      {
+        "name": "RADIESSE 3,0мл",
+        "price": "61.000₽"
+      }
+    ],
+    "gallery": [
+      "https://optim.tildacdn.com/tild3136-6161-4037-b136-356265323439/-/format/webp/photo.jpg.webp",
+      "https://optim.tildacdn.com/tild3236-3736-4365-a662-663830336336/-/cover/481x319/center/center/-/format/webp/-567.jpg.webp",
+      "https://optim.tildacdn.com/tild3336-6531-4164-b165-343836626330/-/cover/360x360/center/center/-/format/webp/----.jpg.webp",
+      "https://optim.tildacdn.com/tild3761-3462-4433-b437-396332383632/-/cover/360x360/center/center/-/format/webp/----1.jpg.webp",
+      "https://optim.tildacdn.com/tild3539-6161-4637-b839-393936373436/-/cover/360x360/center/center/-/format/webp/----3.jpg.webp",
+      "https://optim.tildacdn.com/tild3530-6566-4130-b937-396532633031/-/cover/360x360/center/center/-/format/webp/----4.jpg.webp",
+      "https://optim.tildacdn.com/tild6132-6564-4261-b233-393135376334/-/cover/360x360/center/center/-/format/webp/----2.jpg.webp",
+      "https://static.tildacdn.com/tild3066-6639-4338-a661-643032383631/2pg.jpg",
+      "https://static.tildacdn.com/tild3465-3839-4364-b335-383330303335/-.jpg",
+      "https://static.tildacdn.com/tild3966-6331-4134-a134-663730323839/-.jpg",
+      "https://static.tildacdn.com/tild3530-6434-4330-b566-316566363036/2.jpg",
+      "https://static.tildacdn.com/tild3962-6438-4662-b966-653538316237/1.jpg",
+      "https://static.tildacdn.com/tild3135-6136-4039-b265-353466623863/photo.jpg",
+      "https://static.tildacdn.com/tild3639-6462-4334-b033-616662396136/-.jpg",
+      "https://static.tildacdn.com/tild6461-3530-4534-a464-636636373638/--.jpg",
+      "https://static.tildacdn.com/tild3134-6133-4638-b463-626334343761/--3.jpg",
+      "https://static.tildacdn.com/tild3133-6561-4865-b466-363266383566/--.jpg",
+      "https://static.tildacdn.com/tild3531-3565-4365-a430-333762333134/-.jpg",
+      "https://static.tildacdn.com/tild6433-3563-4639-b431-353834383066/-.jpg",
+      "https://static.tildacdn.com/tild6430-3238-4635-a361-393430646636/-.jpg",
+      "https://avatars.mds.yandex.net/get-yapic/57243/l2BCCSgpkQwZPTOfFNqCCJrG8-1/islands-200",
+      "https://avatars.mds.yandex.net/get-yapic/28439/QraYl97Jks6ZBI22jL6ntU2bg6g-1/islands-200",
+      "https://avatars.mds.yandex.net/get-yapic/56823/YsXYiATvfyGfEquduarKKR6E-1/islands-200",
+      "https://avatars.mds.yandex.net/get-yapic/62162/z9VzCBsd2y3ASAKZYlZGv8KtBE-1/islands-200",
+      "https://avatars.mds.yandex.net/get-yapic/25358/iy8gMTP1qgJba33iZIwCma4l38I-1/islands-200",
+      "https://avatars.mds.yandex.net/get-yapic/25817/0l-8/islands-200",
+      "https://avatars.mds.yandex.net/get-yapic/45131/0y-4/islands-200",
+      "https://lh3.googleusercontent.com/a/ACg8ocKSuJj8MdpnjNJwikyxj0HFxu-4zCWA4wJISNnaC8mv8hDdtw=s120-c-rp-mo-br100",
+      "https://lh3.googleusercontent.com/a/ACg8ocL9lag6uJC1_YhAy0Fe16csV3A8OZ0ysImPkcLPIi5iVuLLDw=s120-c-rp-mo-br100",
+      "https://avatars.mds.yandex.net/get-yapic/68143/0l-3/islands-200"
+    ],
+    "faq": null
+  },
+  "botulinum-therapy": {
+    "hero": {
+      "title": "Ботулинотерапия в Казани: коррекция морщин с Диспорт и Ксеомин",
+      "subtitle": "Инъекционная косметология",
+      "description": "Главная / Услуги / Инъекционная косметология / Ботулинотерапия",
+      "image": "/images/services/injection/inj_wrinkles_1775859331437.png",
+      "features": [
+        "Мгновенный результат",
+        "Сертифицированные препараты",
+        "Безболезненное введение"
+      ]
+    },
+    "about": {
+      "title": "О процедуре",
+      "content": [
+        "Главная / Услуги / Инъекционная косметология / Ботулинотерапия",
+        "Проводим процедуру деликатно, расслабляя мышцы только в зонах мимических морщин. Это позволяет разгладить складки и заломы, сохранив естественное выражение лица",
+        "Гарантируем результат минимум до 4−6 месяцев. Регулярное применение делает морщины менее выраженными даже в периоды между процедурами. Дополнительно, вы улучшаете кровообращение в коже, замедляя процессы старения",
+        "Продолжительный эффект и профилактика старения",
+        "Используем сертифицированные препараты с доказанной безопасностью. Многоэтапный контроль качества и содержание очищенных компонентов снижает риск аллергических реакций и подходят даже для пациентов с чувствительной кожей",
+        "В клинике «СкинМед» в Казани мы предлагаем профессиональную ботулинотерапию с использованием лучших препаратов — Диспорт, Ксеомин и Новокутан. Наши врачи обладают большим опытом работы, что гарантирует безопасность и наилучший результат."
+      ]
+    },
+    "pricing": [
+      {
+        "name": "Записаться на процедуру",
+        "price": "10.500₽"
+      },
+      {
+        "name": "Диспорт 1 ед",
+        "price": "180₽"
+      },
+      {
+        "name": "Диспорт от 75 ед",
+        "price": "180₽140₽"
+      },
+      {
+        "name": "Диспорт 220 едВыгодное предложение до 30 апреля",
+        "price": "39.600₽30.800₽"
+      },
+      {
+        "name": "Коррекция морщин на лбу и межбровьяВыгодное предложение до 30 апреля",
+        "price": "13.500₽10.500₽"
+      },
+      {
+        "name": "Ксеомин 1 ед",
+        "price": "350₽"
+      },
+      {
+        "name": "Ксеомин от 50 ед",
+        "price": "350₽300₽"
+      },
+      {
+        "name": "Ксеомин 100 ед",
+        "price": "29.000₽"
+      }
+    ],
+    "gallery": [
+      "https://optim.tildacdn.com/tild6465-6437-4261-b332-343864646663/-/format/webp/photo.jpg.webp",
+      "https://optim.tildacdn.com/tild3563-3562-4462-b938-633234346435/-/cover/360x360/center/center/-/format/webp/---3.jpg.webp",
+      "https://optim.tildacdn.com/tild6434-3630-4364-b836-646165353137/-/cover/360x360/center/center/-/format/webp/-.jpg.webp",
+      "https://optim.tildacdn.com/tild3831-3661-4066-b233-333863663262/-/cover/360x360/center/center/-/format/webp/---6.jpg.webp",
+      "https://optim.tildacdn.com/tild3465-6435-4534-a263-363938653666/-/cover/360x360/center/center/-/format/webp/---6.jpg.webp",
+      "https://optim.tildacdn.com/tild6138-3565-4565-b039-376230356233/-/cover/360x360/center/center/-/format/webp/---5.jpg.webp",
+      "https://avatars.mds.yandex.net/get-yapic/57243/l2BCCSgpkQwZPTOfFNqCCJrG8-1/islands-200",
+      "https://avatars.mds.yandex.net/get-yapic/28439/QraYl97Jks6ZBI22jL6ntU2bg6g-1/islands-200",
+      "https://avatars.mds.yandex.net/get-yapic/56823/YsXYiATvfyGfEquduarKKR6E-1/islands-200",
+      "https://avatars.mds.yandex.net/get-yapic/62162/z9VzCBsd2y3ASAKZYlZGv8KtBE-1/islands-200",
+      "https://avatars.mds.yandex.net/get-yapic/25358/iy8gMTP1qgJba33iZIwCma4l38I-1/islands-200",
+      "https://avatars.mds.yandex.net/get-yapic/25817/0l-8/islands-200",
+      "https://avatars.mds.yandex.net/get-yapic/45131/0y-4/islands-200",
+      "https://lh3.googleusercontent.com/a/ACg8ocKSuJj8MdpnjNJwikyxj0HFxu-4zCWA4wJISNnaC8mv8hDdtw=s120-c-rp-mo-br100",
+      "https://lh3.googleusercontent.com/a/ACg8ocL9lag6uJC1_YhAy0Fe16csV3A8OZ0ysImPkcLPIi5iVuLLDw=s120-c-rp-mo-br100",
+      "https://avatars.mds.yandex.net/get-yapic/68143/0l-3/islands-200",
+      "https://static.tildacdn.com/tild3066-6639-4338-a661-643032383631/2pg.jpg",
+      "https://static.tildacdn.com/tild3465-3839-4364-b335-383330303335/-.jpg",
+      "https://static.tildacdn.com/tild3966-6331-4134-a134-663730323839/-.jpg",
+      "https://static.tildacdn.com/tild3530-6434-4330-b566-316566363036/2.jpg",
+      "https://static.tildacdn.com/tild3962-6438-4662-b966-653538316237/1.jpg",
+      "https://static.tildacdn.com/tild3135-6136-4039-b265-353466623863/photo.jpg",
+      "https://static.tildacdn.com/tild3639-6462-4334-b033-616662396136/-.jpg",
+      "https://static.tildacdn.com/tild6461-3530-4534-a464-636636373638/--.jpg",
+      "https://static.tildacdn.com/tild3134-6133-4638-b463-626334343761/--3.jpg",
+      "https://static.tildacdn.com/tild3133-6561-4865-b466-363266383566/--.jpg",
+      "https://static.tildacdn.com/tild3531-3565-4365-a430-333762333134/-.jpg",
+      "https://static.tildacdn.com/tild6433-3563-4639-b431-353834383066/-.jpg",
+      "https://static.tildacdn.com/tild6430-3238-4635-a361-393430646636/-.jpg"
+    ],
+    "faq": null
+  },
+  "mesotherapy": {
+    "hero": {
+      "title": "Мезотерапия лица в Казани – цена процедуры в клинике СкинМед",
+      "subtitle": "Инъекционная косметология",
+      "description": "Вернем сияние и блеск вашей коже; устраним усталый вид, обезвоженность и сухость; осветлим пигментные пятна и разгладим мелкие морщины с помощью мезококтейля из гиалуроновой кислоты, незаменимых аминокислот, витаминов и пептидов.",
+      "image": "/images/services/injection/inj_meso_face_1775859347281.png",
+      "features": [
+        "Мгновенный результат",
+        "Сертифицированные препараты",
+        "Безболезненное введение"
+      ]
+    },
+    "about": {
+      "title": "О процедуре",
+      "content": [
+        "Вернем сияние и блеск вашей коже; устраним усталый вид, обезвоженность и сухость; осветлим пигментные пятна и разгладим мелкие морщины с помощью мезококтейля из гиалуроновой кислоты, незаменимых аминокислот, витаминов и пептидов.",
+        "Получить консультацию и депозит 1000р",
+        "Главная / Услуги / Инъекционная косметология / Мезотерапия лица",
+        "Стоимость за 1 процедуру — от 6.000 рублей",
+        "Дарим депозит 1000 рублей и консультацию косметолога.",
+        "Это инъекционная процедура, которая помогает коже чувствовать себя отлично, а вам — выглядеть потрясающе. Во время терапии подкожно вводится мезококтейль, насыщенный необходимыми витаминами, минералами, аминокислотами и гиалуроновой кислотой. Косметологическая процедура направлена на восстановление питания, увлажнение и обновление клеток эпидермиса."
+      ]
+    },
+    "pricing": [
+      {
+        "name": "Вискодерм Скинко 5 мл",
+        "price": "10.000₽"
+      },
+      {
+        "name": "Лечение пигментации Вискодерм Скинко 3,5мл",
+        "price": "6.000₽"
+      }
+    ],
+    "gallery": [
+      "https://optim.tildacdn.com/tild6261-6665-4633-b131-356366393431/-/cover/520x420/center/center/-/format/webp/_DSC1323_1.jpg.webp",
+      "https://optim.tildacdn.com/tild6135-3030-4363-a435-323766643337/-/cover/520x420/center/center/-/format/webp/_DSC1656_1.jpg.webp",
+      "https://optim.tildacdn.com/tild3561-6133-4036-b939-363135323735/-/cover/520x420/center/center/-/format/webp/_DSC1329_1.jpg.webp",
+      "https://static.tildacdn.com/tild6261-6665-4633-b131-356366393431/-//_DSC1323_1.jpg",
+      "https://static.tildacdn.com/tild6135-3030-4363-a435-323766643337/-//_DSC1656_1.jpg",
+      "https://static.tildacdn.com/tild3862-3362-4361-b961-316533326666/_2-2.jpg",
+      "https://static.tildacdn.com/tild6364-6333-4430-b165-613063396162/_2-1.jpg",
+      "https://static.tildacdn.com/tild3932-3132-4132-b662-373565373238/_2_2.jpg",
+      "https://static.tildacdn.com/tild6662-6235-4136-a436-373637363431/_2-3.jpg",
+      "https://optim.tildacdn.com/tild6236-3735-4039-b637-343265326462/-/resize/600x600/-/format/webp/DSC07649_1.jpg.webp",
+      "https://optim.tildacdn.com/tild6536-3438-4031-b737-663362646562/-/resize/600x500/-/format/webp/1_21_of_255_1_1.jpg.webp",
+      "https://optim.tildacdn.com/tild3131-6163-4739-b634-383338663266/-/resize/600x400/-/format/webp/_DSC1262_1_1.jpg.webp",
+      "https://optim.tildacdn.com/tild6136-6330-4265-b266-616237353765/-/resize/600x400/-/format/webp/_DSC1661_2_1_1.jpg.webp",
+      "https://optim.tildacdn.com/tild3931-6430-4731-a434-363936353037/-/resize/600x700/-/format/webp/IMG_7050_1_1_1.jpg.webp",
+      "https://optim.tildacdn.com/tild6663-3439-4537-a235-353066353035/-/resize/600x400/-/format/webp/DSC07711_1.jpg.webp",
+      "https://optim.tildacdn.com/tild3431-6364-4062-a161-623263306434/-/cover/192x192/center/center/-/format/webp/_DSC1298_1_1_1.jpg.webp",
+      "https://optim.tildacdn.com/tild3234-3665-4539-b433-386134356265/-/cover/192x192/center/center/-/format/webp/_DSC1542_1_1_1.jpg.webp",
+      "https://static.tildacdn.com/tild3833-3439-4661-a337-373436616364/IMG_7028_1_1.jpg",
+      "https://static.tildacdn.com/tild3832-6235-4762-b464-343864373939/_DSC1400_1_1.jpg"
+    ],
+    "faq": null
+  }
+}

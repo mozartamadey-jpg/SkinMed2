@@ -1,0 +1,119 @@
+[
+  {
+    "slug": "lazernoe-omolozhenie",
+    "title": "Лазерное омоложение лица PicoCare",
+    "sections": 12,
+    "texts": 41,
+    "images": 9,
+    "downloaded": 9,
+    "videos": 0
+  },
+  {
+    "slug": "lazernaya-shlifovka",
+    "title": "Лазерная шлифовка лица PicoCare",
+    "sections": 6,
+    "texts": 3,
+    "images": 24,
+    "downloaded": 24,
+    "videos": 1
+  },
+  {
+    "slug": "lazernaya-blefaroplastika",
+    "title": "Лазерная блефаропластика",
+    "sections": 4,
+    "texts": 0,
+    "images": 20,
+    "downloaded": 20,
+    "videos": 1
+  },
+  {
+    "slug": "udalenie-pigmentnyh-pyaten",
+    "title": "Удаление пигментных пятен и веснушек",
+    "sections": 3,
+    "texts": 0,
+    "images": 12,
+    "downloaded": 12,
+    "videos": 1
+  },
+  {
+    "slug": "udalenie-sosudistyh-zvezdochek",
+    "title": "Удаление сосудистых звёздочек",
+    "sections": 0,
+    "texts": 0,
+    "images": 0,
+    "downloaded": 0,
+    "videos": 0
+  },
+  {
+    "slug": "udalenie-rodinok",
+    "title": "Удаление родинок",
+    "sections": 12,
+    "texts": 40,
+    "images": 7,
+    "downloaded": 7,
+    "videos": 0
+  },
+  {
+    "slug": "udalenie-papillom",
+    "title": "Удаление папиллом",
+    "sections": 11,
+    "texts": 24,
+    "images": 6,
+    "downloaded": 6,
+    "videos": 0
+  },
+  {
+    "slug": "udalenie-borodavok",
+    "title": "Удаление бородавок",
+    "sections": 10,
+    "texts": 34,
+    "images": 5,
+    "downloaded": 5,
+    "videos": 0
+  },
+  {
+    "slug": "lechenie-akne",
+    "title": "Лечение акне",
+    "sections": 0,
+    "texts": 0,
+    "images": 0,
+    "downloaded": 0,
+    "videos": 0
+  },
+  {
+    "slug": "udalenie-rubcov-shramov-strij",
+    "title": "Удаление шрамов, рубцов, стрий и растяжек",
+    "sections": 7,
+    "texts": 5,
+    "images": 4,
+    "downloaded": 4,
+    "videos": 0
+  },
+  {
+    "slug": "udalenie-vrosshego-nogtya",
+    "title": "Удаление вросшего ногтя",
+    "sections": 0,
+    "texts": 0,
+    "images": 0,
+    "downloaded": 0,
+    "videos": 0
+  },
+  {
+    "slug": "udalenie-tatu",
+    "title": "Удаление татуировок",
+    "sections": 6,
+    "texts": 2,
+    "images": 14,
+    "downloaded": 14,
+    "videos": 7
+  },
+  {
+    "slug": "udalenie-tatuazha",
+    "title": "Удаление татуажа",
+    "sections": 6,
+    "texts": 19,
+    "images": 13,
+    "downloaded": 13,
+    "videos": 6
+  }
+]

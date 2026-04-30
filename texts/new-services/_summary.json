@@ -1,0 +1,110 @@
+[
+  {
+    "slug": "trihologiya-index",
+    "title": "Трихология",
+    "sections": 10,
+    "texts": 28,
+    "images": 5,
+    "downloaded": 5,
+    "videos": 0
+  },
+  {
+    "slug": "konsultaciya-trihologa",
+    "title": "Консультация трихолога",
+    "sections": 7,
+    "texts": 5,
+    "images": 20,
+    "downloaded": 20,
+    "videos": 0
+  },
+  {
+    "slug": "lechenie-vypadeniya-volos",
+    "title": "Лечение выпадения волос",
+    "sections": 0,
+    "texts": 0,
+    "images": 0,
+    "downloaded": 0,
+    "videos": 0
+  },
+  {
+    "slug": "plazmoterapiya-dlya-volos",
+    "title": "Плазмотерапия для волос",
+    "sections": 0,
+    "texts": 0,
+    "images": 0,
+    "downloaded": 0,
+    "videos": 0
+  },
+  {
+    "slug": "rf-lifting-dlya-volos",
+    "title": "RF-лифтинг для волос",
+    "sections": 0,
+    "texts": 0,
+    "images": 0,
+    "downloaded": 0,
+    "videos": 0
+  },
+  {
+    "slug": "kosmetologiya-dlya-muzhchin",
+    "title": "Косметология для мужчин",
+    "sections": 10,
+    "texts": 32,
+    "images": 14,
+    "downloaded": 14,
+    "videos": 0
+  },
+  {
+    "slug": "botulinoterapiya-v-nevrologii",
+    "title": "Ботулинотерапия в неврологии",
+    "sections": 4,
+    "texts": 19,
+    "images": 15,
+    "downloaded": 15,
+    "videos": 0
+  },
+  {
+    "slug": "ehsteticheskaya-index",
+    "title": "Эстетическая косметология",
+    "sections": 15,
+    "texts": 6,
+    "images": 26,
+    "downloaded": 26,
+    "videos": 0
+  },
+  {
+    "slug": "massazh-lica",
+    "title": "Массаж лица",
+    "sections": 0,
+    "texts": 0,
+    "images": 0,
+    "downloaded": 0,
+    "videos": 0
+  },
+  {
+    "slug": "mehanicheskaya-chistka",
+    "title": "Механическая чистка",
+    "sections": 0,
+    "texts": 0,
+    "images": 0,
+    "downloaded": 0,
+    "videos": 0
+  },
+  {
+    "slug": "uhod-za-licom",
+    "title": "Уход за лицом",
+    "sections": 13,
+    "texts": 14,
+    "images": 26,
+    "downloaded": 26,
+    "videos": 0
+  },
+  {
+    "slug": "piling-biorepil",
+    "title": "Пилинг BioRePeel",
+    "sections": 0,
+    "texts": 0,
+    "images": 0,
+    "downloaded": 0,
+    "videos": 0
+  }
+]

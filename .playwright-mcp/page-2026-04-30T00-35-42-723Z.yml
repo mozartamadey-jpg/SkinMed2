@@ -1,0 +1,470 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e6]:
+        - link "СкинМед" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e9]: СкинМед
+        - generic [ref=e10]:
+          - generic [ref=e11]:
+            - link "Telegram" [ref=e12] [cursor=pointer]:
+              - /url: https://t.me/Clinic_SkinMed
+              - img "Telegram" [ref=e13]
+            - link "MAX" [ref=e14] [cursor=pointer]:
+              - /url: "#"
+              - img "MAX" [ref=e15]
+          - button "Записаться" [ref=e16] [cursor=pointer]
+          - button [ref=e17] [cursor=pointer]
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - generic [ref=e22]: Эстетическая медицина
+          - heading "Премиальная косметология деталей." [level=1] [ref=e23]:
+            - text: Премиальная
+            - text: косметология
+            - text: деталей.
+          - paragraph [ref=e24]: СкинМед объединяет доказательную медицину и высокую эстетику для достижения естественного, совершенного результата.
+          - button "Начать преображение" [ref=e26] [cursor=pointer]:
+            - generic [ref=e27]: Начать преображение
+        - generic [ref=e30]:
+          - img "СкинМед - Премиальная косметология" [ref=e31]
+          - generic:
+            - generic:
+              - generic:
+                - heading "Высочайший стандарт" [level=4]
+                - paragraph: Передовые FDA-аппараты
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - generic [ref=e35]:
+            - generic [ref=e38]: Манифест
+            - heading "Красота через доказательную медицину" [level=2] [ref=e39]:
+              - text: Красота через
+              - text: доказательную медицину
+          - paragraph [ref=e41]:
+            - generic [ref=e42]: Мы
+            - generic [ref=e43]: не
+            - generic [ref=e44]: маскируем
+            - generic [ref=e45]: недостатки.
+            - generic [ref=e46]: СкинМед
+            - generic [ref=e47]: —
+            - generic [ref=e48]: это
+            - generic [ref=e49]: глубокий
+            - generic [ref=e50]: медицинский
+            - generic [ref=e51]: подход
+            - generic [ref=e52]: к
+            - generic [ref=e53]: раскрытию
+            - generic [ref=e54]: вашего
+            - generic [ref=e55]: природного
+            - generic [ref=e56]: потенциала
+            - generic [ref=e57]: с
+            - generic [ref=e58]: помощью
+            - generic [ref=e59]: инновационных
+            - generic [ref=e60]: мировых
+            - generic [ref=e61]: технологий.
+        - generic [ref=e62]:
+          - generic [ref=e65]:
+            - generic [ref=e67]:
+              - heading "Никаких компромиссов в безопасности и протоколах лечения." [level=3] [ref=e68]
+              - paragraph [ref=e69]: Используем исключительно оригинальное сертифицированное FDA оборудование и сертифицированные препараты для абсолютной уверенности в результате.
+            - generic [ref=e70]:
+              - generic [ref=e71]:
+                - generic [ref=e72]: 22+
+                - generic [ref=e73]: лет опыта
+              - generic [ref=e75]:
+                - generic [ref=e76]: 15к+
+                - generic [ref=e77]: пациентов
+              - generic [ref=e79]:
+                - generic [ref=e80]: 98%
+                - generic [ref=e81]: рекомендуют
+          - generic [ref=e84]:
+            - img "Врачи-эксперты клиники СкинМед" [ref=e85]
+            - generic [ref=e88]:
+              - paragraph [ref=e89]: Врачи-эксперты
+              - paragraph [ref=e90]: Непрерывное повышение квалификации
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - generic [ref=e96]: "5.0"
+          - generic [ref=e99]: Рейтинг на платформах
+        - generic [ref=e100]:
+          - generic [ref=e101]: "12"
+          - generic [ref=e104]: Врачей-экспертов
+        - generic [ref=e105]:
+          - generic [ref=e106]:
+            - text: "3"
+            - generic [ref=e107]: +
+          - generic [ref=e110]: Года практики
+        - generic [ref=e111]:
+          - generic [ref=e112]:
+            - text: "100"
+            - generic [ref=e113]: "%"
+          - generic [ref=e116]: Сертифицированных препаратов
+      - generic [ref=e117]:
+        - generic [ref=e118]:
+          - generic [ref=e121]: Экспириенс
+          - heading "Атмосфера высокой эстетики" [level=2] [ref=e123]:
+            - text: Атмосфера
+            - text: высокой эстетики
+        - generic [ref=e125]:
+          - img "Видеообзор клиники" [ref=e126]
+          - button "Смотреть Тур" [ref=e129] [cursor=pointer]:
+            - generic [ref=e130]: Смотреть
+            - generic [ref=e132]: Тур
+          - generic:
+            - generic: СкинМед Казань
+            - generic: 01:45
+      - generic [ref=e133]:
+        - generic [ref=e134]:
+          - generic [ref=e135]:
+            - generic [ref=e138]: Компетенции
+            - heading "Показания & решения" [level=2] [ref=e139]:
+              - text: Показания
+              - text: "& решения"
+            - paragraph [ref=e140]:
+              - generic [ref=e141]: Решаем
+              - generic [ref=e142]: индивидуальные
+              - generic [ref=e143]: задачи
+              - generic [ref=e144]: вашей
+              - generic [ref=e145]: кожи,
+              - generic [ref=e146]: используя
+              - generic [ref=e147]: доказательную
+              - generic [ref=e148]: медицину.
+              - generic [ref=e149]: План
+              - generic [ref=e150]: составляется
+              - generic [ref=e151]: после
+              - generic [ref=e152]: высокоточной
+              - generic [ref=e153]: цифровой
+              - generic [ref=e154]: диагностики.
+          - link "Все направления" [ref=e155] [cursor=pointer]:
+            - /url: "#directions"
+            - generic [ref=e156]: Все направления
+        - generic [ref=e158]:
+          - generic [ref=e160] [cursor=pointer]:
+            - heading "Морщины" [level=3] [ref=e162]
+            - paragraph [ref=e163]: Коррекция возрастных изменений с применением самых современных инъекционных технологий последнего поколения.
+          - generic [ref=e166] [cursor=pointer]:
+            - heading "Овал лица" [level=3] [ref=e168]
+            - paragraph [ref=e169]: Безоперационная подтяжка и формирование четких контуров лица для абсолютно естественного результата.
+          - generic [ref=e172] [cursor=pointer]:
+            - heading "Акне" [level=3] [ref=e174]
+            - paragraph [ref=e175]: Системный медицинский подход к лечению высыпаний с долгосрочной гарантией абсолютной чистоты кожи.
+          - generic [ref=e178] [cursor=pointer]:
+            - heading "Трихология" [level=3] [ref=e180]
+            - paragraph [ref=e181]: Комплексное решение проблем выпадения и стимуляция роста здоровой густоты ваших волос.
+      - generic [ref=e183]:
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - generic [ref=e188]: Направления
+            - heading "Клиника комплексного подхода к здоровью" [level=2] [ref=e189]:
+              - text: Клиника комплексного
+              - text: подхода к здоровью
+          - paragraph [ref=e190]: Специализированные отделения для высокоточного решения задач любой сложности
+        - generic [ref=e191]:
+          - generic [ref=e192]:
+            - heading "Основы красоты" [level=3] [ref=e193]
+            - generic [ref=e194]:
+              - link "КОСМЕТОЛОГИЯ Инъекционная Мгновенное восполнение объемов, устранение морщин и глубокое увлажнение. Подробнее" [ref=e195] [cursor=pointer]:
+                - /url: /services/injection
+                - generic [ref=e196]:
+                  - generic [ref=e200]:
+                    - heading "КОСМЕТОЛОГИЯ" [level=4] [ref=e201]
+                    - heading "Инъекционная" [level=3] [ref=e202]
+                  - paragraph [ref=e203]: Мгновенное восполнение объемов, устранение морщин и глубокое увлажнение.
+                  - generic [ref=e205]: Подробнее
+              - link "КОСМЕТОЛОГИЯ Лазерная Аппаратное омоложение, шлифовка рубцов и удаление несовершенств светом. Подробнее" [ref=e206] [cursor=pointer]:
+                - /url: /services/lazernaya-kosmetologiya
+                - generic [ref=e207]:
+                  - generic [ref=e211]:
+                    - heading "КОСМЕТОЛОГИЯ" [level=4] [ref=e212]
+                    - heading "Лазерная" [level=3] [ref=e213]
+                  - paragraph [ref=e214]: Аппаратное омоложение, шлифовка рубцов и удаление несовершенств светом.
+                  - generic [ref=e216]: Подробнее
+              - link "КОСМЕТОЛОГИЯ Аппаратная Передовые технологии SMAS-лифтинга и RF-терапии для безоперационной подтяжки. Подробнее" [ref=e217] [cursor=pointer]:
+                - /url: /services/apparatnaya-kosmetologiya
+                - generic [ref=e218]:
+                  - generic [ref=e222]:
+                    - heading "КОСМЕТОЛОГИЯ" [level=4] [ref=e223]
+                    - heading "Аппаратная" [level=3] [ref=e224]
+                  - paragraph [ref=e225]: Передовые технологии SMAS-лифтинга и RF-терапии для безоперационной подтяжки.
+                  - generic [ref=e227]: Подробнее
+              - link "КОСМЕТОЛОГИЯ Эстетическая Массажи, чистки и пилинги для регулярного ухода, красоты и сияния кожи. Подробнее" [ref=e228] [cursor=pointer]:
+                - /url: /services/aesthetic
+                - generic [ref=e229]:
+                  - generic [ref=e233]:
+                    - heading "КОСМЕТОЛОГИЯ" [level=4] [ref=e234]
+                    - heading "Эстетическая" [level=3] [ref=e235]
+                  - paragraph [ref=e236]: Массажи, чистки и пилинги для регулярного ухода, красоты и сияния кожи.
+                  - generic [ref=e238]: Подробнее
+          - generic [ref=e239]:
+            - heading "Специализированный уход" [level=3] [ref=e240]
+            - generic [ref=e241]:
+              - link "ЛЕЧЕНИЕ ВОЛОС Трихология Комплексное решение проблем выпадения волос и заболеваний кожи головы. Подробнее" [ref=e242] [cursor=pointer]:
+                - /url: /services/trichology
+                - generic [ref=e243]:
+                  - generic [ref=e247]:
+                    - heading "ЛЕЧЕНИЕ ВОЛОС" [level=4] [ref=e248]
+                    - heading "Трихология" [level=3] [ref=e249]
+                  - paragraph [ref=e250]: Комплексное решение проблем выпадения волос и заболеваний кожи головы.
+                  - generic [ref=e252]: Подробнее
+              - link "КОСМЕТОЛОГИЯ Мужская Сохраняем мужественность, бережно устраняем выраженные возрастные изменения. Подробнее" [ref=e253] [cursor=pointer]:
+                - /url: /services/mens-cosmetology
+                - generic [ref=e254]:
+                  - generic [ref=e258]:
+                    - heading "КОСМЕТОЛОГИЯ" [level=4] [ref=e259]
+                    - heading "Мужская" [level=3] [ref=e260]
+                  - paragraph [ref=e261]: Сохраняем мужественность, бережно устраняем выраженные возрастные изменения.
+                  - generic [ref=e263]: Подробнее
+              - link "ТЕРАПИЯ БОЛИ Неврология Эффективное лечение хронических болей, мигреней и неврологических расстройств. Подробнее" [ref=e264] [cursor=pointer]:
+                - /url: /services/neurology
+                - generic [ref=e265]:
+                  - generic [ref=e269]:
+                    - heading "ТЕРАПИЯ БОЛИ" [level=4] [ref=e270]
+                    - heading "Неврология" [level=3] [ref=e271]
+                  - paragraph [ref=e272]: Эффективное лечение хронических болей, мигреней и неврологических расстройств.
+                  - generic [ref=e274]: Подробнее
+      - generic [ref=e275]:
+        - generic [ref=e276]:
+          - heading "Эксклюзивные решения" [level=2] [ref=e277]
+          - paragraph [ref=e278]: Технологии будущего для вашей красоты.
+        - generic [ref=e279]:
+          - img "СМАС Лифтинг" [ref=e281]
+          - generic [ref=e282]:
+            - generic [ref=e284]: Хит сезона
+            - heading "СМАС-лифтинг" [level=2] [ref=e285]
+            - paragraph [ref=e286]: Абсолютный лидер безоперационного омоложения. Инновационный Ультраформер возвращает четкость контурам лица без хирургического вмешательства.
+            - list [ref=e287]:
+              - listitem [ref=e288]: Подтяжка без скальпеля
+              - listitem [ref=e289]: Один сеанс на 1.5 — 2 года
+              - listitem [ref=e290]: Без реабилитации
+            - button "Подробнее" [ref=e291] [cursor=pointer]
+        - generic [ref=e292]:
+          - img "ПикоКеа" [ref=e294]
+          - generic [ref=e295]:
+            - generic [ref=e297]: Технологии будущего
+            - heading "PicoCare Лазер" [level=2] [ref=e298]
+            - paragraph [ref=e299]: Пикосекундный лазер для безупречно чистой кожи. Воздействует на пигмент в 1000 раз быстрее обычных лазеров, не повреждая ткани.
+            - list [ref=e300]:
+              - listitem [ref=e301]: Удаление пигментации
+              - listitem [ref=e302]: Лечение рубцов и стрий
+              - listitem [ref=e303]: Точечное воздействие
+            - button "Подробнее" [ref=e304] [cursor=pointer]
+      - generic [ref=e305]:
+        - generic [ref=e306]:
+          - generic [ref=e307]:
+            - generic [ref=e310]: Стоимость
+            - heading "Предложения" [level=2] [ref=e311]
+          - paragraph [ref=e312]: Прозрачные цены на самые востребованные процедуры
+        - generic [ref=e313]:
+          - link "Ботокс Эффективные инъекции против мимических морщин. 300 ₽ за единицу" [ref=e314] [cursor=pointer]:
+            - /url: "#diagnostics-cta"
+            - heading "Ботокс" [level=3] [ref=e315]
+            - paragraph [ref=e316]: Эффективные инъекции против мимических морщин.
+            - generic [ref=e318]:
+              - generic [ref=e319]: 300 ₽
+              - generic [ref=e320]: за единицу
+          - link "Диспорт Французская коррекция возрастных изменений. 140 ₽ за единицу" [ref=e322] [cursor=pointer]:
+            - /url: "#diagnostics-cta"
+            - heading "Диспорт" [level=3] [ref=e323]
+            - paragraph [ref=e324]: Французская коррекция возрастных изменений.
+            - generic [ref=e326]:
+              - generic [ref=e327]: 140 ₽
+              - generic [ref=e328]: за единицу
+          - 'link "ХИТ КЛИНИКИ СМАС Лифтинг Инновационный Ультраформер: безоперационная подтяжка. 45 000 ₽ за процедуру" [ref=e330] [cursor=pointer]':
+            - /url: "#diagnostics-cta"
+            - generic [ref=e331]: ХИТ КЛИНИКИ
+            - heading "СМАС Лифтинг" [level=3] [ref=e332]
+            - paragraph [ref=e333]: "Инновационный Ультраформер: безоперационная подтяжка."
+            - generic [ref=e335]:
+              - generic [ref=e336]: 45 000 ₽
+              - generic [ref=e337]: за процедуру
+      - generic [ref=e339]:
+        - heading "Не знаете, какую процедуру выбрать?" [level=2] [ref=e345]:
+          - text: Не знаете, какую
+          - text: процедуру выбрать?
+        - paragraph [ref=e346]: Наш врач-косметолог проведет диагностику и разработает протокол омоложения, идеально подходящий вашей коже.
+        - button "Консультация эксперта" [ref=e347] [cursor=pointer]: Консультация эксперта
+      - generic [ref=e350]:
+        - generic [ref=e351]:
+          - generic [ref=e353]: О клинике
+          - heading "Премиальная клиника косметологии" [level=2] [ref=e354]:
+            - text: Премиальная клиника
+            - text: косметологии
+          - generic [ref=e355]:
+            - paragraph [ref=e356]:
+              - generic [ref=e357]: СкинМед
+              - generic [ref=e358]: объединяет
+              - generic [ref=e359]: последние
+              - generic [ref=e360]: достижения
+              - generic [ref=e361]: мировой
+              - generic [ref=e362]: косметологии
+              - generic [ref=e363]: и
+              - generic [ref=e364]: безупречный
+              - generic [ref=e365]: профессионализм
+              - generic [ref=e366]: экспертов.
+              - generic [ref=e367]: Мы
+              - generic [ref=e368]: специализируемся
+              - generic [ref=e369]: на
+              - generic [ref=e370]: высокотехнологичных
+              - generic [ref=e371]: методах
+              - generic [ref=e372]: омоложения.
+            - paragraph [ref=e373]:
+              - generic [ref=e374]: Наша
+              - generic [ref=e375]: цель
+              - generic [ref=e376]: —
+              - generic [ref=e377]: не
+              - generic [ref=e378]: просто
+              - generic [ref=e379]: коррекция
+              - generic [ref=e380]: недостатков,
+              - generic [ref=e381]: а
+              - generic [ref=e382]: достижение
+              - generic [ref=e383]: абсолютно
+              - generic [ref=e384]: гармоничного,
+              - generic [ref=e385]: естественного
+              - generic [ref=e386]: результата.
+          - generic [ref=e387]:
+            - generic [ref=e389]: Лицензия
+            - generic [ref=e392]: FDA
+            - generic [ref=e395]: 22 года
+        - generic [ref=e396]:
+          - iframe [ref=e398]:
+            
+          - generic [ref=e400]:
+            - generic [ref=e403]:
+              - paragraph [ref=e404]: Адрес
+              - paragraph [ref=e405]: г. Казань, просп. А. Камалеева, 30
+            - generic [ref=e409]:
+              - paragraph [ref=e410]: Телефон
+              - paragraph [ref=e411]: +7 (843) 210-32-56
+            - link "Маршрут" [ref=e412] [cursor=pointer]:
+              - /url: https://yandex.ru/maps/-/CDuU6Z0Z
+              - generic [ref=e413]: Маршрут
+      - generic [ref=e414]:
+        - generic [ref=e415]:
+          - generic [ref=e416]:
+            - generic [ref=e419]: Репутация
+            - heading "Отзывы наших пациентов" [level=2] [ref=e420]:
+              - text: Отзывы
+              - text: наших пациентов
+          - generic [ref=e421]:
+            - link "Отзывы на ProDoctorov" [ref=e422] [cursor=pointer]:
+              - /url: https://prodoctorov.ru/kazan/lpu/75806-skinmed/
+              - generic [ref=e423]: Отзывы на ProDoctorov
+            - link "Оставить отзыв" [ref=e424] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e425]: Оставить отзыв
+        - generic [ref=e426]:
+          - generic [ref=e428]:
+            - generic [ref=e430]:
+              - generic: “
+              - paragraph [ref=e431]: После не очень удачных походов к частным специалистам, решилась обратиться в профессиональную клинику. Приятно удивлена приемлемыми ценами. Врачи и персонал — настоящие профессионалы! Быстро, качественно работают, не навязывают лишнего. Единственный минус — размер клиники, нужно расширяться.
+              - generic [ref=e434]:
+                - generic [ref=e435]: +7 953 48XXXXX
+                - generic [ref=e436]: 20 мая 2025
+            - generic [ref=e438]:
+              - generic: “
+              - paragraph [ref=e439]: "Обращалась дважды к разным специалистам (Мамлеева А. Ф. и Емелина В. Е.). Обе девушки показали себя как настоящие профессионалы: консультировали на всех этапах, интересовались самочувствием. Очень приятный сервис: чай, бонусы, подарки и чистота в кабинетах. Впечатление положительное."
+              - generic [ref=e442]:
+                - generic [ref=e443]: +7 922 72XXXXX
+                - generic [ref=e444]: 10 января 2025
+            - generic [ref=e446]:
+              - generic: “
+              - paragraph [ref=e447]: Была на приёме у доктора Дощановой Айгуль Рамилевны. Приём состоялся вовремя. Врач очень внимательная, владеет знаниями и очень располагает к себе. Проведенные процедуры оставили только приятные ощущения. Золотые руки! Обязательно вернусь. (Фассахова Л. С.)
+              - generic [ref=e450]:
+                - generic [ref=e451]: +7 917 93XXXXX
+                - generic [ref=e452]: 2 апреля 2025
+            - generic [ref=e454]:
+              - generic: “
+              - paragraph [ref=e455]: Посещаю врача Валееву Лилию Рамилевну — очень грамотный специалист. Прием всегда вовремя, клиника оборудована современно, кругом чистота. Клиника всегда на связи и интересуется самочувствием на следующий день после процедур. Однозначно рекомендую.
+              - generic [ref=e458]:
+                - generic [ref=e459]: +7 917 27XXXXX
+                - generic [ref=e460]: 4 июля 2024
+            - generic [ref=e462]:
+              - generic: “
+              - paragraph [ref=e463]: "Я давно хотел удалить мешающие родинки, папилломы. Понравилось всё: клиника, приветливость сотрудников ресепшен, прием и профессионализм врача Багаутдинова А. Ф., современное медоборудование, приём минута в минуту, уют, чистота, комфорт."
+              - generic [ref=e466]:
+                - generic [ref=e467]: +7 919 69XXXXX
+                - generic [ref=e468]: 15 сентября 2025
+            - generic [ref=e470]:
+              - generic: “
+              - paragraph [ref=e471]: Удаляла здесь глубокий татуаж бровей пикосекундным лазером. Врач Динара Марсовна исполнила мою мечту, процедура прошла максимально комфортно. Рекомендую.
+              - generic [ref=e474]:
+                - generic [ref=e475]: +7 904 66XXXXX
+                - generic [ref=e476]: 30 июня 2024
+            - generic [ref=e478]:
+              - generic: “
+              - paragraph [ref=e479]: Обратилась с сыпью на лице. Лечение уже показало результат. Сделала чистку лица — процедура почти безболезненная, персонал вежливый. Рекомендую клинику!
+              - generic [ref=e482]:
+                - generic [ref=e483]: +7 900 32XXXXX
+                - generic [ref=e484]: 13 марта 2024
+          - generic [ref=e485]:
+            - button "Перейти к отзыву 1" [ref=e486] [cursor=pointer]
+            - button "Перейти к отзыву 2" [ref=e487] [cursor=pointer]
+            - button "Перейти к отзыву 3" [ref=e488] [cursor=pointer]
+            - button "Перейти к отзыву 4" [ref=e489] [cursor=pointer]
+            - button "Перейти к отзыву 5" [ref=e490] [cursor=pointer]
+            - button "Перейти к отзыву 6" [ref=e491] [cursor=pointer]
+            - button "Перейти к отзыву 7" [ref=e492] [cursor=pointer]
+          - generic [ref=e493]:
+            - button [ref=e494] [cursor=pointer]
+            - button [ref=e495] [cursor=pointer]
+    - contentinfo [ref=e497]:
+      - generic [ref=e498]:
+        - generic [ref=e499]:
+          - link "СкинМед" [ref=e500] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e502]: СкинМед
+          - paragraph [ref=e504]: Умная косметология. Премиальный подход к красоте и здоровью вашей кожи.
+          - generic [ref=e508]: Пн-Вс 09:00 - 21:00
+        - generic [ref=e509]:
+          - generic [ref=e510]:
+            - heading "Клиника" [level=4] [ref=e511]: Клиника
+            - generic [ref=e512]:
+              - link "О нас" [ref=e513] [cursor=pointer]:
+                - /url: /about
+              - link "Наши врачи" [ref=e514] [cursor=pointer]:
+                - /url: /doctors
+              - link "Цены" [ref=e515] [cursor=pointer]:
+                - /url: /prices
+              - link "Акции" [ref=e516] [cursor=pointer]:
+                - /url: "#"
+          - generic [ref=e517]:
+            - heading "Услуги" [level=4] [ref=e518]: Услуги
+            - generic [ref=e519]:
+              - link "Лазерная" [ref=e520] [cursor=pointer]:
+                - /url: /services/lazernaya-kosmetologiya
+              - link "Инъекционная" [ref=e521] [cursor=pointer]:
+                - /url: /services/injection
+              - link "Контурная пластика" [ref=e522] [cursor=pointer]:
+                - /url: /services/contour-plastics
+              - link "Эстетическая" [ref=e523] [cursor=pointer]:
+                - /url: /services/aesthetic
+          - generic [ref=e524]:
+            - heading "Контакты" [level=4] [ref=e525]: Контакты
+            - generic [ref=e526]:
+              - link "Telegram" [ref=e527] [cursor=pointer]:
+                - /url: https://t.me/Clinic_SkinMed
+                - text: Telegram
+              - link "Max Max" [ref=e528] [cursor=pointer]:
+                - /url: "#"
+                - img "Max" [ref=e529]
+                - text: Max
+              - generic [ref=e531]:
+                - text: г. Казань,
+                - text: пр-кт А. Камалеева, 30
+      - generic [ref=e532]:
+        - generic [ref=e533]:
+          - paragraph [ref=e534]: "Информация о юридическом лице:"
+          - paragraph [ref=e535]: "ООО «СКИНМЕД», ОГРН: 1201600082221 | ИНН: 1660353318. Юридический адрес: 420081, Республика Татарстан, г. Казань, пр-кт Альберта Камалеева, д. 30, помещ. 1022. Лицензия Л041-01181-16/00360668."
+          - paragraph [ref=e536]: Вся предоставленная информация на сайте не является публичной офертой (ст. 437 (2) ГК РФ). Точную стоимость услуг уточняйте у администраторов или на консультации у специалиста.
+        - generic [ref=e537]:
+          - generic [ref=e538]:
+            - link "Политика конфиденциальности" [ref=e539] [cursor=pointer]:
+              - /url: /safety
+            - generic [ref=e540]: •
+            - link "Контролирующие органы" [ref=e541] [cursor=pointer]:
+              - /url: /regulatory
+            - generic [ref=e542]: •
+            - link "Лицензии" [ref=e543] [cursor=pointer]:
+              - /url: "#"
+          - paragraph [ref=e544]: © 2026 СкинМед. Все права защищены.
+      - paragraph [ref=e546]: Имеются противопоказания. Необходима консультация специалиста.
+  - alert [ref=e547]
