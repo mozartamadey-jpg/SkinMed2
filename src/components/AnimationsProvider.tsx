@@ -28,7 +28,7 @@ export default function AnimationsProvider() {
 
     const isServiceRoute = pathname.startsWith("/services");
     const isRichRoute = pathname === "/" || pathname === "/about";
-    const isMobileHome = pathname === "/" && window.matchMedia("(max-width: 640px)").matches;
+    const isMobileRichRoute = (pathname === "/" || pathname === "/about") && window.matchMedia("(max-width: 640px)").matches;
 
     gsap.registerPlugin(ScrollTrigger);
 
@@ -53,7 +53,7 @@ export default function AnimationsProvider() {
       const staggerDuration = isRichRoute ? 0.7 : 0.4;
       const staggerAmount = isRichRoute ? 0.08 : 0.06;
 
-      if (isMobileHome) {
+      if (isMobileRichRoute) {
         gsap.set(".reveal-up,.reveal-scale,.stagger-item,.anim-whip,.anim-words,.anim-clip", {
           clearProps: "all",
           opacity: 1,
@@ -165,7 +165,7 @@ export default function AnimationsProvider() {
       }
       }
 
-      if (!isServiceRoute && !isMobileHome) {
+      if (!isServiceRoute && !isMobileRichRoute) {
         document.querySelectorAll(".stat-counter").forEach((counter: any) => {
           const textVal = counter.getAttribute("data-target") || counter.innerText.trim();
           const target = parseFloat(textVal);

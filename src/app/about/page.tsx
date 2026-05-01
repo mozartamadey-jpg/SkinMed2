@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen flex flex-col relative font-sans text-slate-800">
+    <div className="about-page min-h-screen flex flex-col relative font-sans text-slate-800">
       {/* Аврора Фоновое Свечение (Premium WOW effect) */}
       <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden bg-[#fafafa]">
         {/* Soft base gradient */}

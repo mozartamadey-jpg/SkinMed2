@@ -152,13 +152,21 @@ main > section:not(:first-child) {
 @media (max-width: 640px) {
   .home-page .animate-orbit,
   .home-page .animate-float,
+  .home-page .animate-pulse,
   .home-page .animate-fade-in,
   .home-page .animate-fade-in-up,
-  .home-page .animate-fade-in-down {
+  .home-page .animate-fade-in-down,
+  .about-page .animate-orbit,
+  .about-page .animate-float,
+  .about-page .animate-pulse,
+  .about-page .animate-fade-in,
+  .about-page .animate-fade-in-up,
+  .about-page .animate-fade-in-down {
     animation: none !important;
   }
 
-  .home-page [style*="will-change"] {
+  .home-page [style*="will-change"],
+  .about-page [style*="will-change"] {
     will-change: auto !important;
   }
 
@@ -167,7 +175,13 @@ main > section:not(:first-child) {
   .home-page .stagger-item,
   .home-page .anim-whip,
   .home-page .anim-words,
-  .home-page .anim-clip {
+  .home-page .anim-clip,
+  .about-page .reveal-up,
+  .about-page .reveal-scale,
+  .about-page .stagger-item,
+  .about-page .anim-whip,
+  .about-page .anim-words,
+  .about-page .anim-clip {
     opacity: 1 !important;
     transform: none !important;
     transition: none !important;
