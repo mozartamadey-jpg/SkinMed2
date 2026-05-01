@@ -150,6 +150,30 @@ main > section:not(:first-child) {
 }
 
 @media (max-width: 640px) {
+  .home-page .animate-orbit,
+  .home-page .animate-float,
+  .home-page .animate-fade-in,
+  .home-page .animate-fade-in-up,
+  .home-page .animate-fade-in-down {
+    animation: none !important;
+  }
+
+  .home-page [style*="will-change"] {
+    will-change: auto !important;
+  }
+
+  .home-page .reveal-up,
+  .home-page .reveal-scale,
+  .home-page .stagger-item,
+  .home-page .anim-whip,
+  .home-page .anim-words,
+  .home-page .anim-clip {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    will-change: auto !important;
+  }
+
   main,
   main > section,
   main .grid,

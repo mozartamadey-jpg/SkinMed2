@@ -16,7 +16,7 @@ import AnimationsProvider from "@/components/AnimationsProvider";
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col relative font-sans text-slate-800">
+    <div className="home-page min-h-screen flex flex-col relative font-sans text-slate-800">
       <Preloader />
       {/* Аврора Фоновое Свечение (GPU-optimized — static gradients, will-change: auto) */}
       <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden bg-[#fafafa]">

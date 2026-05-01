@@ -28,6 +28,7 @@ export default function AnimationsProvider() {
 
     const isServiceRoute = pathname.startsWith("/services");
     const isRichRoute = pathname === "/" || pathname === "/about";
+    const isMobileHome = pathname === "/" && window.matchMedia("(max-width: 640px)").matches;
 
     gsap.registerPlugin(ScrollTrigger);
 
@@ -52,35 +53,45 @@ export default function AnimationsProvider() {
       const staggerDuration = isRichRoute ? 0.7 : 0.4;
       const staggerAmount = isRichRoute ? 0.08 : 0.06;
 
-      gsap.utils.toArray(".reveal-up").forEach((el: any) => {
-        gsap.set(el, { y: revealDistance, opacity: 0 });
-        gsap.to(el, {
-          scrollTrigger: { trigger: el, ...triggerDefaults },
-          y: 0,
+      if (isMobileHome) {
+        gsap.set(".reveal-up,.reveal-scale,.stagger-item,.anim-whip,.anim-words,.anim-clip", {
+          clearProps: "all",
           opacity: 1,
-          duration: revealDuration,
-          onComplete() {
-            gsap.set(el, { clearProps: "willChange" });
-          },
-          ...defaults,
-        });
-      });
-
-      gsap.utils.toArray(".reveal-scale").forEach((el: any) => {
-        gsap.set(el, { scale: isRichRoute ? 0.94 : 0.97, y: isRichRoute ? 18 : 0, opacity: 0 });
-        gsap.to(el, {
-          scrollTrigger: { trigger: el, ...triggerDefaults },
+          y: 0,
+          x: 0,
           scale: 1,
-          y: 0,
-          opacity: 1,
-          duration: isRichRoute ? 0.85 : 0.5,
-          ease: "power3.out",
-          force3D: true,
-          onComplete() {
-            gsap.set(el, { clearProps: "willChange" });
-          },
+          rotationX: 0,
         });
-      });
+      } else {
+        gsap.utils.toArray(".reveal-up").forEach((el: any) => {
+          gsap.set(el, { y: revealDistance, opacity: 0 });
+          gsap.to(el, {
+            scrollTrigger: { trigger: el, ...triggerDefaults },
+            y: 0,
+            opacity: 1,
+            duration: revealDuration,
+            onComplete() {
+              gsap.set(el, { clearProps: "willChange" });
+            },
+            ...defaults,
+          });
+        });
+
+        gsap.utils.toArray(".reveal-scale").forEach((el: any) => {
+          gsap.set(el, { scale: isRichRoute ? 0.94 : 0.97, y: isRichRoute ? 18 : 0, opacity: 0 });
+          gsap.to(el, {
+            scrollTrigger: { trigger: el, ...triggerDefaults },
+            scale: 1,
+            y: 0,
+            opacity: 1,
+            duration: isRichRoute ? 0.85 : 0.5,
+            ease: "power3.out",
+            force3D: true,
+            onComplete() {
+              gsap.set(el, { clearProps: "willChange" });
+            },
+          });
+        });
 
       gsap.utils.toArray(".stagger-container").forEach((container: any) => {
         const items = container.querySelectorAll(".stagger-item");
@@ -152,8 +163,9 @@ export default function AnimationsProvider() {
           });
         });
       }
+      }
 
-      if (!isServiceRoute) {
+      if (!isServiceRoute && !isMobileHome) {
         document.querySelectorAll(".stat-counter").forEach((counter: any) => {
           const textVal = counter.getAttribute("data-target") || counter.innerText.trim();
           const target = parseFloat(textVal);

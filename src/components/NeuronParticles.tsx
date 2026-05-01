@@ -18,6 +18,8 @@ export default function NeuronParticles() {
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
+    if (window.matchMedia("(max-width: 640px)").matches) return;
+
     const ctx = canvas.getContext("2d", { alpha: true });
     if (!ctx) return;
 
@@ -142,7 +144,7 @@ export default function NeuronParticles() {
   return (
     <canvas
       ref={canvasRef}
-      className="absolute inset-0 w-full h-full z-[1] pointer-events-none"
+      className="absolute inset-0 hidden sm:block w-full h-full z-[1] pointer-events-none"
       style={{ opacity: 0.55 }}
     />
   );
